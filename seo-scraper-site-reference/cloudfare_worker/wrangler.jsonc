@@ -1,0 +1,18 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "garage-blog-bot",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-03-31",
+  "observability": {
+    "enabled": true
+  },
+  // No zone routes: /get-blogs is served by Pages Function (repo root functions/).
+  // Deploying this Worker only publishes to *.workers.dev for optional API testing.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "garage-db",
+      "database_id": "4d0c4975-5bfe-4758-8a34-69859513edcc"
+    }
+  ]
+}

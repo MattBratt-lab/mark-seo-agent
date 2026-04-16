@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data\\raw\\research_gdo_boca_raton_20260414_234300.json",
+  "processed_at_utc": "2026-04-14T23:43:28.285747+00:00",
+  "result": {
+    "cleaned_text": "Top 10 Best Garage Door Services Near Boca Raton, Florida (yelp.com) - Features rankings and reviews for services like IDN Garage Door Services, Joes Doors Garage Door Services, and Garage Door Specialist.\n\nGarage Door Repairs & Installation in Boca Raton (broten.com) - Offers 24-hour emergency repair services from professionals equipped to handle most makes and models.\n\n911 Garage Door Repair & Service - Reliable Solutions in Boca Raton (911garagedoorsboca.com) - Presented as a reliable, go-to service offering efficiency, affordability, and exceptional customer care in Boca Raton.\n\nBoca Raton, FL Garage Door Reviews (flgaragedoor.com) - Highlights Precision Garage Door, rated 4.92 Stars (310 Reviews), providing services for repair, openers, and new garage doors.\n\nGarage Door Repair Boca Raton (mrfixitdoors.com) - Provides fast, affordable, and reliable garage door service and repair in Boca Raton, FL, with contact details provided.\n\nGarage Door Products & Services in Boca Raton (palmbeachdoors.com) - Offers a full line of high-quality products, including Clopay, and services in Boca Raton, reachable at (561) 612-0220.\n\nGarage Door Repair Boca Raton FL (garagedoorrepairbocaraton-fl.com) - Offers round-the-clock and daily garage door repair service in Boca Raton, FL.\n\nExpert Boca Raton Garage Door Repairs (bocagaragedoorrepair.com) - Positions Boca Garage Door Services as the comprehensive partner for all garage door needs, including installation, repair, and maintenance.",
+    "summary": "This data set compiles information from multiple sources regarding garage door services in Boca Raton, Florida. Key offerings include top rankings and reviews (Yelp), 24-hour emergency repair (Broten), reliable local solutions (911 Garage Doors), expert reviews (FL Garage Door), fast and affordable service (Mr. Fix It Doors), product lines and general services (Palm Beach Doors), round-the-clock repairs (Garage Door Repair Boca Raton FL), and comprehensive maintenance/installation partnerships (Boca Garage Door Services).",
+    "word_count": 253
+  }
+}

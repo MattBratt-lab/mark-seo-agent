@@ -1,0 +1,10 @@
+name = "seo-publish-worker"
+main = "publish_worker.ts"
+compatibility_date = "2025-11-01"
+
+# Workers AI binding (Llama 3.1 summarize in publish_worker.ts)
+[ai]
+binding = "AI"
+
+# Set at deploy time:
+#   wrangler secret put AUTH_TOKEN

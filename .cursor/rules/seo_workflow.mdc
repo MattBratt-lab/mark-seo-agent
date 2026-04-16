@@ -1,0 +1,25 @@
+---
+description: SEO workflow commands and clean-data logging automation
+alwaysApply: true
+---
+
+# SEO Workflow Rule
+
+Use these project commands when running the SEO agent workflow.
+
+## Custom Commands
+
+- `/research <topic-or-url>`
+  - Run Firecrawl scraping for external sources.
+  - Save each raw scrape artifact under `/data/raw/`.
+  - Include source URL, scrape timestamp, and crawl metadata.
+
+- `/process <raw_file>`
+  - Run `python agents/gemma_processor.py <raw_file>` (or the equivalent entrypoint that calls `clean_seo_data`).
+  - Read from `/data/raw/` and write clean JSON reports to `/data/clean/`.
+  - Preserve processing metadata (model, params, source file, timestamp).
+
+## Hook Requirement
+
+- A project hook must watch file edits for `/data/clean/`.
+- When a clean file is created, append one line to `docs/workflow_state.md` with UTC timestamp and filename.

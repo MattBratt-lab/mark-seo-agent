@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data\\raw\\research_gdo_boca_raton_20260414_230801.json",
+  "processed_at_utc": "2026-04-14T23:09:33.581267+00:00",
+  "result": {
+    "cleaned_text": "Search results for Garage Door Services in Boca Raton, FL:\n\n* **Top 10 Best Garage Door Services Near Boca Raton, Florida** (yelp.com) - Lists top-rated services, including IDN Garage Door Services, Joes Doors Garage Door Services, and Garage Door Specialist.\n* **Garage Door Repairs & Installation in Boca Raton** (broten.com) - Offers 24-hour emergency repair services with professional knowledge and parts.\n* **911 Garage Door Repair & Service - Reliable Solutions** (911garagedoorsboca.com) - A go-to service in Boca Raton known for efficiency, affordability, and exceptional customer care.\n* **Boca Raton, FL** (flgaragedoor.com) - Features Precision Garage Door, rated 4.92 Stars (310 Reviews), providing Garage Door Repair, Openers & New Garage Doors.\n* **Garage Door Repair Boca Raton** (mrfixitdoors.com) - Offers fast, affordable, and reliable service (561) 461-3866. Encourages contacting them for immediate issues.\n* **Garage Door Products & Services in Boca Raton | The Doorman** (palmbeachdoors.com) - Provides a full line of high-quality services, including Clopay garage doors. Reachable at (561) 612-0220.\n* **Garage Door Repair Boca Raton FL - (561) 286-8308 ...** (garagedoorrepairbocaraton-fl.com) - Offers round-the-clock garage door repair service in Boca Raton, FL.\n* **Expert Boca Raton Garage Door Repairs** (bocagaragedoorrepair.com) - Positioned as the partner for all garage door needs, covering installation, repair, and maintenance.",
+    "summary": "This compilation of search results provides multiple local businesses offering garage door repair, installation, and maintenance services in Boca Raton, FL. Key services highlighted include 24-hour emergency repair, high ratings (e.g., 4.92 stars), and comprehensive support for various brands, positioning these listings as valuable SEO research material for local service providers.",
+    "word_count": 173
+  }
+}

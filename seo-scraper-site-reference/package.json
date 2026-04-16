@@ -1,0 +1,31 @@
+{
+  "name": "dandb-static-site",
+  "private": true,
+  "description": "Serves the same static files as Cloudflare (root index.html, /services, /locations).",
+  "scripts": {
+    "dev": "npx --yes serve -l tcp://127.0.0.1:3000 .",
+    "start": "npx --yes serve -l tcp://127.0.0.1:3000 .",
+    "dev:static": "npx --yes serve -l tcp://127.0.0.1:4173 .",
+    "build:css": "npx tailwindcss -i ./css/input.css -o ./css/style.css --minify",
+    "build": "npm run build:css && node scripts/generate-blog-static.mjs && node scripts/generate-sitemap.mjs && node scripts/sync-dist.mjs",
+    "verify:functions": "npm run build && npx wrangler pages functions build functions --build-output-directory dist",
+    "dev:pages": "npm run build && npx wrangler pages dev dist --port 8788",
+    "d1:migrate:local": "npx wrangler d1 execute garage-db --local --file=./migrations/0001_blog_posts.sql",
+    "d1:migrate:remote": "npx wrangler d1 execute garage-db --remote --file=./migrations/0001_blog_posts.sql",
+    "d1:seed:remote": "npx wrangler d1 execute garage-db --remote --file=./migrations/0002_seed_example_post.sql",
+    "check:live": "node scripts/health-check.mjs",
+    "audit:live": "node scripts/audit-live-url.mjs",
+    "verify:robots": "node scripts/verify-robots-ai.mjs",
+    "cf:unblock-ai-robots": "node scripts/cloudflare-ai-robots-unblock.mjs",
+    "setup:apex-redirect": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-apex-redirect.ps1",
+    "deploy:pages": "npm run build && npx wrangler pages deploy dist --branch main --commit-dirty=true && node scripts/deploy-note.mjs",
+    "deploy:worker": "npx wrangler deploy --config cloudfare_worker/wrangler.jsonc"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250402.0",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^6.0.2",
+    "wrangler": "^4.7.0"
+  }
+}
