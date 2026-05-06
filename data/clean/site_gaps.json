@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-03T15:10:18.671346+00:00",
+  "generated_at_utc": "2026-05-06T11:27:46.401721+00:00",
   "live_site_url": "https://www.dandbgaragedoors.com/",
   "scrape_success": true,
   "live_page": {
@@ -20,50 +20,50 @@
     ]
   },
   "research_context": {
-    "target_city": "Boca Raton",
+    "target_city": "Highland Beach",
     "cities_detected_in_research": [
-      "boca raton",
-      "palm beach"
+      "delray beach"
     ],
     "top_research_phrases": [
       "garage door repair",
-      "services boca raton",
-      "garage door pros",
+      "highland beach garage",
+      "beach garage door",
       "garage door services",
-      "boca raton doorman",
-      "boca garage door",
-      "garage door repairs",
-      "precision garage door",
-      "garage door service",
-      "boca raton garage",
-      "raton garage door",
+      "near highland beach",
+      "door repair highland",
+      "repair highland beach",
       "door repair near",
-      "repair near boca",
-      "near boca raton",
-      "door pros boca",
-      "pros boca raton",
-      "repair services"
+      "repair near highland",
+      "garage doors gates",
+      "reliable garage door",
+      "garage door help",
+      "door help highland",
+      "help highland beach",
+      "door services near",
+      "services near highland",
+      "repair installation",
+      "south florida"
     ]
   },
   "gaps": {
     "missing_keywords_vs_live_site": [
-      "services boca raton",
-      "garage door pros",
-      "boca raton doorman",
-      "boca garage door",
-      "garage door repairs",
-      "precision garage door",
-      "boca raton garage",
-      "raton garage door",
+      "highland beach garage",
+      "beach garage door",
+      "near highland beach",
+      "door repair highland",
+      "repair highland beach",
       "door repair near",
-      "repair near boca",
-      "near boca raton",
-      "door pros boca"
+      "repair near highland",
+      "garage doors gates",
+      "garage door help",
+      "door help highland",
+      "help highland beach",
+      "door services near"
     ],
-    "cities_in_research_not_emphasized_on_homepage": [],
-    "services_missing_from_live_homepage_copy": [
-      "emergency repair"
+    "cities_in_research_not_emphasized_on_homepage": [
+      "highland beach"
     ],
+    "services_missing_from_live_homepage_copy": [],
     "thin_location_page_signals": [
       "Homepage-only audit: subpages not crawled; add /locations/* URLs to AUDIT_SITE_URL or a crawl job for thin-page detection."
     ],
@@ -74,11 +74,10 @@
   "competitor_intel": {
     "services_competitors_offer": [
       "Garage Door Repair",
-      "Emergency Repair"
+      "Opener Repair",
+      "Off-Track Door Fix"
     ],
-    "door_brands_mentioned": [
-      "Clopay"
-    ],
+    "door_brands_mentioned": [],
     "opener_brands_mentioned": [],
     "price_anchors_found": []
   }

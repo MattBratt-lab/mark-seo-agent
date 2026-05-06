@@ -8,10 +8,13 @@ interface Env {
 }
 
 type Row = {
+  slug: string | null;
   city: string | null;
   title: string | null;
+  excerpt: string | null;
   content: string | null;
   created_at: string | null;
+  published: number | null;
 };
 
 function normalizePath(pathname: string): string {
@@ -34,17 +37,21 @@ export default {
 
     try {
       const { results } = await env.DB.prepare(
-        `SELECT city, title, content, created_at
+        `SELECT slug, city, title, excerpt, content, created_at, published
          FROM blog_posts
+         WHERE COALESCE(published, 1) = 1
          ORDER BY datetime(created_at) DESC
          LIMIT 100`
       ).all<Row>();
 
       const posts = (results ?? []).map((row) => ({
+        slug: String(row.slug ?? "").trim(),
         city: String(row.city ?? "").trim(),
         title: String(row.title ?? "").trim(),
+        excerpt: String(row.excerpt ?? "").trim(),
         content: String(row.content ?? "").trim(),
         created_at: row.created_at ?? "",
+        published: row.published == null ? 1 : Number(row.published),
       }));
 
       const citySet = new Set<string>();

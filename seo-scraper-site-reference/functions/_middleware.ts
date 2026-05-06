@@ -20,6 +20,12 @@ export const onRequest: PagesFunction = async (context) => {
     return context.next();
   }
 
+  const normalizedPath =
+    pathname.length > 1 && pathname.endsWith("/") ? pathname.slice(0, -1) : pathname;
+  if (/^\/blog\/[^/]+$/.test(normalizedPath)) {
+    return context.next();
+  }
+
   const method = context.request.method;
   if (method !== "GET" && method !== "HEAD") {
     return context.next();

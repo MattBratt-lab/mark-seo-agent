@@ -1,0 +1,11 @@
+# Cloudflare Pages + D1 for db-garage-doors (blog_posts, /get-blogs, /blog/:slug).
+# Replace database_id if this Pages project uses a different D1 than cloudfare_worker/wrangler.jsonc.
+
+name = "db-garage-doors"
+compatibility_date = "2025-11-01"
+pages_build_output_dir = "dist"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "garage-db"
+database_id = "4d0c4975-5bfe-4758-8a34-69859513edcc"

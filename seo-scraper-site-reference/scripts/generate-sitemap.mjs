@@ -10,6 +10,17 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const BASE = "https://www.dandbgaragedoors.com";
 
+/** URLs served by functions/blog/[slug].ts from D1 — keep in sync with scripts/build-blog-seed-sql.mjs */
+const D1_BLOG_SLUGS = [
+  "garage-door-repair-cost-palm-beach",
+  "why-garage-door-spring-keeps-breaking",
+  "garage-door-opener-troubleshooting",
+  "garage-door-maintenance-checklist-florida",
+  "diy-vs-professional-garage-door-repair",
+  "garage-door-replace-vs-repair-signs",
+  "garage-door-spring-lifespan-florida",
+];
+
 const SKIP_DIRS = new Set(["dist", "node_modules", ".git"]);
 
 function walkIndexHtml(dir, out = []) {
@@ -40,6 +51,12 @@ function escapeXml(s) {
 
 const files = walkIndexHtml(root);
 const entries = files.map((f) => ({ loc: toLoc(f), lastmod: lastmodDate(f) }));
+
+const blogLastmod = new Date().toISOString().slice(0, 10);
+for (const slug of D1_BLOG_SLUGS) {
+  entries.push({ loc: `${BASE}/blog/${slug}/`, lastmod: blogLastmod });
+}
+
 entries.sort((a, b) => a.loc.localeCompare(b.loc));
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -1,16 +1,23 @@
 /**
  * GET /get-blogs — JSON feed for the static site (js/main.js).
  * Requires D1 binding "DB" and table blog_posts (see migrations/).
+ *
+ * Response posts[] shape:
+ * { slug, city, title, excerpt, content, created_at, published }
+ * Prefer linking cards to `/blog/${slug}/` when slug is present.
  */
 interface Env {
   DB: D1Database;
 }
 
 type Row = {
+  slug: string | null;
   city: string | null;
   title: string | null;
+  excerpt: string | null;
   content: string | null;
   created_at: string | null;
+  published: number | null;
 };
 
 /** Allow browser fetches from www, apex, and Cloudflare Pages preview hosts. */
@@ -71,17 +78,21 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 
   try {
     const { results } = await db.prepare(
-      `SELECT city, title, content, created_at
+      `SELECT slug, city, title, excerpt, content, created_at, published
        FROM blog_posts
+       WHERE COALESCE(published, 1) = 1
        ORDER BY datetime(created_at) DESC
        LIMIT 100`
     ).all<Row>();
 
     const posts = (results ?? []).map((row) => ({
+      slug: String(row.slug ?? "").trim(),
       city: String(row.city ?? "").trim(),
       title: String(row.title ?? "").trim(),
+      excerpt: String(row.excerpt ?? "").trim(),
       content: String(row.content ?? "").trim(),
       created_at: row.created_at ?? "",
+      published: row.published == null ? 1 : Number(row.published),
     }));
 
     const citySet = new Set<string>();
