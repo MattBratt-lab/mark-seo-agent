@@ -153,4 +153,16 @@ Subagent markdown lives under [`agents/`](../agents/) (e.g. `seo-local.md`, `seo
 
 ---
 
+## 11) Scheduling & Automation (PM2)
+
+The SEO pipeline is scheduled to run hourly using PM2.
+
+| Task | Command |
+|------|---------|
+| **Check status** | `pm2 status` |
+| **Stop schedule** | `pm2 stop db-seo-factory` |
+| **Start schedule** | `pm2 start venv/bin/python --name "db-seo-factory" -- run_seo_pipeline.py --cron "0 * * * *"` |
+| **Save state** | `pm2 save` |
+| **View logs** | `pm2 logs db-seo-factory` |
+
 *End of handoff. Update this file when production branch, form endpoint, or major SEO decisions change.*

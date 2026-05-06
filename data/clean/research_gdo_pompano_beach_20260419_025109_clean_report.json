@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_pompano_beach_20260419_025109.json",
+  "processed_at_utc": "2026-04-19T02:52:00.522327+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Results for Garage Door Services in Pompano Beach, FL\n\n1. #1 Garage Doors Company Pompano Beach | South Florida\n[URL]: https://allied-doors.com/\n[Description]: Family-owned garage door company in Pompano Beach, FL since 1966. Sales, installation & repairs from the Florida Keys to Vero Beach. Call 954-942-8550.\n\n2. TOP 10 BEST Garage Door Repair in Pompano Beach, FL - Yelp\n[URL]: https://www.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=Pompano+Beach%2C+FL\n[Description]: Yelp directory listing featuring highly rated local services, including Doral Gate & Door Services (5/5) and Ramblewood Gates & Garage Doors (5/5).\n\n3. Garage Door Repair Pompano Beach, Florida\n[URL]: https://www.precisiondoor.net/locations/florida/south-florida/pompano-beach\n[Description]: Offers expert garage door repair services in Pompano Beach, featuring professionally trained technicians and premium parts.\n\n4. Pompano Beach | EDL GM\n[URL]: https://www.edl-gm.com/contact/florida-locations/pompano-beach/\n[Description]: Provides same-day and 24/7 emergency garage door service in Pompano Beach. Specializing in garage door replacement when doors are over ten years old.\n\n5. Precision Garage Door Pompano Beach Area, FL | Rated 4.92 Stars ...\n[URL]: https://flgaragedoor.com/reviews/area/pompano-beach\n[Description]: Highly rated service (4.92 Stars from 222 Reviews) offering comprehensive garage door repair, openers, and new installations in the Pompano Beach Area.\n\n6. Garage Door Repair Pompano Beach FL - (754)714-3169 - Trusted\n[URL]: https://garagedoorrepairpompanobeach-fl.com/\n[Description]: Reliable, all-day, everyday garage door repair service in Pompano Beach, FL, with a dedicated contact number.\n\n7. Find Garage and garage door pros in Pompano Beach - HomeAdvisor\n[URL]: https://www.homeadvisor.com/c.Garage-Garage-Doors.Pompano_Beach.FL.-12036.html\n[Description]: A directory listing from HomeAdvisor allowing users to read real reviews and ratings for professional garage and garage door services in Pompano Beach, FL.\n\n8. Door Gators™ | Pompano Beach Garage Door Repair & Installation\n[URL]: https://doorgators.com/fl/garage-doors-pompano-beach\n[Description]: A full-service garage door company providing expert repair and installation services to help homeowners maximize their garage space.",
+    "summary": "This compilation of search results targets local SEO research for 'Garage Door Repair' services specifically in Pompano Beach, FL. The results include direct service providers (e.g., Allied Doors, Precision Door, Door Gators), directory listings (Yelp, HomeAdvisor), and specialized service pages, emphasizing full-service offerings like sales, installation, repairs, and emergency 24/7 service. Key actionable information includes multiple local phone numbers and high average ratings (e.g., 4.92 Stars).",
+    "word_count": 355
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_wellington_20260421_063943.json",
+  "processed_at_utc": "2026-04-21T06:40:22.527017+00:00",
+  "result": {
+    "cleaned_text": "Garage Door Repair Wellington, Colorado\n[https://www.precisiondoor.net/locations/colorado/fort-collins/wellington]\nProviding premier garage door repair service in and around Wellington! Our highly trained technicians use only the best parts to ensure your garage door stays ...\n\nTHE BEST 10 GARAGE DOOR SERVICES near Wellington, CO 80549\n[https://www.yelp.com/search?cflt=garage_door_services&find_loc=Wellington%2C+CO+80549]\nThe Best 10 Garage Door Services near Wellington, CO 80549 · Jim Beam's Garage Doors · Garage Door Knights · Jim Beam's Garage Doors · Access Garage Doors · Speedy's ...\n\nGarage Doors Wellington, CO\n[https://www.milestonedoors.com/wellington-co]\nTeam up with reliable garage door services in Wellington, CO! We have over two decades of experience. Dial (970) 581-0790 today to know more!\n\nWellington, CO (Precision Garage Door)\n[https://precisiondoorfortcollins.com/reviews/city/wellington]\nPrecision Garage Door, rated 5.00 Stars (29 Reviews) in Wellington, CO. Precision Garage Door provides Garage Door Repair, Openers & New Garage Doors in the ...\n\nGarage Door Repair Wellington, CO (Wellington Garage Door...)\n[https://wellingtongaragedoorpro.com/]\nOur Wellington-based team consists of trained and certified technicians specializing in diagnosing, repairing, installing and replacing garage door for smart ...\n\nWellington Garage Door Company for Replacement and ...\n[https://accessdoorcompany.com/northern-colorado/wellington/]\nWe are proud to be Wellington's source for garage doors, overhead doors, and electric openers. Look no further for repairs and installation.\n\nWellington Garage Doors / Sliding Doors Repair / Patio ...\n[https://www.facebook.com/WellingtonGarageDoors/]\nLooking for reliable garage door repair and installation services in Wellington? Look no further! At Star Gate Garage, we offer top-notch services.\n\nGarage Door Repair in Wellington, CO\n[https://americanrynogaragedoors.com/wellington-garage-door-repair/]\nRepair costs vary depending on the issue, parts needed, and labor. Common repairs may cost between $100 to $500, while more complex issues could be higher.",
+    "summary": "This is a collection of SEO results for garage door services in Wellington, CO. Listings cover multiple providers (Precision Door, Milestone Doors, Wellington Garage Door Pro, etc.) and offer services such as repair, installation, and replacement of garage doors, openers, and overhead doors. Key topics include local services, pricing estimates, and multiple business recommendations.",
+    "word_count": 273
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_sunrise_20260422_013034.json",
+  "processed_at_utc": "2026-04-22T01:31:06.861691+00:00",
+  "result": {
+    "cleaned_text": "This collection of results provides various options for garage door services and repairs in Sunrise, Florida. \n\n**Key Services Offered:**\n*   **Repair & Service:** Numerous listings offer expertise in garage door repair, including specialized services like off-track and cable repair. Services are frequently described as fast, affordable, reliable, and expert-level.\n*   **Availability:** Several sources highlight 24/7 availability and same-day service.\n*   **Reviews & Recommendations:** Platforms like Yelp and HomeAdvisor allow users to read real reviews and compare top-rated professionals.\n\n**Key Providers/Resources:**\n*   **Yelp:** Features a broad list of top-rated services, including one for 'GARAGE DOOR KINGDOM' (4891 NW 103rd Ave, Sunrise, FL 33351).\n*   **Specialized Companies:** Include listings from Precision Door, Mr Fix It Doors, Express Garage Door Repair, and Sunrise Top Garage Door Services, all providing localized repair options.\n*   **General Resources:** HomeAdvisor assists users in finding and vetting professional local experts.",
+    "summary": "The search export details multiple local service providers for garage door repair and installation in Sunrise, Florida. The results emphasize expertise, reliability, and convenient services such as 24/7 and same-day repairs. Top resources include Yelp and HomeAdvisor for comparing user reviews and finding recommended professionals.",
+    "word_count": 176
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_wellington_20260424_160440.json",
+  "processed_at_utc": "2026-04-24T16:05:35.310366+00:00",
+  "result": {
+    "cleaned_text": "Searching for garage door repair services in Wellington, Florida? Several local options offer professional solutions, including: \n\n**Precision Door:** Offers premier garage door repair services in Wellington, serving the surrounding areas. Their trained technicians use quality parts to ensure reliability.\n\n**Broten:** Provides 24/7 emergency garage door repairs. They are knowledgeable about all brands, makes, and models of garage doors and openers.\n\n**FlGarageDoor:** Offers precision garage door services in Wellington, rated highly by users, covering repairs, openers, and new doors.\n\n**Mr. Fix It Doors:** Provides fast, affordable, and reliable garage door service and repair in Wellington, FL, with immediate contact options for troubleshooting.\n\n**TSG Door:** Specializes in comprehensive garage door repair, offering services from opener installation and sensor repair to spring and track replacement.\n\n**Other Directories and Services:**\n\n*   **Yelp:** Lists top-rated garage door services in Wellington, FL, featuring multiple local professionals and their contact details.\n*   **Angie's List:** Provides a guide to the top 10 best garage door professionals in Wellington, FL, based on real user reviews and ratings.\n*   **BBB:** Lists accredited garage door repair services in the Village of Wellington, FL, serving multiple nearby counties like Broward and Miami-Dade.",
+    "summary": "This collection of search results provides a comprehensive list of local and highly-rated businesses specializing in garage door repair and installation in Wellington, Florida. Key providers highlighted include Precision Door, Broten, Mr. Fix It Doors, and TSG Door, which offer emergency, comprehensive, and reliable services. Directories like Yelp, Angie's List, and the BBB are also cited as resources for finding vetted local professionals.",
+    "word_count": 226
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260421_021401.json",
+  "processed_at_utc": "2026-04-21T02:14:25.624721+00:00",
+  "result": {
+    "cleaned_text": "This collection of search results focuses on garage door repair and installation services in the Boca Raton, FL area. Key services highlighted include 24-hour emergency repairs, new installations, and general maintenance. Providers offer comprehensive services, featuring specific companies such as IDN Garage Door Services, Broten, Mr. Fix It Doors, Precision Garage Door Service, The Doorman, Boca Garage Door Services, Overhead Door Boca Raton, and Precision Garage Door. The listed websites provide contact information and details on their expertise, suggesting a competitive market for home maintenance services in this location.\n\nTop services mentioned:\n- Emergency repairs and service (24 hours)\n- Full installation and maintenance\n- Expertise for various door makes and models",
+    "summary": "The input data provides a list of local businesses specializing in garage door services, including repairs, installations, and maintenance, primarily serving the Boca Raton, FL area. The results offer multiple options, providing services such as 24-hour emergency repairs and general expertise for various brands.",
+    "word_count": 162
+  }
+}

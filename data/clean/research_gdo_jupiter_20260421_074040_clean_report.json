@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_jupiter_20260421_074040.json",
+  "processed_at_utc": "2026-04-21T07:41:14.681861+00:00",
+  "result": {
+    "cleaned_text": "SEO research on garage door services in Jupiter, FL, reveals several local providers. Options include: \n\n* **Yelp:** Lists top 10 recommended services, including Integrity Garage Door Services (890 SW Enterprise Way, Stuart, FL 34997).\n* **Precision Garage Door:** Offers repair and specialization in garage door openers and new doors in Jupiter, FL.\n* **FL Garage Door:** Highlights a highly rated service (4.93 Stars from 501 reviews) for repair, openers, and new garage doors.\n* **Residential Garage Door Service:** Provides fast service for stuck doors, broken springs, and damaged panels, with same/next-day availability.\n* **MR Fix It Doors:** Offers fast, affordable, and reliable service in Jupiter, FL, with a listed phone number.\n* **Broten Garage Door:** Provides expert repairs and sales services for Jupiter Town, focusing on durability and curb appeal.\n* **General Garage Door:** An established expert since 1978, offering high-quality doors and repair in Jupiter, FL.\n* **Royce Garage Doors (Facebook):** A local, family-owned business since 1994, handling repair and replacement of doors and operators.",
+    "summary": "A compilation of local SEO listings for garage door repair and services in Jupiter, FL. Featured companies include Precision Garage Door, General Garage Door, and others, providing details on services offered (repair, new installation, opener repair), customer ratings, and geographical focus.",
+    "word_count": 149
+  }
+}

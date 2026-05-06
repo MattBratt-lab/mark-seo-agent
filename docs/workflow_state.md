@@ -16,3 +16,120 @@ Log:
 - [2026-04-14 23:08 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260414_230801.json; success=True; results=8
 - [2026-04-14 23:43 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260414_234300.json; success=True; results=8
 - [2026-04-16 17:20] - Created /docs/PROJECT_HANDOFF.md summarizing full SEO Factory architecture and workflows.
+- [2026-04-18 22:21 UTC] - Site-wide audit completed. Gap analysis for Boca Raton generated.
+- [2026-04-18 22:50 UTC] - Researcher (Firecrawl search): query='garage door repair unknown'; saved=research_gdo_unknown_20260418_225043.json; success=True; results=8
+- [2026-04-18 23:11 UTC] - Researcher (Firecrawl search): query='garage door repair unknown'; saved=research_gdo_unknown_20260418_231148.json; success=True; results=8
+- [2026-04-19 01:13 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260419_011349.json; success=True; results=8
+- [2026-04-19 01:31 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260419_013118.json; success=True; results=8
+- [2026-04-19 02:51 UTC] - Researcher (Firecrawl search): query='garage door repair Pompano Beach'; saved=research_gdo_pompano_beach_20260419_025109.json; success=True; results=8
+- [2026-04-19 03:38 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise'; saved=research_gdo_sunrise_20260419_033848.json; success=True; results=8
+- [2026-04-20 21:56 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise'; saved=research_gdo_sunrise_20260420_215630.json; success=True; results=8
+- [2026-04-20 22:13 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise'; saved=research_gdo_sunrise_20260420_221327.json; success=True; results=8
+- [2026-04-20 22:24 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260420_222403.json; success=True; results=8
+- [2026-04-20 22:25 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach'; saved=research_gdo_west_palm_beach_20260420_222515.json; success=True; results=8
+- [2026-04-20 22:26 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach'; saved=research_gdo_delray_beach_20260420_222631.json; success=True; results=8
+- [2026-04-20 22:27 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach'; saved=research_gdo_boynton_beach_20260420_222749.json; success=True; results=8
+- [2026-04-20 22:29 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington'; saved=research_gdo_wellington_20260420_222916.json; success=True; results=8
+- [2026-04-20 22:30 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter'; saved=research_gdo_jupiter_20260420_223058.json; success=True; results=8
+- [2026-04-20 22:32 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens'; saved=research_gdo_palm_beach_gardens_20260420_223212.json; success=True; results=8
+- [2026-04-20 22:33 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth'; saved=research_gdo_lake_worth_20260420_223331.json; success=True; results=8
+- [2026-04-20 22:34 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise'; saved=research_gdo_sunrise_20260420_223440.json; success=True; results=8
+- [2026-04-21 02:08 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260421_020803.json; success=True; results=8
+- [2026-04-21 02:13 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260421_021326.json; success=True; results=8
+- [2026-04-21 02:14 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260421_021401.json; success=True; results=8
+- [2026-04-21 02:16 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260421_021600.json; success=True; results=8
+- [2026-04-21 02:18 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260421_021812.json; success=True; results=8
+- [2026-04-21 02:23 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach'; saved=research_gdo_west_palm_beach_20260421_022321.json; success=True; results=8
+- [2026-04-21 02:35 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton'; saved=research_gdo_boca_raton_20260421_023528.json; success=True; results=8
+- [2026-04-21 03:36 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach'; saved=research_gdo_west_palm_beach_20260421_033620.json; success=True; results=8
+- [2026-04-21 04:37 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach'; saved=research_gdo_delray_beach_20260421_043736.json; success=True; results=8
+- [2026-04-21 05:38 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach'; saved=research_gdo_boynton_beach_20260421_053823.json; success=True; results=8
+- [2026-04-21 06:39 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington'; saved=research_gdo_wellington_20260421_063943.json; success=True; results=8
+- [2026-04-21 07:40 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter'; saved=research_gdo_jupiter_20260421_074040.json; success=True; results=8
+- [2026-04-21 08:41 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens'; saved=research_gdo_palm_beach_gardens_20260421_084136.json; success=True; results=8
+- [2026-04-21 09:42 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth'; saved=research_gdo_lake_worth_20260421_094229.json; success=True; results=8
+- [2026-04-21 10:43 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise'; saved=research_gdo_sunrise_20260421_104338.json; success=True; results=8
+- [2026-04-21 16:08 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260421_160851.json; success=True; results=8
+- [2026-04-21 16:13 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260421_161334.json; success=True; results=8
+- [2026-04-21 16:18 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260421_161851.json; success=True; results=8
+- [2026-04-21 16:21 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260421_162108.json; success=True; results=8
+- [2026-04-21 16:24 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260421_162407.json; success=True; results=8
+- [2026-04-21 17:25 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260421_172506.json; success=True; results=8
+- [2026-04-21 17:30 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260421_173033.json; success=True; results=8
+- [2026-04-21 17:32 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260421_173205.json; success=True; results=8
+- [2026-04-21 18:27 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260421_182719.json; success=True; results=8
+- [2026-04-21 18:33 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260421_183310.json; success=True; results=8
+- [2026-04-21 19:21 UTC] - Hub Writer: generated=hub_hurricane-impact-ratings-florida_20260421_192108.html; topic='hurricane-impact-ratings-florida'; chars=1507
+- [2026-04-21 19:28 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260421_192817.json; success=True; results=8
+- [2026-04-21 19:34 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260421_193402.json; success=True; results=8
+- [2026-04-21 20:14 UTC] - Hub Writer: generated=hub_hurricane-impact-ratings-florida_20260421_201443.html; topic='hurricane-impact-ratings-florida'; chars=1273
+- [2026-04-21 20:29 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260421_202948.json; success=True; results=8
+- [2026-04-21 20:34 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260421_203457.json; success=True; results=8
+- [2026-04-21 21:31 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260421_213134.json; success=True; results=8
+- [2026-04-21 21:35 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260421_213558.json; success=True; results=8
+- [2026-04-21 22:32 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260421_223239.json; success=True; results=8
+- [2026-04-21 22:36 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260421_223650.json; success=True; results=8
+- [2026-04-21 22:43 UTC] - Hub Writer: generated=hub_salt-air-corrosion-coastal-florida_20260421_224348.html; topic='salt-air-corrosion-coastal-florida'; chars=2028
+- [2026-04-21 22:44 UTC] - Service area: Sunrise removed from website scope (8 Palm Beach County cities). Deleted Sunrise pipeline/research artifacts under data/clean and data/raw. Pipeline and hub internal links updated.
+- [2026-04-21 22:52 UTC] - Hub Writer: generated=hub_discord-webhook-test_20260421_225250.html; topic='discord-webhook-test'; chars=1304
+- [2026-04-21 22:54 UTC] - Hub Writer: generated=hub_pipeline-test_20260421_225412.html; topic='pipeline-test'; chars=1290
+- [2026-04-21 23:03 UTC] - Hub Writer: generated=hub_hurricane-impact-ratings-florida_20260421_230350.html; topic='hurricane-impact-ratings-florida'; chars=1953
+- [2026-04-21 23:04 UTC] - Researcher (Firecrawl search): query='garage door repair unknown FL'; saved=research_gdo_unknown_20260421_230426.json; success=True; results=8
+- [2026-04-21 23:48 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260421_234856.json; success=True; results=8
+- [2026-04-21 23:59 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260421_235916.json; success=True; results=8
+- [2026-04-22 01:30 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise FL'; saved=research_gdo_sunrise_20260422_013034.json; success=True; results=8
+- [2026-04-22 01:34 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260422_013405.json; success=True; results=8
+- [2026-04-22 02:35 UTC] - Researcher (Firecrawl search): query='garage door repair Sunrise FL'; saved=research_gdo_sunrise_20260422_023521.json; success=True; results=8
+- [2026-04-22 12:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260422_120001.json; success=True; results=8
+- [2026-04-22 13:01 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260422_130103.json; success=True; results=8
+- [2026-04-22 14:01 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260422_140155.json; success=True; results=8
+- [2026-04-22 15:33 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260422_153347.json; success=True; results=8
+- [2026-04-22 16:34 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260422_163442.json; success=True; results=8
+- [2026-04-22 17:35 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260422_173539.json; success=True; results=8
+- [2026-04-22 18:36 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260422_183646.json; success=True; results=8
+- [2026-04-22 19:37 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260422_193753.json; success=True; results=8
+- [2026-04-23 12:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260423_120004.json; success=True; results=8
+- [2026-04-23 13:01 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260423_130126.json; success=True; results=8
+- [2026-04-23 14:02 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260423_140229.json; success=True; results=8
+- [2026-04-23 15:03 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260423_150337.json; success=True; results=8
+- [2026-04-23 16:04 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260423_160453.json; success=True; results=8
+- [2026-04-23 17:06 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260423_170607.json; success=True; results=8
+- [2026-04-23 18:07 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260423_180728.json; success=True; results=8
+- [2026-04-23 19:08 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260423_190828.json; success=True; results=8
+- [2026-04-24 12:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260424_120001.json; success=True; results=8
+- [2026-04-24 13:00 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260424_130053.json; success=True; results=8
+- [2026-04-24 14:01 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260424_140159.json; success=True; results=8
+- [2026-04-24 15:03 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260424_150324.json; success=True; results=8
+- [2026-04-24 16:04 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260424_160440.json; success=True; results=8
+- [2026-04-24 17:05 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260424_170558.json; success=True; results=8
+- [2026-04-24 18:06 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260424_180652.json; success=True; results=8
+- [2026-04-24 19:08 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260424_190815.json; success=True; results=8
+- [2026-04-25 12:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260425_120004.json; success=True; results=8
+- [2026-04-25 13:01 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260425_130113.json; success=True; results=8
+- [2026-04-25 14:02 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260425_140240.json; success=True; results=8
+- [2026-04-25 15:03 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260425_150335.json; success=True; results=8
+- [2026-04-25 16:04 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260425_160437.json; success=True; results=8
+- [2026-04-25 17:05 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260425_170546.json; success=True; results=8
+- [2026-04-25 18:06 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260425_180652.json; success=True; results=8
+- [2026-04-25 19:07 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260425_190755.json; success=True; results=8
+- [2026-04-26 12:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260426_120001.json; success=True; results=8
+- [2026-04-26 13:01 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260426_130101.json; success=True; results=8
+- [2026-04-26 14:02 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260426_140216.json; success=True; results=8
+- [2026-04-26 15:03 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260426_150313.json; success=True; results=8
+- [2026-04-26 16:04 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260426_160414.json; success=True; results=8
+- [2026-04-26 17:05 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260426_170527.json; success=True; results=8
+- [2026-04-26 18:06 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260426_180622.json; success=True; results=8
+- [2026-04-26 19:07 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260426_190730.json; success=True; results=8
+- [2026-04-27 12:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260427_120004.json; success=True; results=8
+- [2026-04-27 13:01 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260427_130120.json; success=True; results=8
+- [2026-04-27 14:02 UTC] - Researcher (Firecrawl search): query='garage door repair Delray Beach FL'; saved=research_gdo_delray_beach_20260427_140218.json; success=True; results=8
+- [2026-04-27 15:03 UTC] - Researcher (Firecrawl search): query='garage door repair Boynton Beach FL'; saved=research_gdo_boynton_beach_20260427_150328.json; success=True; results=8
+- [2026-04-27 16:04 UTC] - Researcher (Firecrawl search): query='garage door repair Wellington FL'; saved=research_gdo_wellington_20260427_160442.json; success=True; results=8
+- [2026-04-27 17:05 UTC] - Researcher (Firecrawl search): query='garage door repair Jupiter FL'; saved=research_gdo_jupiter_20260427_170545.json; success=True; results=8
+- [2026-04-27 18:06 UTC] - Researcher (Firecrawl search): query='garage door repair Palm Beach Gardens FL'; saved=research_gdo_palm_beach_gardens_20260427_180640.json; success=True; results=8
+- [2026-04-27 19:07 UTC] - Researcher (Firecrawl search): query='garage door repair Lake Worth FL'; saved=research_gdo_lake_worth_20260427_190740.json; success=True; results=8
+- [2026-05-02 21:00 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260502_210016.json; success=True; results=8
+- [2026-05-02 22:01 UTC] - Researcher (Firecrawl search): query='garage door repair West Palm Beach FL'; saved=research_gdo_west_palm_beach_20260502_220142.json; success=True; results=8
+- [2026-05-03 14:38 UTC] - Site-wide audit completed. Gap analysis for Boca Raton generated.
+- [2026-05-03 15:09 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260503_150912.json; success=True; results=8
+- [2026-05-03 15:09 UTC] - Researcher (Firecrawl search): query='garage door repair Boca Raton FL'; saved=research_gdo_boca_raton_20260503_150912.json; success=True; results=8

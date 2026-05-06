@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260427_180640.json",
+  "processed_at_utc": "2026-04-27T18:07:18.307368+00:00",
+  "result": {
+    "cleaned_text": "A collection of local services for garage door sales, repair, and installation in Palm Beach Gardens, FL. Key providers include: \n\n*   **Broten:** Offers garage door sales and service since 1955 in South Florida, boasting a 98.5% customer satisfaction rating. (Source: broten.com)\n*   **Precision Door:** Provides expert garage door repair services in Palm Beach Gardens, using professionally trained technicians and premium parts. (Source: precisiondoor.net)\n*   **Yelp Listings:** Features local services like Pine Air Fences & Doors and The Garagers, detailing reviews and contact information. (Source: yelp.com)\n*   **Meta Garage Doors:** Offers comprehensive services including repair, installation, opener service, spring repair, and gate repair, with a direct contact number (561) 532-2990. (Source: metagaragedoors.com)\n*   **Fl Garage Door:** Highlights a provider rated 4.98 Stars (274 Reviews), offering repair, openers, and new garage door services. (Source: flgaragedoor.com)\n*   **EDL GM:** Specializes in providing a vast selection of quality garage doors and entrance gate service/repair for both residential and commercial properties. (Source: edl-gm.com)\n*   **The Garage Door King:** Provides garage door repair and spring services, offering free advice via phone (866) 807-6956. (Source: thegaragedoorking.org)\n*   **Mr Fix It Doors:** A family-owned company with 30 years of experience in the garage door repair industry, serving Palm Beach Gardens. (Source: mrfixitdoors.com)",
+    "summary": "The extracted data compiles multiple local businesses offering expert garage door services—including sales, repair, installation, and spring/opener service—specifically serving the Palm Beach Gardens, FL area. Providers range from long-established companies (Broten, since 1955) to specialized, family-owned repair shops, offering services for both residential and commercial needs.",
+    "word_count": 235
+  }
+}

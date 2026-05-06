@@ -48,6 +48,17 @@ def _project_root() -> Path:
     return Path(__file__).resolve().parents[1]
 
 
+def _load_brand_identity() -> dict[str, Any]:
+    """Load hardcoded brand identity from ``data/brand_identity.json``."""
+    identity_path = _project_root() / "data" / "brand_identity.json"
+    if not identity_path.exists():
+        return {}
+    try:
+        return json.loads(identity_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+
+
 def _append_workflow_log(summary: str) -> None:
     log_path = _project_root() / "docs" / "workflow_state.md"
     log_path.parent.mkdir(parents=True, exist_ok=True)
@@ -90,7 +101,7 @@ def _firecrawl_search_json(query: str, *, limit: int = 8) -> dict[str, Any]:
 def researcher_node(state: AgentState) -> dict[str, Any]:
     """Discover sources via Firecrawl Search (MCP-equivalent API); persist JSON under /data/raw."""
     city = (state.get("city") or "unknown").strip()
-    query = f"garage door repair {city}"
+    query = f"garage door repair {city} FL"
 
     search_payload = _firecrawl_search_json(query)
     raw_json = json.dumps(search_payload, ensure_ascii=False, indent=2)
@@ -153,7 +164,8 @@ def auditor_node(state: AgentState) -> dict[str, Any]:
 
     clean = state.get("clean_data") or {}
     city = (state.get("city") or "unknown").strip()
-    gap_path = run_audit_and_save(clean, city=city)
+    raw = state.get("raw_data") or ""
+    gap_path = run_audit_and_save(clean, city=city, raw_data=raw)
     gap_report: dict[str, Any] = json.loads(gap_path.read_text(encoding="utf-8"))
 
     msg = AIMessage(
@@ -200,21 +212,34 @@ def writer_node(state: AgentState) -> dict[str, Any]:
         if gap
         else "{}"
     )
+    brand_identity = _load_brand_identity()
+    brand_context = json.dumps(brand_identity, ensure_ascii=False, indent=2)
+    phone = str(brand_identity.get("phone", "561-305-5853"))
+    license_number = str(brand_identity.get("license_number", "CGC1519508"))
 
     system = SystemMessage(
         content=(
-            "You are an expert local SEO web copywriter. Output only valid HTML (no markdown fences). "
+            "You are the D&B SEO Writer. You are an expert local SEO web copywriter for D&B Garage Doors, "
+            "a garage door repair and installation company serving Palm Beach County, FL. "
+            f"You MUST use the phone number {phone} and License #{license_number} in every footer and CTA. "
+            "Do not hallucinate other numbers. "
+            "Business details — Company: D&B Garage Doors | "
+            f"Phone: {phone} | Email: service@dbgaragedoors.com | Website: dandbgaragedoors.com. "
+            "ALWAYS use these exact details. NEVER use placeholders like [Your Company Name] or XXX-XXXX. "
+            "Output only valid HTML (no markdown fences). "
             "Use semantic HTML5: header, nav, main, section, article, footer, address. "
-            "Create garage door repair service pages for the given city: "
-            "a compelling home/landing section, services (install, repair, spring, opener), "
-            "emergency/24hr section, and contact/CTA. "
+            "Create a garage door repair service page for the given city: "
+            "a compelling hero section, services (install, repair, spring, opener, cable, tune-up), "
+            "emergency/24hr section, and contact/CTA with the real phone number and license. "
             "Include one clear h1 with the city and primary service. "
-            "Use the SITE_GAP_REPORT to close obvious gaps (missing services/cities vs live site) where appropriate."
+            "Write specific, local copy — mention real neighborhoods, landmarks, or characteristics of the city. "
+            "Use the SITE_GAP_REPORT to close obvious gaps where appropriate."
         ),
     )
     user = HumanMessage(
         content=(
-            f"City: {city}. Generate the full multi-section HTML.\n\n"
+            f"City: {city}, FL. Generate the full multi-section HTML page for D & B Garage Doors.\n\n"
+            f"BRAND_IDENTITY_JSON:\n{brand_context}\n\n"
             f"RESEARCH_JSON:\n{research_context}\n\n"
             f"SITE_GAP_REPORT (live site vs research):\n{gap_block}"
         ),
@@ -239,7 +264,7 @@ def hitl_notify_node(state: AgentState) -> dict[str, Any]:
         city=str(state.get("city") or ""),
         content_draft=str(state.get("content_draft") or ""),
         thread_id=thread_id,
-        extra={"gap_keys": list((state.get("gap_report") or {}).keys())},
+        gap_report=state.get("gap_report") or {},
     )
     return {"messages": [AIMessage(content="HITL: notification sent (Discord/Resend if configured).")]}
 
@@ -317,7 +342,29 @@ def publisher_node(state: AgentState) -> dict[str, Any]:
         out = {"ok": False, "error": str(exc)}
         return {"publish_result": out, "messages": [AIMessage(content=f"Publisher: error {exc!r}.")]}
 
-    msg = AIMessage(content="Publisher: worker responded OK.")
+    deploy = body.get("deploy", {}) if isinstance(body, dict) else {}
+    deploy_ok = deploy.get("ok") is True
+
+    if deploy_ok:
+        site_dir = (os.getenv("SITE_DIR") or "").strip()
+        if site_dir and os.path.isdir(site_dir):
+            import subprocess
+            subprocess.run(["git", "stash"], cwd=site_dir, capture_output=True, text=True)
+            pull = subprocess.run(["git", "pull", "--rebase"], cwd=site_dir, capture_output=True, text=True)
+            subprocess.run(["git", "stash", "pop"], cwd=site_dir, capture_output=True, text=True)
+            build = subprocess.run(
+                ["npx", "wrangler", "pages", "deploy", ".", "--project-name", "db-garage-doors", "--commit-dirty=true"],
+                cwd=site_dir, capture_output=True, text=True
+            )
+            deploy_log = {"pull": pull.stdout + pull.stderr, "deploy": build.stdout + build.stderr, "returncode": build.returncode}
+            body = {**(body if isinstance(body, dict) else {}), "local_deploy": deploy_log}
+            status = "deployed to Pages" if build.returncode == 0 else f"deploy failed (rc={build.returncode})"
+        else:
+            status = "worker committed to GitHub (set SITE_DIR to auto-deploy)"
+    else:
+        status = "worker error — not deployed"
+
+    msg = AIMessage(content=f"Publisher: {status}.")
     return {"publish_result": body if isinstance(body, dict) else {"raw": body}, "messages": [msg]}
 
 

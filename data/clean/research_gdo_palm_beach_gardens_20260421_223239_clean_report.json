@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260421_223239.json",
+  "processed_at_utc": "2026-04-21T22:33:28.230627+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Snippets: Garage Door Services in Palm Beach Gardens, FL\n\n1. **Garage Door Repair Palm Beach Gardens, Florida**\n   - URL: https://www.precisiondoor.net/locations/florida/south-florida/palm-beach-gardens\n   - Description: Expert garage door repair services in Palm Beach Gardens! Our technicians are professionally trained and use premium parts to ensure your garage door operates ...\n\n2. **Garage Door Sales & Service in Palm Beach Gardens - Broten**\n   - URL: https://www.broten.com/about/service-areas/palm-beach-gardens/\n   - Description: Since 1955, Broten has been the name to know for garage door sales and service in South Florida. We have a 98.5% excellence rating in customer satisfaction.\n\n3. **Top 10 Best Garage Door Services Near Palm Beach Gardens, Florida**\n   - URL: https://www.yelp.com/search?cflt=garage_door_services&find_loc=Palm+Beach+Gardens%2C+FL\n   - Description: Features top services like Pine Air Fences & Doors (10.1 mi) and The Garagers (8.6 mi) for garage door services in the area.\n\n4. **Palm Beach Gardens Garage Door Repair, Installation & Spring ...**\n   - URL: https://www.metagaragedoors.com/Meta-Garage-Door-Repair-Palm-Beach-Gardens-FL.html\n   - Description: Schedule garage door repair, installation, opener service, spring repair, or gate repair in Palm Beach Gardens, FL. Call (561) 532-2990.\n\n5. **Precision Garage Door Palm Beach Gardens, FL**\n   - URL: https://flgaragedoor.com/reviews/city/palm-beach-gardens\n   - Description: Rated 4.98 Stars (274 Reviews), providing Garage Door Repair, Openers & New Garage services in Palm Beach Gardens, FL.\n\n6. **Garage Door Repair, Garage Door Springs | Palm Beach Gardens, FL**\n   - URL: http://www.thegaragedoorking.org/\n   - Description: Offers advice and help for garage door repair and springs. Free call assistance available at (866) 807-6956 or (561) 662-2177.\n\n7. **Palm Beach Gardens | EDL GM**\n   - URL: https://www.edl-gm.com/contact/florida-locations/palm-beach-gardens/\n   - Description: Provides a vast selection of quality garage doors, plus Entrance Gate Service and Repair for both residential and commercial use.\n\n8. **Garage Door Repair Palm Beach Gardens**\n   - URL: https://mrfixitdoors.com/palm-beach-gardens/\n   - Description: A genuine family-owned and operated company with 30 years of experience in the garage door repairs industry.",
+    "summary": "This compilation provides multiple search results for garage door services, repair, and installation in Palm Beach Gardens, FL. Key results include service providers like Precision Door, Broten, and Meta Garage Doors, offering specialized services, customer ratings, and direct contact information. The snippets cover sales, repair, spring replacement, opener service, and gate repair, establishing a strong local service presence.",
+    "word_count": 277
+  }
+}

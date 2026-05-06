@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lake_worth_20260424_190815.json",
+  "processed_at_utc": "2026-04-24T19:08:42.535286+00:00",
+  "result": {
+    "cleaned_text": "This collection of search results focuses on professional garage door services, sales, and repairs in Lake Worth, FL. Several local businesses are featured, offering services such as installation, repair (including springs and tracks), and openers. Reputable services are listed through major directories like Yelp, BBB, Angi, and specialized sites, providing multiple options for consumers to find high-rated, affordable, and reliable local experts. Key providers mentioned include At Your Service Garage Doors, Broten, and MR Fix It Doors, serving the Lake Worth area.",
+    "summary": "The search results provide a comprehensive list of highly-rated and affordable garage door repair and sales services in Lake Worth, FL. Multiple local businesses are featured through various directories (Yelp, BBB, Angi) and service providers (Broten, MR Fix It Doors), offering services like installation, repair of springs/tracks, and openers. Consumers can find multiple options and reviews to select a reputable local expert.",
+    "word_count": 133
+  }
+}

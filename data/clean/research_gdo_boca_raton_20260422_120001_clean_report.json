@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260422_120001.json",
+  "processed_at_utc": "2026-04-22T12:00:37.987873+00:00",
+  "result": {
+    "cleaned_text": "Title: THE BEST 10 GARAGE DOOR SERVICES in BOCA RATON, FL - Yelp\nDescription: Top 10 Best Garage Door Services Near Boca Raton, Florida - With Real Reviews. Highlights a service provider located at 1743 NE 142nd St, North Miami, FL 33181.\n\nTitle: Garage Door Repairs & Installation in Boca Raton | Broten\nDescription: Broten offers 24-hour emergency repair services. Professionals are on-call and equipped to repair most makes of garage doors.\n\nTitle: Garage Door Products & Services in Boca Raton | The Doorman\nDescription: Offers a full line of high-quality garage door products, including Clopay, and can be reached at (561) 612-0220.\n\nTitle: Boca Raton, FL - Precision Garage Door Service of South Florida\nDescription: Mentions a positive customer experience with a technician who was professional and punctual, analyzing the current garage door setup.\n\nTitle: Garage Door Repair Boca Raton\nDescription: A family-owned and operated company providing garage door repair services with 30 years of industry experience.\n\nTitle: Garage Door Repair, Boca Raton, FL\nDescription: Provides overhead door service for all garage door needs in Boca Raton, including same-day service. Contact number: (561) 257-4250.\n\nTitle: Precision Garage Door Boca Raton, {State Abbr}\nDescription: Offers comprehensive services including repairs, installations, and maintenance for garage doors and gates in the Boca Raton area.\n\nTitle: Expert Boca Raton Garage Door Repairs\nDescription: Boca Garage Door Services is presented as a primary partner for all garage door needs, covering installation, repair, and maintenance.",
+    "summary": "This is a compilation of search results for 'garage door services' in Boca Raton, FL. The listings highlight multiple local businesses offering comprehensive services including emergency repair (24-hour), installation, maintenance, and products (e.g., Clopay). Key service points include expertise (e.g., 30 years experience), same-day availability, and professionalism, with multiple businesses vying to be the top provider.",
+    "word_count": 252
+  }
+}

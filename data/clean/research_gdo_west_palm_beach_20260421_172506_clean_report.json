@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260421_172506.json",
+  "processed_at_utc": "2026-04-21T17:26:25.662766+00:00",
+  "result": {
+    "cleaned_text": "Top 10 Best Garage Door Services Near West Palm Beach... (Yelp listing includes services from Pine Air Fences & Doors and B&M Garage Doors Repair). General Garage Door offers sales, service, and installation for residential and commercial garage doors in North/West Palm Beach FL for over 45 years. Precision Garage Door of South Florida provides repair and opener services at 1134 53rd Court North West Palm Beach, FL 33407. American-Palm Beach Garage Door fixes any issue and is located at 4675 Dyer Blvd. West Palm Beach, FL 33407. Quality Garage Door Services is a fully licensed, family-owned business providing same-day, affordable service in West Palm Beach. Broten Garage Door Sales handles all garage door needs in West Palm Beach, offering free estimates and same-day service. Quality Garage Door Services is also listed on Facebook at 175 North Cleary Road, Suite A-5, West Palm Beach, FL. Thumbtack provides a list of rated garage door repair professionals in the West Palm Beach, FL community.",
+    "summary": "The provided list contains several local businesses offering garage door repair, service, and sales in the West Palm Beach, FL area. Key services include same-day installation, residential and commercial repairs, and professional consultation, with listings from Yelp, General Garage Door, Precision Garage Door, and local directories like Thumbtack.",
+    "word_count": 191
+  }
+}

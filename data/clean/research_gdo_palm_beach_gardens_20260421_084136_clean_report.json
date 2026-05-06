@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260421_084136.json",
+  "processed_at_utc": "2026-04-21T08:42:11.622767+00:00",
+  "result": {
+    "cleaned_text": "Here is a collection of resources for garage door services in Palm Beach Gardens, Florida.\n\n*   **Precision Door:** Expert garage door repair services in Palm Beach Gardens. Technicians use premium parts to ensure proper operation.\n*   **Yelp Directory:** Top rated garage door services nearby, featuring listings like Pine Air Fences & Doors, The Garagers, and Integrity Garage.\n*   **Broten:** Offers garage door sales and service in South Florida since 1955, boasting a 98.5% customer satisfaction rating.\n*   **The Garage Door King:** Provides advice and repair services, available by calling (866) 807-6956 or (561) 662-2177.\n*   **Precision Garage Door:** Highly rated service providing garage door repair, openers, and new garage door services in Palm Beach Gardens (4.98 Stars).\n*   **Meta Garage Doors:** Offers comprehensive services including garage door repair, installation, opener service, spring repair, and gate repair (Call: (561) 532-2990).\n*   **Mr Fix It Doors:** A family-owned and operated company with 30 years of experience in the garage door repair industry.\n*   **EDL GM:** Specializes in various repairs including broken track, misaligned doors, malfunctioning safety sensors, and garage door opener repair.",
+    "summary": "This data compilation lists multiple highly-rated and experienced companies offering comprehensive garage door services—including repair, installation, opener service, and spring repair—in Palm Beach Gardens, Florida. Key providers include Precision Door, Broten, Precision Garage Door, and Meta Garage Doors, ensuring residents have options ranging from highly-rated professionals to long-established local experts.",
+    "word_count": 176
+  }
+}

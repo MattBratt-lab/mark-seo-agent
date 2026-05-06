@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260421_161334.json",
+  "processed_at_utc": "2026-04-21T16:14:20.269601+00:00",
+  "result": {
+    "cleaned_text": "Here is a list of garage door services in the West Palm Beach, FL area for SEO research:\n\n* **Top 10 Best Garage Door Services Near West Palm Beach...**\n  * URL: https://www.yelp.com/search?cflt=garage_door_services&find_loc=West+Palm+Beach%2C+FL\n  * Snippet: Pine Air Fences & Doors (2.2 mi) and B&M Garage Doors Repair (2.6 mi) are listed, providing contact details and locations.\n\n* **Garage Door Repair, Service | North, West Palm Beach FL...**\n  * URL: https://www.generalgaragedoor.com/\n  * Snippet: General Garage Door has specialized in the sales, service, and installation of residential and commercial garage doors and garage door for over 45 years.\n\n* **Precision Garage Door South Florida | Repair, Openers...**\n  * URL: https://flgaragedoor.com/\n  * Snippet: Precision Door Service of South Florida offers services and is located at 1134 53rd Court North West Palm Beach, FL 33407.\n\n* **Garage Services Near Palm Beach, Florida**\n  * URL: https://0f702683-92a0-4a0b-9007-aee7ce34abfa.express.conves.io/\n  * Snippet: American-Palm Beach Garage Door can fix any issue with your garage door. Located at 4675 Dyer Blvd. West Palm Beach, FL 33407; 561-867-6279.\n\n* **Quality Garage Door Services: West Palm Beach Garage Door...**\n  * URL: https://www.qualitygaragedoorwestpalm.com/\n  * Snippet: A fully licensed, family-owned business local to West Palm Beach, providing same-day garage door service at low, affordable prices.\n\n* **Garage Door Repairs & Sales in West Palm Beach**\n  * URL: https://www.broten.com/about/service-areas/west-palm-beach/\n  * Snippet: Broten Garage Door Sales offers services for any garage door need in West Palm Beach. Free estimates and appointments for same-day service are available.\n\n* **Quality Garage Door Services West Palm**\n  * URL: https://www.facebook.com/QualityGarageDoorWestPalm/\n  * Snippet: Quality Garage Door Services West Palm is located at 175 North Cleary Road, Suite A-5, West Palm Beach, FL.\n\n* **Garage door repair professionals near West Palm Beach, FL**\n  * URL: https://www.thumbtack.com/fl/west-palm-beach/garage-door-repair\n  * Snippet: A definitive list of West Palm Beach's garage door repair companies, rated by the community, to help find qualified professionals.",
+    "summary": "This collection of search results lists multiple highly relevant local services for garage door repair, sales, and installation in West Palm Beach, FL. The resources include major business sites (e.g., General Garage Door, Quality Garage Door), directory listings (Yelp, Thumbtack), and local service providers, providing essential keywords and contact information for SEO research.",
+    "word_count": 293
+  }
+}

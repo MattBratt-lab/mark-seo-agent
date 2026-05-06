@@ -149,7 +149,7 @@ https://dandbgaragedoors.com/
 
 | Source Page | Must Link To | Should Link To |
 |-------------|-------------|----------------|
-| Homepage | All 6 service pages, all 10 city pages, /emergency, /about, /reviews | /blog (recent posts), /faq |
+| Homepage | All 6 service pages, all 8 city pages, /emergency, /about, /reviews | /blog (recent posts), /faq |
 | Service pages | /emergency, /contact, /reviews | 2-3 city pages, 2-3 related service pages, /faq |
 | City pages | All 6 service pages, /contact, /emergency | 2-3 neighboring city pages, /reviews |
 | Blog posts | 1-2 relevant service pages, 1-2 relevant city pages | /faq, /about, /reviews |
@@ -175,7 +175,7 @@ https://dandbgaragedoors.com/
 </sitemapindex>
 ```
 
-Split into 3 sitemaps once blog launches. Core sitemap covers homepage + service pages + about/contact/reviews/faq/emergency. Location sitemap covers all 10 city pages. Blog sitemap auto-generated.
+Split into 3 sitemaps once blog launches. Core sitemap covers homepage + service pages + about/contact/reviews/faq/emergency. Location sitemap covers all 8 city pages. Blog sitemap auto-generated.
 
 ---
 

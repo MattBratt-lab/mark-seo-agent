@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260419_013118.json",
+  "processed_at_utc": "2026-04-19T01:31:48.693114+00:00",
+  "result": {
+    "cleaned_text": "Broten offers 24-hour emergency repair services for garage doors in Boca Raton. Professional technicians are available to repair most makes and models. For a comprehensive list of garage door services in Boca Raton, FL, Yelp lists several top providers, including IDN Garage Door Services, Door Doctor, Joes Doors, Top Service Garage Door Repair, Garage Door Specialist, and Integrity Garage Door Services. Another option is Mr Fix It Doors, providing fast, affordable, and reliable garage door service and repair in Boca Raton, FL. Residents also point to Precision Garage Door Service of South Florida, noting excellent service from technicians like Julio. Palm Beach Doors offers a full line of high-quality Clopay garage door products and services. Boca Garage Door Services is positioned as a go-to partner for all needs, including installation, repair, or maintenance. Overhead Door Boca Raton provides same-day overhead door service. Finally, Precision Garage Door offers services for repairs, installations, and other needs for garage doors or gates in Boca Raton.",
+    "summary": "The provided list aggregates several professional services for garage door repairs, installations, and maintenance in Boca Raton, FL. Key services mentioned include 24-hour emergency repairs (Broten), general top-rated providers (Yelp), fast and reliable local service (Mr Fix It Doors), and specialized services for both new installations and repairs (Precision Garage Door, Boca Garage Door Services). Multiple sources emphasize professional reliability and prompt availability.",
+    "word_count": 238
+  }
+}

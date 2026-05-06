@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_jupiter_20260425_170546.json",
+  "processed_at_utc": "2026-04-25T17:06:28.833269+00:00",
+  "result": {
+    "cleaned_text": "SEO Research on Garage Door Services in Jupiter, FL:\n\n*   **THE BEST 10 GARAGE DOOR SERVICES in JUPITER, FL - Yelp**\n    *   *Summary:* Compares local services, listing providers like Joes Doors Garage Door Services (4.7/58 reviews), Mo Better Garage, and Integrity Garage Door Services. (Source: Yelp)\n*   **Garage Door Repair Jupiter, Florida**\n    *   *Summary:* Precision Garage Door specializes in repair of garage doors and garage door openers in Jupiter, FL, and new garage door installations. (Source: PrecisionDoor.net)\n*   **Precision Garage Door Jupiter, FL | Rated 4.93 Stars (501 Reviews)**\n    *   *Summary:* Highly-rated provider offering Garage Door Repair, Openers & New Garage Doors in Jupiter, FL. (Source: FLGarageDoor.com)\n*   **Garage Door Repair & Installation in Jupiter, FL | RGDS**\n    *   *Summary:* Offers same-day and next-day service for urgent needs, including stuck doors, broken springs, and damaged panels. (Source: ResidentialGarageDoorService.net)\n*   **Garage Door Repair Jupiter**\n    *   *Summary:* Provides fast, affordable, and reliable garage door service and repair in Jupiter, FL. (Source: MrFixitDoors.com)\n*   **Expert Garage Door Repairs & Sales in Jupiter Town - Broten**\n    *   *Summary:* Specializes in garage door services and products to enhance curb appeal and offer long-term durability. (Source: Broten.com)\n*   **Garage Door Service & Garage Door Repair in Jupiter FL**\n    *   *Summary:* General Garage Door, established since 1978, offers high-quality garage doors and repair services in Jupiter FL. (Source: GeneralGarageDoor.com)\n*   **Royce Garage Doors | Jupiter FL - Facebook**\n    *   *Summary:* A local business providing repair and replacement services for garage doors in Jupiter, FL. (Source: Facebook)",
+    "summary": "This is a compilation of local SEO leads for garage door services in Jupiter, FL. The listings provide multiple options, including company names (Precision Garage Door, Joes Doors, etc.), service specialties (repair, installation, openers), consumer ratings, and contact information, making it valuable for local search rankings.",
+    "word_count": 277
+  }
+}

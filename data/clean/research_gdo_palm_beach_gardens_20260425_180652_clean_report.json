@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260425_180652.json",
+  "processed_at_utc": "2026-04-25T18:07:36.490717+00:00",
+  "result": {
+    "cleaned_text": "Garage Door Repair Services in Palm Beach Gardens, FL: A compilation of local experts offering professional service and sales.\n\nFeatured services include:\n\n*   **Precision Door:** Expert garage door repair in Palm Beach Gardens, utilizing professional training and premium parts.\n*   **Broten:** Established service since 1955, offering garage door sales and service with a high customer satisfaction rating in South Florida.\n*   **Yelp Listings:** Reviews and local services in the area, including options from Pine Air Fences & Doors and The Garagers.\n*   **Meta Garage Doors:** Provides comprehensive service, including repair, installation, opener, spring, and gate repair (Call: (561) 532-2990).\n*   **Precision Garage Door:** Highly rated local service (4.98 Stars) offering repair, openers, and new garage doors.\n*   **The Garage Door King:** Available 24/7 for advice and help with repair and springs (Call: (866) 807-6956 or (561) 662-2177).\n*   **EDL GM:** Offers a wide selection of quality garage doors, including residential and commercial entrance gate service and repair.\n*   **Mr Fix It Doors:** A family-owned company with 30 years of experience in the garage door repair industry.\n\n(URLs provided for detailed research: https://www.precisiondoor.net/locations/florida/south-florida/palm-beach-gardens, https://www.broten.com/about/service-areas/palm-beach-gardens/, https://www.yelp.com/search?cflt=garage_door_services&find_loc=Palm+Beach+Gardens%2C+FL, https://www.metagaragedoors.com/Meta-Garage-Door-Repair-Palm-Beach-Gardens-FL.html, https://flgaragedoor.com/reviews/city/palm-beach-gardens, http://www.thegaragedoorking.org/, https://www.edl-gm.com/contact/florida-locations/palm-beach-gardens/, https://mrfixitdoors.com/palm-beach-gardens/)",
+    "summary": "This is a list of eight highly relevant local businesses specializing in garage door repair, sales, and installation within Palm Beach Gardens, Florida. The results showcase multiple options, varying from highly rated, long-standing companies (Broten, Precision Garage Door) to those emphasizing full service lines (Meta Garage Doors, EDL GM). Key service offerings include repair, spring replacement, opener service, and gate services.",
+    "word_count": 230
+  }
+}

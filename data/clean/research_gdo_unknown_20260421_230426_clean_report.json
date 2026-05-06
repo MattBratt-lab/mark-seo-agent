@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_unknown_20260421_230426.json",
+  "processed_at_utc": "2026-04-21T23:05:10.793767+00:00",
+  "result": {
+    "cleaned_text": "Top 10 Best Garage Door Services Near Oakland Park, Florida - Yelp: Affordable Garage Door Service · 4.3 mi · 200 E Las Olas Blvd, Fort Lauderdale, FL 33301. (954) 324-9516; New Era Services · 3.4 mi · Fort Lauderdale, FL 33311. ( ...)\n\nSunshine Garage Doors: Garage Door Repair South Florida: Garage door repair, installation & same-day service in Broward, Miami-Dade & Palm Beach County. Licensed technicians fix broken springs, openers & gates.\n\n24 Hour Emergency Garage Door Repair Florida: 24 hour emergency garage door repair in West Central Florida. Fast, professional service to restore safety and access. Call now for immediate help.\n\nGarage Door Repair Sunrise, FL | 954-281-1064 | Quick Response: We offer same day garage door opener repair, have experience with Genie and Liftmaster operators, and guarantee safety with sensors maintenance.\n\nStatewide garage doors services in Florida - Facebook: CALL OR TEXT US AT: (732-808-6926) ☎ Reliable Garage Door Repair service are here. Get your garage door back in motion with our expert ...\n\nMobile Garage Door Repair South Florida | 4.9 Rated 182 Reviews: Mobile garage door repair FL Inc · PHONE: +19545196114 · Address: West park road Holywood 33021 · Email: garagedoorfl3340@gmail.com · Call Now For Immediate Service.\n\nAnyone used a garage door repair company for emergencies. - Reddit: I had to call Danny's Garage Door Repair at 9pm last night because my garage door opener stopped working and I couldn't get my car out. They ...\n\nFLORIDA GARAGE DOOR COMPANY - Updated April 2026 - Yelp: FLORIDA GARAGE DOOR COMPANY, 278 S Military Trl, Deerfield Beach, FL 33442, 14 Photos, (954) 777-2004, Mon - 8:00 am - 7:30 pm, Tue - 8:00 am - 7:30 pm, ...",
+    "summary": "This search export aggregates resources for garage door services across South Florida, covering emergency repairs, installations, and general maintenance. Services are available in various locations including Fort Lauderdale, Sunrise, and Deerfield Beach. Key services advertised include 24-hour emergency repair, repair for major brands (Genie, Liftmaster), and same-day service. Multiple listings provide contact numbers and service areas.",
+    "word_count": 245
+  }
+}

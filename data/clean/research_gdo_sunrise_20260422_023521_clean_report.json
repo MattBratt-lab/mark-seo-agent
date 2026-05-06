@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_sunrise_20260422_023521.json",
+  "processed_at_utc": "2026-04-22T02:35:59.267421+00:00",
+  "result": {
+    "cleaned_text": "Top Garage Door Services in Sunrise, FL\n\n**Yelp:**\n*   **THE BEST 10 GARAGE DOOR SERVICES in SUNRISE, FL - Yelp:** Top 10 Best Garage Door Services Near Sunrise, Florida - With Real Reviews. (954) 820-4980.\n*   **GARAGE DOOR KINGDOM - Updated April 2026 - 40 Photos - Yelp:** Located at 4891 NW 103rd Ave, Unit 11e, Sunrise, FL 33351. Contact: (786) 258-8283.\n\n**Direct Service Providers:**\n*   **Precision Door:** Reliable garage door repair in Sunrise! Uses high-quality parts and expert technicians.\n*   **Mr. Fix It Doors:** Fast, Affordable, and Reliable Garage Door Service & Repair in Sunrise, FL. Contact: (954) 388-9965.\n*   **Express Garage Door Repair:** Provides expert service, including off-track and cable repair for residential properties, with same-day service options.\n*   **Garage Door Repairs Sunrise FL:** Dedicated to providing the best garage door repair deals in Sunrise, FL.\n*   **Sunrise Garage Door Services:** Offers 24/7 expert garage door repair. Contact: (954) 727-5427.\n\n**Review & Directory Sites:**\n*   **HomeAdvisor:** Find top-rated Garage and Garage Door Services Experts in Sunrise, FL, by reading real reviews and ratings.",
+    "summary": "This compilation provides a list of top-rated and recommended garage door repair services in Sunrise, FL. It includes multiple specialized local businesses (e.g., Precision Door, Mr. Fix It Doors, Sunrise Garage Door Services) offering services like off-track and cable repair, 24/7 availability, and affordable options. It also includes directory listings from Yelp and HomeAdvisor for comparison and reviews.",
+    "word_count": 198
+  }
+}

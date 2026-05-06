@@ -83,8 +83,16 @@ This repository now contains an autonomous SEO factory scaffold with research, p
 
 - Install dependencies:
   - `pip install -r requirements.txt`
-- Run pipeline:
-  - `python run_seo_pipeline.py`
+- Run pipeline (once):
+  - `venv/bin/python run_seo_pipeline.py`
 - Resume HITL:
   - `python resume_hitl.py <THREAD_ID> approve`
+
+### PM2 Scheduling (Hourly)
+
+- **Check status:** `pm2 status`
+- **Stop schedule:** `pm2 stop db-seo-factory`
+- **Start/Resume schedule:** `pm2 start venv/bin/python --name "db-seo-factory" -- run_seo_pipeline.py --cron "0 * * * *"`
+- **Save current state:** `pm2 save`
+- **View logs:** `pm2 logs db-seo-factory`
 

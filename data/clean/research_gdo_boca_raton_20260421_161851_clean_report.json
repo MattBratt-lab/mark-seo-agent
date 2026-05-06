@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260421_161851.json",
+  "processed_at_utc": "2026-04-21T16:19:39.404766+00:00",
+  "result": {
+    "cleaned_text": "This compilation provides various search results and service listings for garage door repair and services in Boca Raton, FL. The results highlight several local businesses and service providers, including Yelp listings, Broten, The Doorman, Precision Garage Door Service, Mr Fix It Doors, Overhead Door Boca Raton, Precision Garage Door, and Boca Garage Door Services. These companies offer services such as emergency repairs (24-hour), installation, maintenance, and comprehensive solutions for various makes and models. The providers emphasize their experience, local presence, and commitment to customer satisfaction. Key services offered include:",
+    "summary": "The search results list multiple highly-rated and specialized local businesses in Boca Raton, FL, offering comprehensive garage door services. Providers range from general listing sites (Yelp) to dedicated repair companies (Broten, The Doorman, Precision, etc.). All listed services include emergency repairs, new installations, and routine maintenance, emphasizing professional expertise and local accessibility.",
+    "word_count": 144
+  }
+}

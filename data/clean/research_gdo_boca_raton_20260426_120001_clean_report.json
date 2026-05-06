@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260426_120001.json",
+  "processed_at_utc": "2026-04-26T12:00:42.721492+00:00",
+  "result": {
+    "cleaned_text": "This compilation gathers valuable SEO research data for garage door services in Boca Raton, Florida. The search results provide multiple options, including directory listings (Yelp, BBB) and direct service provider websites (Broten, Overhead Door Boca Raton, Precision Garage Door Service, The Doorman, Boca Garage Door Services, Mr. Fix It Doors).\n\n**Key themes and services highlighted:**\n*   **Services:** Repair, Installation, Maintenance, and Emergency 24-hour service.\n*   **Local Focus:** All results emphasize serving the Boca Raton area.\n*   **Credibility:** Providers highlight aspects like years of experience (30 years), professional service, and BBB accreditation.\n\n**Key Contacts & Resources:**\n*   **Yelp:** Identifies top services and includes local competition.\n*   **Broten:** Offers 24-hour emergency repairs and installations.\n*   **Overhead Door Boca Raton:** Emphasizes same-day service and provides a direct call number ((561) 257-4250).\n*   **Precision Garage Door Service:** Showcases positive customer experiences.\n*   **The Doorman:** Offers a full line of high-quality products (e.g., Clopay) and provides contact information ((561) 612-0220).\n*   **Boca Garage Door Services:** Positions itself as a comprehensive solution for all needs.\n*   **Mr. Fix It Doors:** Stresses family ownership and long industry experience.\n*   **Better Business Bureau (BBB):** Serves as a trusted directory for vetting local professionals.",
+    "summary": "A comprehensive list of SEO targets and local service providers for garage door repair and installation in Boca Raton, FL. The results include major directories (Yelp, BBB) and multiple highly-rated, local service websites, providing diverse content for competitive analysis, service offering research, and potential link building. All sources emphasize 24/7 emergency availability and local expertise.",
+    "word_count": 236
+  }
+}

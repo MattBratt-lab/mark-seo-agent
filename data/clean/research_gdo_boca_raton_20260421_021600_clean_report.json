@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260421_021600.json",
+  "processed_at_utc": "2026-04-21T02:16:24.701102+00:00",
+  "result": {
+    "cleaned_text": "SEO research compilation for Garage Door Services in Boca Raton, FL. The listed services include general top-rated options (Yelp), 24-hour emergency repair and installation (Broten), and family-owned repair services with 30 years of experience (MrFixItDoors). Other providers offer specialized assistance, such as general precision garage door services (FL Garage Door), full product lines and services (The Doorman), comprehensive repair, installation, and maintenance (Boca Garage Door Services), and same-day overhead door service (Overhead Door Boca Raton). Precision Garage Door Service of Boca Raton also offers repairs and installations for doors and gates. This list provides multiple options for various needs, from emergency repairs to general maintenance and upgrades.",
+    "summary": "This compilation aggregates top search results for garage door services in Boca Raton, FL. Key providers offer comprehensive services including 24-hour emergency repairs, general installation/repair, family-owned maintenance, and specialty services like gates. The results provide a diverse resource for local SEO research.",
+    "word_count": 155
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_wellington_20260421_202948.json",
+  "processed_at_utc": "2026-04-21T20:30:56.774570+00:00",
+  "result": {
+    "cleaned_text": "SEO Research: Garage Door Repair Services in Wellington, FL\n\n1. Garage Door Repair Wellington, Florida (precisiondoor.net)\n   * Description: Providing premier garage door repair service in and around Wellington! Our highly trained technicians use only the best parts to ensure your garage door stays...\n\n2. THE BEST 10 GARAGE DOOR SERVICES in WELLINGTON, FL - Yelp (yelp.com)\n   * Description: Includes listings for local services like The Garagers and Top Service Garage Door Repair, covering various parts of Palm Beach County, FL.\n\n3. Wellington Garage Door Company Repair & Installation (broten.com)\n   * Description: Provides emergency garage door repairs 24 hours a day, seven days a week, serving all brands, makes, and models of garage doors and openers.\n\n4. Wellington, FL - Precision Garage Door Service of South Florida (flgaragedoor.com)\n   * Description: Precision Garage Door offers Garage Door Repair, Openers & New Garage Doors in Wellington, FL, with a high rating of 4.96 Stars (257 Reviews).\n\n5. Garage Door Repair Wellington (mrfixitdoors.com)\n   * Description: Offers fast, affordable, and reliable Garage Door Service & Repair in Wellington, FL. Contactable for immediate help.\n\n6. BBB Accredited Garage Door Repair near Village of Wellington, FL (bbb.org)\n   * Description: Service area covers multiple counties including Broward, Miami-Dade, and Palm Beach Counties, offering accredited repair services.\n\n7. Top 10 Best Garage door pros in Wellington, FL - Angie's List (angi.com)\n   * Description: A resource for readers to view real reviews and ratings to help select professional garage door service providers in Wellington, FL.\n\n8. Garage Door Repair Wellington FL - Your Choice! (garagedoorrepair-wellingtonfl.com)\n   * Description: Reliable and professional garage door repair services in Wellington, FL, emphasizing the necessity of diligent maintenance for garage doors.",
+    "summary": "This compilation aggregates key SEO data for garage door repair services in Wellington, FL. It features multiple competing businesses and directories (e.g., Precision Door, Yelp, Broten, Angi's List, BBB) providing services such as emergency repairs, new door installations, and maintenance. The listings highlight local expertise, 24/7 availability, and high customer ratings, targeting consumers searching for reliable local contractors.",
+    "word_count": 274
+  }
+}

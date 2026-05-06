@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260422_130103.json",
+  "processed_at_utc": "2026-04-22T13:01:36.196323+00:00",
+  "result": {
+    "cleaned_text": "Top 10 Best Garage Door Services Near West Palm Beach...\nGeneral Garage Door Repair, Service | North, West Palm Beach FL...For over 45 years, General Garage Door has specialized in the sales, service, and installation of residential and commercial garage doors and garage door...\nPrecision Garage Door South Florida | Repair, Openers...Office: (561) 515-5339. 1134 53rd Court North West Palm Beach, FL 33407. Precision Garage Door of South Florida Office...\nGarage Services Near Palm Beach, Florida...Whatever is wrong with your garage door, American-Palm Beach Garage Door can fix it....\nQuality Garage Door Services: West Palm Beach Garage Door...A fully licensed, family owned business that is local to West Palm Beach. We provide same day West Palm Beach garage door service at low, affordable prices.\nGarage Door Repairs & Sales in West Palm Beach...For any garage door need in West Palm Beach, contact Broten Garage Door Sales. Request a free estimate or schedule an appointment for same day service today.\nQuality Garage Door Services West Palm...Details. 175 North Cleary Road, Suite A-5, West Palm Beach, FL,...Garage door repair professionals near West Palm Beach, FL...Here is the definitive list of West Palm Beach's garage door repair companies as rated by the West Palm Beach, FL community. Want to see who made the cut?",
+    "summary": "This compilation of local search results and listings focuses on garage door services, repair, and sales in the West Palm Beach, FL area. Featured businesses offer comprehensive services, including residential and commercial installation, repair, and emergency service. Key providers include General Garage Door, Precision Garage Door, American-Palm Beach Garage Door, and Quality Garage Door Services.",
+    "word_count": 214
+  }
+}

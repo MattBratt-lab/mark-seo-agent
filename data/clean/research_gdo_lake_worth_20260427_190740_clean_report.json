@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lake_worth_20260427_190740.json",
+  "processed_at_utc": "2026-04-27T19:08:14.947828+00:00",
+  "result": {
+    "cleaned_text": "This collection provides valuable SEO research data regarding garage door services in Lake Worth, Florida. Key resources include:\n\n*   **Broten**: Offers comprehensive garage door repair, sales, and installation services in Lake Worth. (Source: broten.com)\n*   **Yelp Search Results**: Aggregates top-rated garage door services in the Lake Worth area, listing businesses like At Your Service Garage Doors and B&M Garage Doors Repair. (Source: yelp.com)\n*   **MrFixitDoors**: Provides fast, affordable, and reliable garage door service and repair in Lake Worth, FL. (Source: mrfixitdoors.com)\n*   **Precision Garage Door**: Features positive customer reviews, highlighting professional and thorough service for garage door needs in Lake Worth. (Source: flgaragedoor.com)\n*   **Clopaydoor**: Connects users with At Your Service Garage Doors LLC for installation and repair services in Lake Worth Beach, Florida. (Source: clopaydoor.com)\n*   **Lake Worth Garage Door Repair**: Specializes in affordable and efficient solutions for common issues, such as broken springs and misaligned tracks, in Lake Worth. (Source: lakeworthsgaragedoorrepair.com)\n*   **Elev8 Garage Door**: A listed local service provider for Lake Worth, including contact details. (Source: yelp.com)\n*   **Door Gators**: A full-service company offering professional garage door repair and installation across Lake Worth. (Source: doorgators.com)\n\nOverall, the listings confirm a robust local market for specialized garage door repair and installation services in the Lake Worth area.",
+    "summary": "A compilation of eight search results for garage door repair and services in Lake Worth, FL. The listings include multiple competing businesses (e.g., Broten, MrFixitDoors, Lake Worth Garage Door Repair) and aggregated resources (Yelp, Clopaydoor), providing diverse service options, contact information, and positive customer testimonials. The content is highly valuable for local SEO research.",
+    "word_count": 206
+  }
+}

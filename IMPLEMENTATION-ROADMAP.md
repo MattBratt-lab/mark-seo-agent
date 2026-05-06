@@ -102,7 +102,7 @@ Eliminate critical blockers. Make the site technically sound. Publish core pages
 **Phase 1 Deliverable Summary:**
 - 12 new pages published
 - Technical score fixed
-- GBP live with 10 cities configured
+- GBP live with 8 cities configured
 - First 5 citations submitted
 - 5-8 reviews acquired
 
@@ -149,7 +149,7 @@ Complete all city pages. Build blog velocity. Hit 20+ reviews. Begin seeing firs
 - Sponsor or participate in local community event (Nextdoor, local Facebook groups)
 
 **Phase 2 Deliverable Summary:**
-- All 10 city pages live
+- All 8 city pages live
 - 8 blog posts published
 - 20+ Google reviews
 - 15+ citations
@@ -179,7 +179,7 @@ Build blog authority. Deepen content on top performers. Begin compound SEO growt
 
 **Schema expansion target:**
 - Service schema on all 6 service pages
-- `LocalBusiness` with `geo` on all 10 city pages
+- `LocalBusiness` with `geo` on all 8 city pages
 - `Article` on all blog posts
 - `AggregateRating` on homepage
 
@@ -254,7 +254,7 @@ Consolidate gains. Refresh content. Prepare for Year 2.
 |------|-----------|-------|
 | Apr 14 | All technical fixes deployed | Re-run `/seo technical dandbgaragedoors.com` |
 | Apr 30 | GBP live, 8 core pages published | Check GSC for indexation |
-| May 31 | All 10 city pages live, 5 blog posts published | First ranking signals in GSC |
+| May 31 | All 8 city pages live, 5 blog posts published | First ranking signals in GSC |
 | Jun 15 | 20+ Google reviews | GBP rank check for Boca Raton + WPB |
 | Jul 31 | 15 blog posts, 30+ reviews | Keyword ranking report |
 | Sep 30 | Full 6-month audit | `/seo audit dandbgaragedoors.com` |

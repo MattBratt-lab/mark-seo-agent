@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260427_120004.json",
+  "processed_at_utc": "2026-04-27T12:00:40.451615+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Findings: Garage Door Services in Boca Raton, FL\n\nKey Services:\n- **General Listings & Reviews:**\n    *   Yelp lists top services and reviews, including a listing for Sunset Garage Door Service near Boca Raton, FL.\n    *   BBB directory provides a guide to trusted, BBB-rated garage door repair businesses near Boca Raton, FL.\n\nSpecific Providers & Services:\n- **Broten:** Offers 24-hour emergency repair services and installation for garages in Boca Raton.\n- **Overhead Door Repair Boca Raton:** Specializes in same-day overhead door service and general garage door needs.\n- **Precision Garage Door:** Provides comprehensive services in Boca Raton, including repair, openers, and new garage door installations (rated 4.92 Stars).\n- **Palm Beach Doors (The Doorman):** Offers high-quality services and a full line of Clopay garage doors in Boca Raton.\n- **Boca Garage Door Services:** Positions itself as a go-to partner for all garage door needs, including installation, repair, and maintenance.\n- **MR Fix It Doors:** A family-owned company with 30 years of experience in garage door repair in Boca Raton.",
+    "summary": "This compilation gathers key SEO research data for garage door services in Boca Raton, FL. It identifies several competing businesses (including Broten, Overhead Door Repair, Precision Garage Door, Palm Beach Doors, and others) and notes the types of services offered (emergency repairs, installation, maintenance, and openers). The listings span multiple platforms, including Yelp, BBB, and direct company sites, confirming high competition and a need to target local service keywords.",
+    "word_count": 186
+  }
+}

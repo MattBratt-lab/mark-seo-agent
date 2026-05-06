@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260424_130053.json",
+  "processed_at_utc": "2026-04-24T13:01:25.405732+00:00",
+  "result": {
+    "cleaned_text": "Search results for garage door services in West Palm Beach, FL, featuring multiple local businesses for repair, sales, and installation.\n\n*   **General Garage Door:** Specializes in the sales, service, and installation of residential and commercial garage doors for over 45 years.\n*   **Yelp Listings:** Provides top-rated and reviewed garage door services near West Palm Beach, including contact information for various providers.\n*   **American-Palm Beach Garage Door:** A service specializing in fixing any garage door issues, located at 4675 Dyer Blvd. in West Palm Beach.\n*   **Broten Garage Door:** Offers garage door repairs and sales in West Palm Beach, encouraging customers to request a free estimate or schedule same-day service.\n*   **Precision Garage Door South Florida:** Provides premier garage door service in the area, with an office located at 1134 53rd Court North in West Palm Beach.\n*   **Quality Garage Door:** A local, family-owned business offering same-day West Palm Beach garage door service at affordable prices.\n*   **Precision Door:** Offers premier garage door repair service in and around West Palm Beach, utilizing high-quality parts to ensure reliable operation.\n*   **Thumbtack:** Features a list of the top-rated garage door repair companies in West Palm Beach, based on community ratings.",
+    "summary": "This is an SEO compilation of resources and service providers for garage door repair, sales, and installation in West Palm Beach, FL. The results include details from multiple competing local businesses (e.g., General Garage Door, Broten, Quality Garage Door) and directory listings (Yelp, Thumbtack), confirming that various options are available for residents needing professional service.",
+    "word_count": 196
+  }
+}

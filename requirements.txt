@@ -6,3 +6,5 @@ langgraph-checkpoint-sqlite
 httpx
 python-dotenv
 ollama
+firecrawl-py>=4.0.0
+discord.py>=2.3.0

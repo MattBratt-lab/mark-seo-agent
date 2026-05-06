@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260502_220142.json",
+  "processed_at_utc": "2026-05-02T22:02:24.375783+00:00",
+  "result": {
+    "cleaned_text": "Overview of Garage Door Services in West Palm Beach, FL:\n\n*   **General Garage Door:** Specializing in the sales, service, and installation of residential and commercial garage doors for over 45 years. (Source: generalgaragedoor.com)\n*   **Top Rated Services (Yelp):** Lists highly reviewed repair companies including New Era Services, Locktight Impact, First Priority Garage Doors, and Premium Garage Door & Gate. (Source: yelp.com)\n*   **Quality Garage Door:** A fully licensed, family-owned business offering same-day, affordable West Palm Beach garage door service. (Source: qualitygaragedoorwestpalm.com)\n*   **Broten:** Provides garage door repairs and installations in West Palm Beach, serving the community since 1955. (Source: broten.com)\n*   **American-Palm Beach Garage Door:** Offers comprehensive garage services in West Palm Beach, FL. (Source: conves.io)\n*   **Precision Door:** Provides premier garage door repair service using top parts in and around West Palm Beach. (Source: precisiondoor.net)\n*   **Thumbtack:** Provides a list and ratings of West Palm Beach's garage door repair companies based on community reviews. (Source: thumbtack.com)\n*   **Precision Garage Door South Florida:** A full-service provider with contact information for repair, openers, and new doors in West Palm Beach, FL. (Source: flgaragedoor.com)",
+    "summary": "This search export provides a compilation of local businesses and services for garage door repair, sales, and installation in West Palm Beach, Florida. Multiple sources offer highly rated local companies (e.g., General Garage Door, Quality Garage Door, Precision Door) with details on experience, service areas, and community ratings, helping users compare options.",
+    "word_count": 157
+  }
+}

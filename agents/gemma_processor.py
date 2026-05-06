@@ -10,7 +10,9 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from datetime import datetime, timezone
+from json import JSONDecoder
 from pathlib import Path
 from typing import Any, Dict
 
@@ -34,6 +36,40 @@ TOP_P = 0.95
 def _get_ollama_client() -> Client:
     """Initialize the Ollama SDK client."""
     return Client(host=OLLAMA_HOST)
+
+
+def _parse_model_json_blob(content: str) -> Dict[str, Any]:
+    """Parse JSON from model output; tolerate fences, prose, or trailing junk."""
+    text = (content or "").strip()
+    if not text:
+        raise ValueError("Gemma returned empty content.")
+
+    fence = re.match(r"^```(?:json)?\s*\n?", text, flags=re.I)
+    if fence:
+        text = text[fence.end() :]
+        text = re.sub(r"\n?```\s*$", "", text, flags=re.I).strip()
+
+    try:
+        out = json.loads(text)
+        if isinstance(out, dict):
+            return out
+    except json.JSONDecodeError:
+        pass
+
+    start = text.find("{")
+    if start == -1:
+        raise ValueError(
+            "Gemma output was not valid JSON. First 240 chars:\n"
+            + text[:240].replace("\n", " ")
+        )
+    try:
+        obj, _end = JSONDecoder().raw_decode(text[start:])
+    except json.JSONDecodeError as exc:
+        snippet = text[start : start + 400].replace("\n", " ")
+        raise ValueError(f"Could not parse JSON object from model: {exc}; near: {snippet!r}") from exc
+    if not isinstance(obj, dict):
+        raise ValueError("Gemma JSON root must be an object.")
+    return obj
 
 
 def _resolve_raw_file(input_file: str) -> Path:
@@ -80,7 +116,7 @@ def _ask_gemma_to_clean(raw_text: str) -> Dict[str, Any]:
     )
 
     content = response["message"]["content"]
-    parsed = json.loads(content)
+    parsed = _parse_model_json_blob(content)
     if "cleaned_text" not in parsed:
         raise ValueError("Gemma response missing required key: cleaned_text")
     return parsed

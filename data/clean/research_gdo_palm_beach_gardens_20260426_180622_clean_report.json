@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260426_180622.json",
+  "processed_at_utc": "2026-04-26T18:07:10.898741+00:00",
+  "result": {
+    "cleaned_text": "SEO research on garage door services in Palm Beach Gardens, Florida, reveals several local providers. Precision Door offers expert repair services using premium parts. Broten, a long-standing name in the industry since 1955, provides sales and service with a high customer satisfaction rating. Yelp listings show top services, including Pine Air Fences & Doors and The Garagers. Meta Garage Doors can be reached at (561) 532-2990 for repair, installation, and spring service. Another listing, Precision Garage Door, is rated 4.98 Stars across 274 reviews. The Garage Door King offers 24/7 assistance via (866) 807-6956 or (561) 662-2177. EDL GM provides a wide selection of garage doors and services for both residential and commercial clients. Finally, Mr. Fix It Doors, a family-owned company with 30 years of experience, offers local repair services.",
+    "summary": "This collection of search results provides a comprehensive list of local businesses offering garage door repair, sales, and installation services in Palm Beach Gardens, FL. Key providers include Precision Door, Broten, Meta Garage Doors, and others, all offering local service details, contact information, and reputation metrics (e.g., high ratings and years of experience).",
+    "word_count": 189
+  }
+}

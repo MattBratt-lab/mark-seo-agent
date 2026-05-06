@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boynton_beach_20260423_150337.json",
+  "processed_at_utc": "2026-04-23T15:04:14.686316+00:00",
+  "result": {
+    "cleaned_text": "For comprehensive SEO research on garage door services in Boynton Beach, FL, here are several high-value links and descriptions:\n\n1. **Broten:** Offers top-notch new garage doors, repairs, and maintenance services. (URL: https://www.broten.com/about/service-areas/boynton-beach/)\n2. **Precision Garage Door:** Provides rated services and expertise in garage door repair, openers, and new installations. (URL: https://flgaragedoor.com/reviews/city/boynton-beach)\n3. **(561) 623-3759:** Offers quality garage door repair and installation services, including gate maintenance. (URL: http://www.boyntonbeachgaragedoors.com/)\n4. **EDL / Gate Masters:** Sells both residential and commercial garage doors, ensuring impact-rated products to meet local codes. (URL: https://www.edl-gm.com/contact/florida-locations/boynton-beach/)\n5. **Yelp Directory:** Lists top-rated providers including Broten Garage Door Sales, PBC Locksmith, and others. (URL: https://www.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=Boynton+Beach%2C+FL)\n6. **Boynton Garage Door:** Positions itself as the original provider for professional maintenance and repair services. (URL: https://www.boyntongaragedoor.com/)\n7. **Precision Door:** A leading specialist in repair of garage doors and openers in Boynton Beach, FL. (URL: https://www.precisiondoor.net/locations/florida/south-florida/boynton-beach)\n8. **Mr Fix It Doors:** A family-owned company with 30 years of experience in garage door repair.\n\nThis collection provides diverse perspectives, from local directories and specific repair services to new installations and highly-rated competitors.",
+    "summary": "A compiled list of eight high-relevance search results for garage door repair and installation services in Boynton Beach, FL. The results include established companies (Broten, Precision Door), local service sites, business directories (Yelp), and direct contact information, providing comprehensive SEO research material.",
+    "word_count": 198
+  }
+}

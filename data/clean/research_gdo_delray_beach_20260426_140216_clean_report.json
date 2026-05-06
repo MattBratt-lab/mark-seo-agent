@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_delray_beach_20260426_140216.json",
+  "processed_at_utc": "2026-04-26T14:02:51.423553+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Findings: Garage Door Services in Delray Beach, FL\n\n*   **Broten:** Garage Door Repairs & Sales in Delray Beach. A dedicated service provider in Delray Beach for all garage door issues and products.\n*   **Yelp:** Top-rated garage door services near Delray Beach, FL, featuring reviews and local businesses like Eric's United Garage Doors.\n*   **FL Garage Door:** Delray Beach, FL - Precision Garage Door Service of South Florida. Testimonials highlighting excellent service, including motor and opener replacement in less than 90 minutes.\n*   **Mr. Fix It Doors:** Fast, Affordable, and Reliable Garage Door Service & Repair in Delray Beach, FL. Offers immediate help for garage door troubles.\n*   **General Garage Door:** Trusted Garage Door Service & Repair in Delray Beach, FL. Experts in handling issues like jammed doors and broken springs.\n*   **Precision Door:** Garage Door Repair Delray Beach, Florida. A leading company specializing in repair of garage doors and openers in the area.\n*   **Thumbtack:** Garage door repair professionals near Delray Beach, FL. A community-rated list to help select qualified local repair companies.\n*   **Angi (Angie's List):** Top 10 Best Garage door pros in Delray Beach, FL. A platform providing real reviews and ratings to help choose the right professional.",
+    "summary": "This research compilation identifies eight high-value sources for local SEO targeting 'Garage Door Repair/Services in Delray Beach, FL'. The sources include local service providers (Broten, Mr. Fix It Doors, etc.), large directory/review sites (Yelp, Angi, Thumbtack), and specialized local businesses (Precision Door). The gathered data emphasizes expertise, reliability, fast service, and high customer satisfaction within the Delray Beach market.",
+    "word_count": 178
+  }
+}

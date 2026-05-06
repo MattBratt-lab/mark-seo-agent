@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_jupiter_20260420_223058.json",
+  "processed_at_utc": "2026-04-20T22:31:32.248943+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Findings: Garage Door Services in Jupiter, FL\n\nKey service areas and providers for garage door repair and installation in Jupiter, Florida, include:\n\n1. **General Services & Reviews:**\n    *   **Yelp:** Highlights the top 10 services and includes listings like Integrity Garage Door Services. (Source: yelp.com)\n    *   **General Coverage:** Multiple sources list services covering general repair, open, and new garage doors.\n\n2. **Specialized Providers:**\n    *   **Precision Garage Door:** Offers expert services specializing in repair, openers, and new installations in Jupiter, FL. They have strong ratings (e.g., 4.93 Stars from 501 Reviews). (Sources: precisiondoor.net, flgaragedoor.com)\n    *   **Residential Garage Door Service:** Provides fast, local service for urgent needs, including stuck doors, broken springs, and damaged panels, with same-day/next-day service. (Source: residentialgaragedoorservice.net)\n    *   **Mr. Fix It Doors:** Focuses on fast, affordable, and reliable garage door service and repair with local contact information. (Source: mrfixitdoors.com)\n    *   **General Garage Door:** Has been serving Jupiter, FL, since 1978, offering high-quality repair and door supplies. (Source: generalgaragedoor.com)\n    *   **Broten:** Offers expert garage door repairs and sales, focusing on maintaining curb appeal and durability in Jupiter Town. (Source: broten.com)\n    *   **Royce Garage Doors:** A family-owned business since 1994, specializing in the repair and replacement of garage doors and operators. (Source: facebook.com)",
+    "summary": "This report gathers useful SEO data on garage door service providers in Jupiter, FL. Several highly-rated and established companies were identified, including Precision Garage Door, Residential Garage Door Service, and General Garage Door. These services specialize in repair, installation, and replacement of garage doors and openers, catering to urgent needs and offering high reliability in the local area.",
+    "word_count": 218
+  }
+}

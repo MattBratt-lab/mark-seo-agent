@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_jupiter_20260423_170607.json",
+  "processed_at_utc": "2026-04-23T17:07:06.372382+00:00",
+  "result": {
+    "cleaned_text": "Searching for Garage Door Services in Jupiter, FL, reveals several specialized options. These businesses offer comprehensive services including repair, installation, and sales of new garage doors.\n\n**Key Services & Providers Mentioned:**\n*   **General Services:** Multiple providers offer general services like repair for stuck doors, broken springs, and damaged panels, emphasizing fast and local service (e.g., Residential Garage Door Service, General Garage Door).\n*   **Specific Providers:**\n    *   **Yelp Listings:** Provides a directory of the top 10 services in Jupiter, FL.\n    *   **Precision Garage Door:** A recognized specialist offering repair and new garage door openers and doors in Jupiter, FL (rated 4.93 stars).\n    *   **Broten Garage Door Sales:** Offers expert repairs and sales, focusing on durability and curb appeal.\n    *   **MR Fix It Doors:** Promotes fast, affordable, and reliable service with direct contact details.\n    *   **Royce Garage Doors:** A locally established business with a presence on Facebook, offering repair and replacement services.\n\nOverall, the market is competitive, with options available ranging from large listing services to highly localized specialists, all focused on maintaining home safety and appearance.",
+    "summary": "This is an SEO research compilation detailing various garage door service providers in Jupiter, FL. The results highlight multiple businesses offering repair, installation, and sales of garage doors, emphasizing speed, reliability, and expert service. Key services and providers include Yelp directory listings, Precision Garage Door, Broten Garage Door Sales, MR Fix It Doors, and Royce Garage Doors.",
+    "word_count": 204
+  }
+}

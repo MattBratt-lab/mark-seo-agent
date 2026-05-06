@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260502_210016.json",
+  "processed_at_utc": "2026-05-02T21:01:17.554374+00:00",
+  "result": {
+    "cleaned_text": "TITLE: THE BEST 10 GARAGE DOOR SERVICES IN BOCA RATON, FL\nURL: https://www.yelp.com/search?cflt=garage_door_services&find_loc=Boca+Raton%2C+FL\nSNIPPET: The Doorman of Southeast Fl · 3.0 mi · 926 Clint Moore Rd, Boca Raton, FL 33487. (561) 272-3667 ; Danny Keys · 2.8 mi · Boca Raton, FL 33431. (754) 337-0481 ; Boca ...\n\nTITLE: Garage Door Repairs & Installation in Boca Raton | Broten\nURL: https://www.broten.com/about/service-areas/boca-raton/\nSNIPPET: Broten offers 24-hour emergency repair services. Our professionals are on-call and will arrive with the knowledge, tools, and parts to repair most makes and ...\n\nTITLE: Garage Door Products & Services in Boca Raton | The Doorman\nURL: https://www.palmbeachdoors.com/\nSNIPPET: We can be reached at (561) 612-0220. We value every customer's specific project needs and that's why we offer a full line of the Highest Quality Clopay Garage ...\n\nTITLE: Boca Raton, FL - Precision Garage Door Service of South Florida\nURL: https://flgaragedoor.com/reviews/city/boca-raton\nSNIPPET: I had an excellent experience with Precision Garage Door Service. Julio, the service technician, was professional and punctual. He carefully analyzed my current ...\n\nTITLE: Expert Boca Raton Garage Door Repairs\nURL: https://bocagaragedoorrepair.com/\nSNIPPET: Boca Garage Door Services is your go-to partner for all your garage door needs. Whether it's installation, repair, or maintenance, we've got you covered.\n\nTITLE: Garage Door Repair near Boca Raton, FL | Better Business Bureau\nURL: https://www.bbb.org/us/fl/boca-raton/category/garage-door-repair\nSNIPPET: BBB Directory of Garage Door Repair near Boca Raton, FL. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.\n\nTITLE: Garage Door Repair Boca Raton, FL - DoorFlex\nURL: https://www.doorflexgaragedoorfl.com/\nSNIPPET: Professional, Fast & Affordable Garage Door Repair Services in Boca Raton, FL and the surrounding areas. Call us today at (561) 210-4001.\n\nTITLE: Top 10 Best Garage door pros in Boca Raton, FL | Angi\nURL: https://www.angi.com/companylist/us/fl/boca-raton/garage-doors.htm\nSNIPPET: Read real reviews and see ratings for Boca Raton, FL garage door pros for free! This list will help you pick the right garage door pros in Boca Raton, FL.",
+    "summary": "This export provides a list of 8 local businesses and resources offering garage door repair and installation services in Boca Raton, Florida. Listings cover reputable services (e.g., Broten, DoorFlex), directories (Yelp, BBB, Angi), and local providers (Palm Beach Doors, Fl Garage Door). Key services mentioned include emergency 24-hour repairs, installations, and general maintenance. The listings provide contact information, service areas, and review highlights for SEO research.",
+    "word_count": 313
+  }
+}

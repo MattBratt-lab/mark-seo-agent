@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260503_150912.json",
+  "processed_at_utc": "2026-05-03T15:10:18.077897+00:00",
+  "result": {
+    "cleaned_text": "Garage Door Services in Boca Raton, FL:\n\n*   **The Best 10 Garage Door Services in Boca Raton, FL**\n    *   (URL: https://www.yelp.com/search?cflt=garage_door_services&find_loc=Boca+Raton%2C+FL)\n    *   *Snippet:* Features local listings including The Doorman of Southeast Fl and Danny Keys.\n*   **Garage Door Repairs & Installation in Boca Raton | Broten**\n    *   (URL: https://www.broten.com/about/service-areas/boca-raton/)\n    *   *Snippet:* Broten offers 24-hour emergency repair services, arriving with the knowledge and tools to repair most makes.\n*   **Garage Door Products & Services in Boca Raton | The Doorman**\n    *   (URL: https://www.palmbeachdoors.com/)\n    *   *Snippet:* Offers a full line of high-quality garage door products and services, emphasizing specific project needs.\n*   **Boca Raton, FL - Precision Garage Door Service of South Florida**\n    *   (URL: https://flgaragedoor.com/reviews/city/boca-raton)\n    *   *Snippet:* Review highlighting excellent experience with professional and punctual service (e.g., Julio).\n*   **Expert Boca Raton Garage Door Repairs**\n    *   (URL: https://bocagaragedoorrepair.com/)\n    *   *Snippet:* A comprehensive resource for all garage door needs, including installation, repair, and maintenance.\n*   **Garage Door Repair near Boca Raton, FL | Better Business Bureau**\n    *   (URL: https://www.bbb.org/us/fl/boca-raton/category/garage-door-repair)\n    *   *Snippet:* A guide to trusted BBB Ratings, customer reviews, and accredited businesses for garage door repair in the area.\n*   **Garage Door Repair Boca Raton, FL - DoorFlex**\n    *   (URL: https://www.doorflexgaragedoorfl.com/)\n    *   *Snippet:* Offers professional, fast, and affordable garage door repair services in Boca Raton and surrounding areas.\n*   **Top 10 Best Garage door pros in Boca Raton, FL | Angi**\n    *   (URL: https://www.angi.com/companylist/us/fl/boca-raton/garage-doors.htm)\n    *   *Snippet:* A list to help users read real reviews and see ratings for top garage door professionals in Boca Raton, FL.",
+    "summary": "This is a compilation of online resources and local service providers specializing in garage door repairs, installations, and maintenance in Boca Raton, FL. The listings include dedicated service websites (Broten, Palm Beach Doors, DoorFlex) and consumer review platforms (Yelp, BBB, Angi), providing comprehensive options for residents needing expert local service.",
+    "word_count": 289
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260421_033620.json",
+  "processed_at_utc": "2026-04-21T03:37:00.509360+00:00",
+  "result": {
+    "cleaned_text": "General Garage Door Repair, Service | North, West Palm Beach FL | Garage...: For over 45 years, General Garage Door has specialized in the sales, service, and installation of residential and commercial garage doors and garage door...\nTHE BEST 10 GARAGE DOOR SERVICES in WEST PALM BEACH, FL: Pine Air Fences & Doors · 2.2 mi · West Palm Beach, FL 33401. (561) 944-8505; B&M Garage Doors Repair · 2.6 mi · 319 Clematis St, West Palm Beach, FL 33401. (561)...\nPrecision Garage Door South Florida | Repair, Openers & New...: New garage doors, openers & same day repair. Calls answered 24/7. Free quotes on new doors. Serving Palm Beach... West Palm Beach (561) 503-4771. Broward County...\nQuality Garage Door Services: West Palm Beach Garage Door Repair: A fully licensed, family owned business that is local to West Palm Beach. We provide same day West Palm Beach garage door service at low, affordable prices.\nGarage Door Repairs & Sales in West Palm Beach - Broten: For any garage door need in West Palm Beach, contact Broten Garage Door Sales. Request a free estimate or schedule an appointment for same day service today.\nGarage Door Repair, Garage Door Springs | Palm Beach Gardens, FL: Professional Clopay & Amarr overhead garage door installation, garage door openers & spring repairs in Wellington, Jupiter, Palm Beach Gardens, Florida.\nAmerican-Palm Beach Garage Door, Corp.: Complete Garage Door Installations and Repairs. For more than 40 years... 4675 Dyer Blvd. West Palm Beach, FL 33407; 561-867-6279; Mon - Fri: 8:00 am...\nGarage Door Repair West Palm Beach, Florida: Providing premier garage door repair service in and around West Palm Beach! Our highly trained technicians use only the best parts to ensure your garage door... ",
+    "summary": "This data set provides a collection of search results for garage door services in the West Palm Beach, Florida area. It includes service providers like General Garage Door, B&M Garage Doors Repair, Precision Garage Door, and others. The listings offer key details such as specialized services (installation, repair, openers), geographical coverage, contact information, and promises of quick, affordable, and professional service.",
+    "word_count": 246
+  }
+}

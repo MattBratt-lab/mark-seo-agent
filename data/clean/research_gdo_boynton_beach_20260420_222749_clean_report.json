@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boynton_beach_20260420_222749.json",
+  "processed_at_utc": "2026-04-20T22:28:24.635277+00:00",
+  "result": {
+    "cleaned_text": "Overview of Garage Door Repair and Installation Services in Boynton Beach, FL. This collection includes listings and resources from multiple local providers. Key services mentioned include: new garage doors, repairs, and maintenance for both residential and commercial properties. Multiple highly-rated companies are listed, such as Broten, Precision Garage Door, The Original Boynton Garage Door, and Boynton Beach Garage Doors. Service providers emphasize expertise, local presence, and reliability, with several listings featuring direct contact information and review counts from platforms like Yelp and Google.",
+    "summary": "A compilation of local search results for professional garage door repair and installation services in Boynton Beach, FL. Various local companies offer services ranging from routine maintenance to full replacements, highlighting their expertise, local ratings, and direct contact information.",
+    "word_count": 148
+  }
+}

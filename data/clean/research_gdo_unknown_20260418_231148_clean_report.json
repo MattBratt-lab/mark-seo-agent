@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_unknown_20260418_231148.json",
+  "processed_at_utc": "2026-04-18T23:22:18.752472+00:00",
+  "result": {
+    "cleaned_text": "The search results cover a range of topics related to garage door openers, including troubleshooting, common problems, potential scams, and professional repair services.\n\n**Troubleshooting & Maintenance Tips:**\n*   A detailed video guide addresses common garage door opener problems and how to fix them.\n*   One user encountered an 'unknown error' with their opener, despite trying factory resets and re-pairing remotes.\n*   Tips suggest that frequency issues can often be resolved by clearing and reprogramming saved remotes.\n*   A common cause for the door opening by itself is faulty resistance sensors, which detect resistance and close the door (similar to elevator doors).\n\n**Safety & Consumer Advice:**\n*   There is advice available on how to detect and avoid garage door repair scams.\n\n**Services & General Info:**\n*   Several listings offer 24/7 emergency garage door repair and maintenance services.\n*   Other resources cover general installations, repairs, and handling specific garage door issues.",
+    "summary": "This collection of search results provides comprehensive advice and resources on garage door openers, ranging from how to troubleshoot common issues (like unknown errors, frequency problems, and sensors), avoiding repair scams, and finding professional 24/7 repair services.",
+    "word_count": 230
+  }
+}

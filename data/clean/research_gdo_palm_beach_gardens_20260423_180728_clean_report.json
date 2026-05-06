@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260423_180728.json",
+  "processed_at_utc": "2026-04-23T18:08:06.688368+00:00",
+  "result": {
+    "cleaned_text": "Based on local search results for garage door services in Palm Beach Gardens, FL, several reputable companies offer sales, service, and repair. \n\n**Broten:** Since 1955, Broten provides garage door sales and service in South Florida, boasting a 98.5% customer satisfaction rating. (Source: broten.com)\n\n**Yelp Listings:** Yelp suggests multiple services, including Pine Air Fences & Doors and The Garagers, in the Palm Beach Gardens area.\n\n**Precision Door:** Offers expert garage door repair services in Palm Beach Gardens, utilizing professionally trained technicians and premium parts. (Source: precisiondoor.net)\n\n**Meta Garage Doors:** Available for scheduling garage door repair, installation, opener service, spring repair, or gate repair in Palm Beach Gardens, FL, via phone at (561) 532-2990. (Source: metagaragedoors.com)\n\n**Fl Garage Door:** Rated highly (4.98 Stars from 274 Reviews) for services including repair, openers, and new garage doors in Palm Beach Gardens, FL. (Source: flgaragedoor.com)\n\n**EDL GM:** Provides options for quality garage doors, along with Entrance Gate Service and Repair for both residential and commercial properties in Palm Beach Gardens. (Source: edl-gm.com)\n\n**The Garage Door King:** Offers advice and help for garage door repair and springs in Palm Beach Gardens, FL, available via phone at (866) 807-6956 or (561) 662-2177. (Source: thegaragedoorking.org)\n\n**General Garage Door:** This family-owned company services and installs a wide range of products, including new garage doors, openers, gate openers, rolling doors, and rolling grilles. (Source: generalgaragedoor.com)",
+    "summary": "This compilation provides SEO research snippets for garage door sales and repair services in Palm Beach Gardens, FL. It highlights eight local competitors, detailing their specialties (e.g., installation, opener service, gate repair), years in business, key services offered, and contact/rating information to assist in local SEO targeting.",
+    "word_count": 262
+  }
+}

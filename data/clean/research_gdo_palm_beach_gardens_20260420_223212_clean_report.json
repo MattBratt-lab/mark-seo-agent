@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260420_223212.json",
+  "processed_at_utc": "2026-04-20T22:32:53.687014+00:00",
+  "result": {
+    "cleaned_text": "This dataset provides eight local service listings for garage door repair and installation in Palm Beach Gardens, Florida. The resources cover a range of providers, including Precision Door, Yelp listings, Broten, and others. Key services highlighted are expert repair, installation, opener service, spring repair, and general troubleshooting. Providers emphasize experience (e.g., 30 years, since 1955) and high customer satisfaction ratings (e.g., 98.5%, 4.98 Stars). Several listings include contact information (phone numbers) and service scope details, suggesting a competitive local market with multiple reputable options.",
+    "summary": "A compilation of local search results for garage door repair and services in Palm Beach Gardens, FL. The listings feature multiple providers, detailed services (repair, installation, opener, spring), and credentials emphasizing experience and high customer satisfaction.",
+    "word_count": 127
+  }
+}

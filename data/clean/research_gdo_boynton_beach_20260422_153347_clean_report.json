@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boynton_beach_20260422_153347.json",
+  "processed_at_utc": "2026-04-22T15:34:21.102857+00:00",
+  "result": {
+    "cleaned_text": "For top-notch new garage doors, repairs & maintenance in Boynton Beach, contact Broten. Discover why countless Boynton Beach residents choose us every year! \n\nPrecision Garage Door, rated 4.94 Stars (543 Reviews) in Boynton Beach, FL. Precision Garage Door provides Garage Door Repair, Openers & New Garage Doors in... \n\nGarage door repair & installation services in Boynton Beach, FL - Simply call to (561) 623-3759 - We offer leading quality garage doors & gate maintenance... \n\nEDL / Gate Masters sells both residential and commercial garage doors. All the garage doors we sell are impact-rated to meet Boynton Beach building codes. When... \n\n“Opening the door to professional maintenance and repair services!” Contact Us. Phone: (561) 789-1204. Hours: Call Anytime... \n\nTop 10 Best Garage Door Repair Near Boynton Beach, Florida - Yelp. Featuring companies like Broten Garage Door Sales (236 reviews), PBC Locksmith (215 reviews), and New Era Services (153 reviews). \n\nPrecision Garage Door is a leading garage door company specializing in repair of garage doors and garage door openers in Boynton Beach, FL... \n\nHere is the definitive list of Boynton Beach's garage door repair companies as rated by the Boynton Beach, FL community. Discover local professionals for your needs.",
+    "summary": "This collection of search results provides multiple options for professional garage door repair and installation services in Boynton Beach, FL. Key providers mentioned include Broten, Precision Garage Door, and others listed on platforms like Yelp and Thumbtack. Services range from new door sales and comprehensive maintenance to emergency repairs, all meeting local building codes.",
+    "word_count": 265
+  }
+}

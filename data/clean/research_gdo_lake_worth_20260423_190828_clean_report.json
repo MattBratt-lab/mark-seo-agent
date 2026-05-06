@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lake_worth_20260423_190828.json",
+  "processed_at_utc": "2026-04-23T19:09:08.334999+00:00",
+  "result": {
+    "cleaned_text": "This search export provides comprehensive resources for SEO research regarding garage door services in Lake Worth, FL. Several local businesses and directories are listed, offering repair, sales, and installation services.\n\nKey resources include:\n\n*   **Broten:** Offers exceptional garage door repair services and top-notch garage doors and openers in Lake Worth. (URL: https://www.broten.com/about/service-areas/lake-worth/)\n*   **Yelp:** Lists highly-rated garage door services, including 'At Your Service Garage Doors' (0.7 mi) and 'B&M Garage Doors Repair'. (URL: https://www.yelp.com/search?cflt=garage_door_services&find_loc=Lake+Worth%2C+FL+33460)\n*   **MrFixItDoors:** Provides fast, affordable, and reliable garage door service and repair in Lake Worth, FL. (URL: https://mrfixitdoors.com/lake-worth/)\n*   **FlGarageDoor:** Features customer reviews, highlighting professional, punctual, and thorough service in South Florida. (URL: https://flgaragedoor.com/reviews/city/lake-worth)\n*   **Clopaydoor:** Highlights 'At Your Service Garage Doors LLC' for installation and repair services in Lake Worth Beach, Florida. (URL: https://www.clopaydoor.com/dealers/garage-doors-lake-worth-fl-at-your-service-garage-doors-llc)\n*   **LakeWorthsGarageDoorRepair:** Specializes in affordable, efficient solutions for common issues like broken springs and misaligned tracks. (URL: https://lakeworthsgaragedoorrepair.com/)\n*   **BBB:** Lists local professionals like 'At Your Service Garage Doors, LLC' and 'Shutter Up Industries, Inc.' (URL: https://www.bbb.org/us/fl/lake-worth/category/garage-doors)\n*   **Angi:** Provides a list of top-rated garage door professionals and allows users to read real reviews for Lake Worth, FL. (URL: https://www.angi.com/companylist/us/fl/lake-worth/garage-doors.htm)",
+    "summary": "The export aggregates multiple high-authority listings (Yelp, BBB, Angi, specialized sites) for garage door services in Lake Worth, FL. It compiles contact information, service descriptions (repair, sales, installation), and links to reviews, providing robust content for local SEO research.",
+    "word_count": 247
+  }
+}

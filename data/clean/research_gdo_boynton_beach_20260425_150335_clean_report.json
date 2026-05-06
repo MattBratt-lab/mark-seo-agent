@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boynton_beach_20260425_150335.json",
+  "processed_at_utc": "2026-04-25T15:04:12.265684+00:00",
+  "result": {
+    "cleaned_text": "Search results for garage door repair and services in Boynton Beach, FL:\n\n*   **Garage Door Repairs & Installation in Boynton Beach** (Broten): Offers top-notch new garage doors, repairs, and maintenance. Ideal for residents looking for reliable service.\n*   **Boynton Beach, FL** (flgaragedoor.com): Highlights a service rated 4.94 Stars (543 Reviews) for Garage Door Repair, Openers & New Garage Doors.\n*   **Boynton Beach Garage Doors & Entrance Gates** (edl-gm.com): Sells both residential and commercial garage doors and entrance gates. Doors are impact-rated to meet local building codes.\n*   **TOP 10 BEST Garage Door Repair in Boynton Beach, FL** (yelp.com): Lists top services, including Broten Garage Door Sales, PBC Locksmith, New Era Services, and Locktight Impact, based on multiple reviews.\n*   **The Original Boynton Garage Door: Home** (boyntongaragedoor.com): Provides professional maintenance and repair services, with contact details available.\n*   **Garage Door Repair Boynton Beach, Florida** (precisiondoor.net): A leading company specializing in the repair of garage doors and garage door openers in Boynton Beach, FL.\n*   **Garage door repair & installation services in Boynton Beach, FL** (boyntonbeachgaragedoors.com): Offers leading quality garage doors and gate maintenance services. Contact available at (561) 623-3759.\n*   **Garage door repair professionals near Boynton Beach, FL** (thumbtack.com): Features reliable, high-quality repairs from providers like Danilo Garage Door Repair, emphasizing safety and honest pricing.",
+    "summary": "This compilation of search results provides comprehensive resources for garage door repair, installation, and maintenance in Boynton Beach, FL. Key services highlighted include new and used residential/commercial garage doors, opener repair, and gate maintenance. Reputable companies mentioned include Broten, Precision Garage Door, EDL/Gate Masters, and others, providing various options for residents to find highly-rated local professionals.",
+    "word_count": 190
+  }
+}

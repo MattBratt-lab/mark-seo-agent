@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lake_worth_20260425_190755.json",
+  "processed_at_utc": "2026-04-25T19:08:29.976773+00:00",
+  "result": {
+    "cleaned_text": "This collection of search results focuses on garage door repair, sales, and installation services in the Lake Worth, FL area. Several local businesses are listed, providing multiple ways to find qualified professionals.\n\nKey Services & Offerings:\n*   **Comprehensive Services:** Options for garage door repair, new sales, and expert installation, including services for specific issues like broken springs or misaligned tracks (Broten, lakeworthsgaragedoorrepair.com).\n*   **Local Providers & Reviews:** Directory links from platforms like Yelp, Angi, and the BBB provide user reviews and lists of highly-rated local professionals, helping users compare options and read customer testimonials.\n*   **Direct Repair Services:** Multiple dedicated businesses offer fast, affordable, and reliable service, including contact information and service area details (mrfixitdoors.com, clopaydoor.com, flgaragedoor.com).\n\nThe results emphasize convenience and trust, offering multiple local options to meet immediate needs for garage door maintenance.",
+    "summary": "This search export provides a comprehensive list of resources and local businesses specializing in garage door repair, sales, and installation in Lake Worth, FL. Sources include dedicated service websites, local directories (BBB, Angi), and review platforms (Yelp), enabling users to compare services, read reviews, and contact multiple qualified professionals in the area.",
+    "word_count": 192
+  }
+}

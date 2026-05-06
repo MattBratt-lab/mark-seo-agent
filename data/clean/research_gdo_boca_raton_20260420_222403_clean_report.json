@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260420_222403.json",
+  "processed_at_utc": "2026-04-20T22:24:42.848350+00:00",
+  "result": {
+    "cleaned_text": "The search results provide a compilation of resources for garage door services in Boca Raton, FL. Multiple providers offer expertise in repair, installation, and maintenance. Key services highlighted include 24-hour emergency repair and full-service support for various needs.\n\nFeatured Companies/Services:\n*   **Yelp Listings:** Highlights top garage door services in Boca Raton, listing several local providers (e.g., IDN Garage Door Services, Joes Doors, Door Doctor).\n*   **Broten:** Offers 24-hour emergency repair services, handling most makes and models.\n*   **MR Fix It Doors:** A family-owned company with 30 years of experience in the garage door repair industry.\n*   **Precision Garage Door Service:** Provides comprehensive service, including repairs and installations in South Florida.\n*   **The Doorman (Palm Beach Doors):** Offers a full line of high-quality garage door products and services, with contact number (561) 612-0220.\n*   **Boca Garage Door Services:** Positions itself as the go-to partner for all garage door needs (installation, repair, maintenance).\n*   **Overhead Door Boca Raton:** Offers same-day overhead door service, with contact number (561) 257-4250.\n*   **Precision Garage Door:** Dedicated service providing repairs and installations for garage doors and gates in Boca Raton.",
+    "summary": "This collection of search results identifies several highly-rated and specialized providers for comprehensive garage door services in Boca Raton, FL. Businesses listed offer services ranging from 24-hour emergency repairs and routine maintenance to full installation of high-quality products. Key services include expertise across various makes/models and options for same-day service.",
+    "word_count": 219
+  }
+}

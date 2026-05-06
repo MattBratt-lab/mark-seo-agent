@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260424_120001.json",
+  "processed_at_utc": "2026-04-24T12:00:27.370201+00:00",
+  "result": {
+    "cleaned_text": "A compilation of resources for garage door services in Boca Raton, FL, including listings from Yelp, Broten, Overhead Door Boca Raton, The Doorman, Precision Garage Door Service, Boca Garage Door Services, Mr. Fix It Doors, and the Better Business Bureau. These services cover everything from emergency repairs and installations to routine maintenance, ensuring customers have multiple options for reliable and trusted local providers.",
+    "summary": "SEO research compilation covering top garage door service providers in Boca Raton, FL. The results list multiple local businesses, including Yelp listings, repair specialists, and service directories, offering comprehensive information on repairs, installations, and emergency services for garage doors.",
+    "word_count": 96
+  }
+}

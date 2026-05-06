@@ -8,3 +8,6 @@ binding = "AI"
 
 # Set at deploy time:
 #   wrangler secret put AUTH_TOKEN
+#   wrangler secret put GITHUB_TOKEN   (fine-grained PAT: Contents read+write on your Pages repo)
+#   wrangler secret put GITHUB_REPO    (e.g. "youruser/dandb-site")
+#   wrangler secret put GITHUB_BRANCH  (optional, defaults to "main")

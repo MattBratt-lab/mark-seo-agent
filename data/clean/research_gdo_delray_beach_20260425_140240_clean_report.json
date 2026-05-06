@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_delray_beach_20260425_140240.json",
+  "processed_at_utc": "2026-04-25T14:03:10.317255+00:00",
+  "result": {
+    "cleaned_text": "SEO research results for Garage Door Services in Delray Beach, FL.\n\nSources provide various resources for garage door repair and service in the Delray Beach area. Services highlighted include:\n\n*   **Broten:** Specializes in garage door repair and service in Delray Beach.\n*   **Yelp:** Lists top-rated garage door services, including Eric's United Garage Doors.\n*   **FL Garage Door:** Offers precision garage door service, with reviews noting quick and knowledgeable service (e.g., motor/opener replacement).\n*   **MR Fix It Doors:** Provides fast, affordable, and reliable garage door service and repair (contact: 561-461-3866).\n*   **General Garage Door:** Positioned as experts for various issues, such as jammed doors or broken springs.\n*   **Precision Door:** A leading company specializing in repair of garage doors and openers in Delray Beach, FL.\n*   **Thumbtack:** Offers a community-rated list of garage door repair professionals in Delray Beach, FL.\n*   **Angi:** Provides a list of top-rated garage door professionals with real reviews and ratings.",
+    "summary": "This compilation gathers eight high-value search results for 'garage door services in Delray Beach, FL'. The snippets identify multiple local service providers (e.g., Broten, Precision Door, MR Fix It Doors) and major directory listings (Yelp, Angi, Thumbtack), all confirming the availability of professional, fast, and reliable repair and installation services in the Delray Beach area.",
+    "word_count": 165
+  }
+}

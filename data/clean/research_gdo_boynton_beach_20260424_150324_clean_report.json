@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boynton_beach_20260424_150324.json",
+  "processed_at_utc": "2026-04-24T15:04:03.996435+00:00",
+  "result": {
+    "cleaned_text": "This list provides valuable search results for SEO research focusing on garage door services in Boynton Beach, FL. The results include a mix of commercial service pages, local directory listings (Yelp), and direct business sites.\n\n**Key Resources & Competitors:**\n\n*   **Broten:** Offers top-notch new garage doors, repairs, and maintenance. (Source: broten.com)\n*   **Precision Garage Door / Precision Door:** Specialized in repair, openers, and new garage doors, with a strong local presence. (Source: flgaragedoor.com, precisiondoor.net)\n*   **Boynton Beach Garage Doors / The Original Boynton Garage Door:** Dedicated local services, providing repairs and installation. (Source: boyntonbeachgaragedoors.com, boyntongaragedoor.com)\n*   **MR Fix It Doors:** A family-owned company with 30 years of repair experience. (Source: mrfixitdoors.com)\n*   **EDL/Gate Masters:** Sells both residential and commercial, impact-rated garage doors meeting local codes. (Source: edl-gm.com)\n\n**Market Insights:**\n\n*   **Competition:** The market is highly competitive, with multiple dedicated local businesses (Broten, Precision, etc.) and listings from major aggregators (Yelp).\n*   **SEO Focus:** Titles and descriptions consistently feature keywords like \"Garage Door Repair,\" \"Boynton Beach, FL,\" \"Installation,\" and \"Service.\"\n*   **Reviews:** High emphasis on reputation, citing high star ratings and large review counts (e.g., 4.94 Stars from 543 Reviews on Yelp).\n",
+    "summary": "A compilation of search results for garage door repair and installation services in Boynton Beach, FL. The data identifies several key local competitors (e.g., Broten, Precision Garage Door, etc.) and highlights the strong SEO focus of the market, which emphasizes local keywords, high service quality, and established customer reputation.",
+    "word_count": 217
+  }
+}

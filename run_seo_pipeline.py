@@ -33,7 +33,36 @@ def _load_dotenv_safe() -> None:
 
 _load_dotenv_safe()
 
+from agents.discord_bridge import agent_content, agent_footer, discord_webhook_url, post_discord_payload
 from agents.orchestrator import compile_seo_app
+from agents.discord_hitl_bot import start_bot_in_thread
+
+
+def _notify_deploy_result(city: str, commit_url: str, file_path: str, pages_ok: bool) -> None:
+    webhook = discord_webhook_url()
+    if not webhook:
+        return
+    status_icon = "✅" if pages_ok else "⚠️"
+    slug = re.sub(r"[^\w\-]+", "-", city.strip().lower()).strip("-")
+    live_url = f"https://www.dandbgaragedoors.com/locations/{slug}/"
+    payload = {
+        "username": "D&B SEO Orchestrator",
+        "content": agent_content(f"Deploy result — {city}"),
+        "embeds": [
+            {
+                "title": f"{status_icon} Deployed — {city}",
+                "color": 0x2ECC71 if pages_ok else 0xE74C3C,
+                "fields": [
+                    {"name": "🌐 Live Page", "value": live_url, "inline": False},
+                    {"name": "📄 File", "value": f"`{file_path}`", "inline": False},
+                    {"name": "🔗 Commit", "value": commit_url, "inline": False},
+                ],
+                "footer": {"text": agent_footer("SEO Factory", "D&B Garage Doors")},
+            }
+        ],
+    }
+    if not post_discord_payload(payload, webhook_url=webhook, timeout=15.0):
+        print("  [Discord] Deploy notification failed or was rejected.")
 
 
 def _slugify_city(city: str) -> str:
@@ -41,16 +70,37 @@ def _slugify_city(city: str) -> str:
     return s or "output"
 
 
-def main() -> None:
+CITIES = [
+    "Boca Raton",
+    "West Palm Beach",
+    "Delray Beach",
+    "Boynton Beach",
+    "Wellington",
+    "Jupiter",
+    "Palm Beach Gardens",
+    "Lake Worth",
+]
+
+
+def _selected_cities() -> list[str]:
+    raw = os.getenv("SEO_CITY", "").strip()
+    if not raw:
+        return CITIES
+    wanted = {part.strip().lower() for part in raw.split(",") if part.strip()}
+    selected = [city for city in CITIES if city.lower() in wanted]
+    if selected:
+        return selected
+    return [part.strip() for part in raw.split(",") if part.strip()]
+
+
+def _run_city(app: Any, city: str) -> dict[str, Any]:
     thread_id = str(uuid.uuid4())
     cfg: dict[str, Any] = {"configurable": {"thread_id": thread_id}}
-    app = compile_seo_app()
+    print(f"\n{'='*50}")
+    print(f"  Processing: {city}")
+    print(f"{'='*50}")
 
-    print(f"[pipeline] thread_id={thread_id}  (use with resume_hitl.py if HITL pauses)\n")
-
-    city = "Boca Raton"
     inputs: Any = {"city": city}
-
     while True:
         interrupted = False
         for chunk in app.stream(inputs, cfg):
@@ -58,36 +108,64 @@ def main() -> None:
                 interrupted = True
                 break
         if interrupted:
-            auto = os.getenv("AUTO_APPROVE_HITL", "true").lower() in ("1", "true", "yes")
+            auto = os.getenv("AUTO_APPROVE_HITL", "false").lower() in ("1", "true", "yes")
             if auto:
-                print("[HITL] AUTO_APPROVE_HITL=true → resuming with publish=True\n")
                 inputs = Command(resume={"publish": True})
                 continue
-            print(
-                "[HITL] Paused. Approve or reject with:\n"
-                f'  python resume_hitl.py "{thread_id}" approve\n'
-                f'  python resume_hitl.py "{thread_id}" reject\n'
-                "Or set AUTO_APPROVE_HITL=true and re-run.\n"
-            )
-            raise SystemExit(2)
+
+            # Wait for Discord button click (or slash command) to resolve approval.
+            from agents import hitl_gate
+            event = hitl_gate.register(thread_id)
+            timeout = int(os.getenv("HITL_TIMEOUT_SECONDS", "3600"))
+            print(f"[HITL] Waiting for Discord approval — click ✅/❌ in Discord (timeout: {timeout}s).")
+            print(f"[HITL] Thread ID: {thread_id}")
+            resolved = event.wait(timeout=timeout)
+            if not resolved:
+                print("[HITL] Timed out — skipping publish.")
+                inputs = Command(resume={"publish": False})
+            else:
+                approved = hitl_gate.pop_result(thread_id)
+                print(f"[HITL] {'Approved ✅' if approved else 'Rejected ❌'}")
+                inputs = Command(resume={"publish": approved})
+            continue
         break
 
-    snap = app.get_state(cfg)
-    final_state = snap.values
+    return app.get_state(cfg).values
 
-    draft = (final_state.get("content_draft") or "").strip()
-    print(draft)
+
+def main() -> None:
+    # Start Discord bot in background thread so button approvals work without a separate process.
+    start_bot_in_thread()
+
+    app = compile_seo_app()
 
     clean_dir = ROOT / "data" / "clean"
     clean_dir.mkdir(parents=True, exist_ok=True)
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
-    slug = _slugify_city(city)
-    out_path = clean_dir / f"{slug}_pipeline_{stamp}.html"
-    out_path.write_text(draft if draft else "<!-- empty content_draft -->\n", encoding="utf-8")
-    print(f"\nSaved HTML: {out_path.relative_to(ROOT)}")
-    pr = final_state.get("publish_result")
-    if pr is not None:
-        print(f"publish_result: {pr}")
+
+    for city in _selected_cities():
+        final_state = _run_city(app, city)
+
+        draft = (final_state.get("content_draft") or "").strip()
+        stamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+        slug = _slugify_city(city)
+        out_path = clean_dir / f"{slug}_pipeline_{stamp}.html"
+        out_path.write_text(draft if draft else "<!-- empty content_draft -->\n", encoding="utf-8")
+
+        pr = final_state.get("publish_result") or {}
+        deploy = pr.get("deploy", {})
+        local = pr.get("local_deploy", {})
+        commit_url = deploy.get("commitUrl", "—")
+        file_path = deploy.get("filePath", "—")
+        pages_ok = local.get("returncode") == 0
+
+        print(f"  File    : {file_path}")
+        print(f"  Commit  : {commit_url}")
+        print(f"  Pages   : {'✓ deployed' if pages_ok else '✗ skipped/failed'}")
+        print(f"  Saved   : {out_path.relative_to(ROOT)}")
+
+        # Only notify Discord when something actually deployed (not when HITL was skipped/timed out)
+        if commit_url != "—":
+            _notify_deploy_result(city, commit_url, file_path, pages_ok)
 
 
 if __name__ == "__main__":

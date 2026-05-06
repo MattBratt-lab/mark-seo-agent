@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_delray_beach_20260421_182719.json",
+  "processed_at_utc": "2026-04-21T18:27:52.250844+00:00",
+  "result": {
+    "cleaned_text": "Searching for the best garage door services and repairs in Delray Beach, FL. Several top-rated services are available, offering expert assistance for various issues.\n\nKey services and resources found include:\n\n*   **Top 10 List:** A directory listing the best garage door services near Delray Beach, including reviews and local contact details (e.g., Eric's United Garage Doors).\n*   **Comprehensive Repair Services:** Providers like Broten and General Garage Door offer professional sales, repairs, and replacements, handling everything from jammed doors to broken springs.\n*   **Specialized Technicians:** Companies such as Precision Garage Door are highlighted for their technical expertise in repairing garage doors and openers. EDL GM also positions itself as a local, third-generation specialist.\n*   **Community Ratings:** Resources like Yelp and Thumbtack provide user reviews and definitive lists, helping users choose highly-rated local professionals for reliable and affordable service.",
+    "summary": "This compilation of search results provides comprehensive resources for finding top-rated, local garage door repair and service companies in Delray Beach, FL. Multiple businesses are featured, ranging from directory listings and user reviews (Yelp, Thumbtack) to specialized local providers (Precision Garage Door, Broten) offering repairs, sales, and replacements.",
+    "word_count": 141
+  }
+}

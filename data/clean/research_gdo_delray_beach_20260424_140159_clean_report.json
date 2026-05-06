@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_delray_beach_20260424_140159.json",
+  "processed_at_utc": "2026-04-24T14:03:01.886748+00:00",
+  "result": {
+    "cleaned_text": "Delray Beach, FL, appears to be a major service area for garage door repair and sales. Several resources provide directories and services, including:\n\n*   **Broten:** A go-to provider for garage door repair and service in Delray Beach, assisting with various issues and product needs.\n*   **MrFixItDoors:** Offers fast, affordable, and reliable garage door service and repair in Delray Beach, FL, providing a direct contact number.\n*   **FL Garage Door:** Features local reviews, highlighting positive experiences, such as a quick and knowledgeable service call (e.g., motor, key pads, opener replacement).\n*   **Listing/Directory Sites:** Multiple major platforms list top professionals and services in the area, including:\n    *   **Yelp:** Lists top services and directory entries (e.g., Eric's United Garage Doors).\n    *   **Angi:** Provides real reviews and ratings for local garage door professionals.\n    *   **Thumbtack:** Offers a community-rated list of local repair companies.\n    *   **Central Garage Door Service:** Provides 24/7 repair services for springs, tracks, panels, and openers in Delray Beach, with a dedicated contact number.\n\nThese sources indicate a high concentration of professional service providers available 24/7 in Delray Beach, covering diagnostics, parts replacement, and repairs.",
+    "summary": "The provided data aggregates multiple local listings and reviews for garage door repair and services in Delray Beach, FL. Key service providers include Broten, MrFixItDoors, and Central Garage Door Service, all emphasizing 24/7 availability. Additionally, major directory sites like Yelp, Angi, and Thumbtack confirm the availability and reputation of multiple professionals in the area, making it clear that Delray Beach is well-serviced by multiple local experts.",
+    "word_count": 239
+  }
+}

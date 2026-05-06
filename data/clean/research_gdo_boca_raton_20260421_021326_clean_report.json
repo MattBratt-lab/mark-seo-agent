@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260421_021326.json",
+  "processed_at_utc": "2026-04-21T02:13:45.225551+00:00",
+  "result": {
+    "cleaned_text": "This is a compilation of local services and businesses related to garage door repair and installation in Boca Raton, FL. The listings cover a range of options, including Yelp's top 10 services, specialized companies like Broten, Mr. Fix It Doors, and Precision Garage Door Service. Many providers emphasize 24-hour emergency repair, professional service, and extensive experience (up to 30 years). Services offered include installation, maintenance, and repairs for various door makes, addressing needs for both residents and commercial properties. Key services are available from providers such as At Your Service Garage Doors, New Era Services, and those offering full-line Clopay garage door products.",
+    "summary": "A collection of local service listings in Boca Raton, FL, for garage door repair and installation. These providers offer comprehensive services, including 24/7 emergency repairs, installation, and maintenance, establishing themselves as top local experts.",
+    "word_count": 133
+  }
+}

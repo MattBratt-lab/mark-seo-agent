@@ -1,0 +1,85 @@
+{
+  "generated_at_utc": "2026-05-03T15:10:18.671346+00:00",
+  "live_site_url": "https://www.dandbgaragedoors.com/",
+  "scrape_success": true,
+  "live_page": {
+    "h1_tags": [
+      "Palm Beach County's Most Trusted Garage Door Company"
+    ],
+    "meta_descriptions": [],
+    "og_titles": [],
+    "cities_detected_on_site": [
+      "boca raton",
+      "jupiter",
+      "west palm beach",
+      "palm beach",
+      "delray beach",
+      "boynton beach",
+      "lake worth",
+      "wellington"
+    ]
+  },
+  "research_context": {
+    "target_city": "Boca Raton",
+    "cities_detected_in_research": [
+      "boca raton",
+      "palm beach"
+    ],
+    "top_research_phrases": [
+      "garage door repair",
+      "services boca raton",
+      "garage door pros",
+      "garage door services",
+      "boca raton doorman",
+      "boca garage door",
+      "garage door repairs",
+      "precision garage door",
+      "garage door service",
+      "boca raton garage",
+      "raton garage door",
+      "door repair near",
+      "repair near boca",
+      "near boca raton",
+      "door pros boca",
+      "pros boca raton",
+      "repair services"
+    ]
+  },
+  "gaps": {
+    "missing_keywords_vs_live_site": [
+      "services boca raton",
+      "garage door pros",
+      "boca raton doorman",
+      "boca garage door",
+      "garage door repairs",
+      "precision garage door",
+      "boca raton garage",
+      "raton garage door",
+      "door repair near",
+      "repair near boca",
+      "near boca raton",
+      "door pros boca"
+    ],
+    "cities_in_research_not_emphasized_on_homepage": [],
+    "services_missing_from_live_homepage_copy": [
+      "emergency repair"
+    ],
+    "thin_location_page_signals": [
+      "Homepage-only audit: subpages not crawled; add /locations/* URLs to AUDIT_SITE_URL or a crawl job for thin-page detection."
+    ],
+    "nap_notes": [
+      "Detected phone-like strings on live page: ['(561) 305-5853']"
+    ]
+  },
+  "competitor_intel": {
+    "services_competitors_offer": [
+      "Garage Door Repair",
+      "Emergency Repair"
+    ],
+    "door_brands_mentioned": [
+      "Clopay"
+    ],
+    "opener_brands_mentioned": [],
+    "price_anchors_found": []
+  }
+}

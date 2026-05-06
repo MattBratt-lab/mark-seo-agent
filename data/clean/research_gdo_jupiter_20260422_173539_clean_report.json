@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_jupiter_20260422_173539.json",
+  "processed_at_utc": "2026-04-22T17:36:21.031743+00:00",
+  "result": {
+    "cleaned_text": "SEO research results for Garage Door Services in Jupiter, FL.\n\nTop 10 Best Garage Door Services Near Jupiter, Florida (Yelp)\nURL: https://www.yelp.com/search?cflt=garage_door_services&find_loc=Jupiter%2C+FL\nSnippet: Top 10 Best Garage Door Services Near Jupiter, Florida - With Real Reviews. Includes listings for various services like Integrity Garage Door Services.\n\nGarage Door Repair Jupiter, Florida (Precision Door)\nURL: https://www.precisiondoor.net/locations/florida/south-florida/jupiter\nSnippet: Precision Garage Door specializes in repair of garage doors and garage door openers in Jupiter, FL, as well as new garage door installations.\n\nPrecision Garage Door Jupiter, FL (Fl Garage Door)\nURL: https://flgaragedoor.com/reviews/city/jupiter\nSnippet: Precision Garage Door provides Garage Door Repair, Openers & New Garage Doors in Jupiter, FL, and is highly rated (4.93 Stars based on 501 Reviews).\n\nGarage Door Repair & Installation in Jupiter, FL (RGDS)\nURL: https://www.residentialgaragedoorservice.net/\nSnippet: Offers same-day and next-day garage door repair for stuck doors, broken springs, damaged panels, and urgent service needs. Provides fast, local service.\n\nGarage Door Repair Jupiter (Mr Fix It Doors)\nURL: https://mrfixitdoors.com/jupiter/\nSnippet: Fast, Affordable and Reliable Garage Door Service & Repair in Jupiter, FL. Provides services and emphasizes contacting them immediately for trouble.\n\nExpert Garage Door Repairs & Sales in Jupiter Town (Broten)\nURL: https://www.broten.com/about/service-areas/jupiter-town/\nSnippet: Broten Garage Door Sales offers garage door services and products, focusing on maintaining curb appeal and long-term durability.\n\nGarage Door Service & Garage Door Repair in Jupiter FL (General Garage Door)\nURL: https://www.generalgaragedoor.com/garage-door-service-jupiter-fl.php\nSnippet: General Garage Door has been serving Jupiter FL since 1978, offering high-quality garage doors and repair services.\n\nRoyce Garage Doors | Jupiter FL (Facebook)\nURL: https://www.facebook.com/roycegaragedoors/\nSnippet: Local listing for Royce Garage Doors in Jupiter, FL, providing repair and replacement services.",
+    "summary": "This compilation of search results provides extensive resources for garage door services, repair, and installation in Jupiter, FL. Featured businesses include Yelp's top listings, Precision Garage Door (featured across multiple sites), RGDS, Mr Fix It Doors, Broten, General Garage Door, and Royce Garage Doors. The results emphasize comprehensive services, including same-day repairs, opener services, and new installations, with multiple providers highlighting local expertise and years of service.",
+    "word_count": 283
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260427_130120.json",
+  "processed_at_utc": "2026-04-27T13:01:54.010809+00:00",
+  "result": {
+    "cleaned_text": "This search export provides valuable SEO research data for 'garage door services' in the West Palm Beach, FL area. It lists several local businesses, including General Garage Door, Broten, Precision Garage Door, and Quality Garage Door Services. The results include direct competitor information, service descriptions, phone numbers, and physical addresses, which are critical for local SEO optimization. Specific services mentioned include installation, repair, and sales of residential and commercial garage doors. The data also includes listings from platforms like Yelp and Facebook, offering a comprehensive view of local market presence.\n\nKey services and locations identified:\n*   **West Palm Beach, FL:** The primary service area.\n*   **Services:** Sales, installation, and repair of residential and commercial garage doors.\n*   **Businesses:** Multiple competitors are listed, providing strong keyword targets (e.g., 'garage door repair West Palm Beach', 'precision garage door South Florida').\n*   **Business Experience:** Several companies highlight their long operational histories (e.g., 'over 45 years,' 'since 1955').\n\nThis dataset is highly actionable for creating local landing pages, optimizing Google My Business listings, and developing content that speaks directly to the local pain points of garage door owners.",
+    "summary": "A structured collection of SEO research leads for garage door services in West Palm Beach, FL. The data includes multiple local competitors, their contact details, service descriptions (installation, repair, sales), and years of experience, making it ideal for local SEO content strategy and competitive analysis.",
+    "word_count": 231
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260426_130101.json",
+  "processed_at_utc": "2026-04-26T13:01:36.168291+00:00",
+  "result": {
+    "cleaned_text": "In West Palm Beach, FL, there are multiple options for garage door services, including sales, repair, and installation. Several highly-rated businesses are available, offering specialized services for residential and commercial needs.\n\nFeatured services include:\n\n* **General Garage Door:** Offers specialized sales, service, and installation for over 45 years.\n* **Yelp Listings:** Provides local directories and reviews, listing services such as Pine Air Fences & Doors and B&M Garage Doors Repair.\n* **Broten Garage Door Sales:** Offers same-day service and requests free estimates for all garage door needs in the area.\n* **Precision Garage Door South Florida:** Provides professional repair and opener services with a local office in West Palm Beach.\n* **American-Palm Beach Garage Door:** A local service option available at 4675 Dyer Blvd., specializing in fixing any garage door issue.\n* **Quality Garage Door Services:** A licensed, family-owned business providing affordable, same-day West Palm Beach service.\n* **Precision Door:** Offers premier garage door repair service in and around West Palm Beach using only high-quality parts.\n* **Angie's List:** Provides a curated list of top-rated professionals and allows users to read real reviews to select the right provider in West Palm Beach, FL.",
+    "summary": "The provided search results compile a comprehensive list of professional garage door service providers (including sales, repair, and installation) in the West Palm Beach, FL area. Key options include General Garage Door, Broten Garage Door Sales, Precision Door Service, and local listings from Yelp and Angie's List, providing consumers with choices, service details, and review platforms.",
+    "word_count": 224
+  }
+}

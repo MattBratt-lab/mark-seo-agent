@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_west_palm_beach_20260421_183310.json",
+  "processed_at_utc": "2026-04-21T18:33:39.785107+00:00",
+  "result": {
+    "cleaned_text": "This export contains a list of local service providers and resources for garage door repair and installation in the West Palm Beach, FL area.\n\n**Key Services & Providers:**\n*   **Top Rated Services:** Listings include general recommendations and highly rated services in the area (Source: Yelp).\n*   **Dedicated Providers:** Several businesses specialize in this area, including General Garage Door (serving North/West Palm Beach for over 45 years), Precision Garage Door of South Florida, and American-Palm Beach Garage Door.\n*   **Local Options:** Other providers mentioned are Quality Garage Door Services, which emphasizes local, affordable, and same-day service, and Broten Garage Door Sales, offering free estimates.\n*   **Platforms for Research:** Users can find curated lists and professionals through platforms like Thumbtack and Facebook.\n\n**Summary of Search Scope:** The search results highlight a robust local market for garage door services, covering sales, repair, and installation, with multiple options available in West Palm Beach.",
+    "summary": "The input is a structured list of local businesses and directories providing comprehensive garage door repair, service, and installation in West Palm Beach, Florida. The results highlight multiple specialized providers (e.g., General Garage Door, Precision Garage Door, Quality Garage Door) and resource platforms (Yelp, Thumbtack) for local SEO research.",
+    "word_count": 188
+  }
+}

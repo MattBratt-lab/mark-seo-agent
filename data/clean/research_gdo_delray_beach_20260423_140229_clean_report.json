@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_delray_beach_20260423_140229.json",
+  "processed_at_utc": "2026-04-23T14:03:13.740794+00:00",
+  "result": {
+    "cleaned_text": "This data is a compilation of search results for garage door services and repairs in Delray Beach, Florida. The listed results include direct service providers, local directories, and review platforms. \n\n**Key Search Results and Sources:**\n\n*   **Broten:** Offers garage door repair and service in Delray Beach. (Source: broten.com)\n*   **MR Fix It Doors:** Provides fast, affordable, and reliable garage door service and repair. (Source: mrfixitdoors.com)\n*   **FL Garage Door:** Features reviews and mentions of precision garage door service in South Florida, highlighting positive customer experiences with motor and opener replacements. (Source: flgaragedoor.com)\n*   **Yelp:** Lists top-rated garage door service providers near Delray Beach, including businesses in nearby areas like Boynton Beach. (Source: yelp.com)\n*   **TSG Door:** Offers 24/7 garage door repair service, with contact information provided. (Source: tsgdr.com)\n*   **Angi:** Provides a list of top-rated garage door professionals in Delray Beach, allowing users to read reviews and see ratings. (Source: angi.com)\n*   **Thumbtack:** Offers a definitive list of garage door repair companies in Delray Beach, rated by the community. (Source: thumbtack.com)\n*   **Central Garage Door Service:** Advertises 24/7 fast garage door repair service, including fixes for springs, tracks, panels, and openers. (Source: delraybeach.central-garage-door-service.com)",
+    "summary": "This collection of search results provides multiple options and resources for garage door repair and services in Delray Beach, FL. The results feature direct service companies (Broten, MR Fix It Doors, TSG Door), as well as major service directories and review platforms (Yelp, Angi, Thumbtack, FL Garage Door). These sources allow users to find local providers, check reviews, and access 24/7 service options for issues like motor, opener, and track repairs.",
+    "word_count": 239
+  }
+}
