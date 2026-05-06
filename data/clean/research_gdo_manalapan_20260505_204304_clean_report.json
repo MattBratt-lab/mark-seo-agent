@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_manalapan_20260505_204304.json",
+  "processed_at_utc": "2026-05-05T20:43:38.741541+00:00",
+  "result": {
+    "cleaned_text": "We found several highly relevant resources for garage door services in Manalapan, FL. These sources include company profiles, local listings, and service pages, offering information on repairs, installations, and maintenance. Key providers mentioned include Ariel Garage Doors, Mo Better Garage, Mega Garage Doors & Gates, Rise Garage Door, Local Garage Doors FL, Granite Garage Door Solutions, Mr Fix It, and Garage Door Repair Boynton Beach. Services highlighted span from general repair and maintenance to specialized services like broken spring replacement, opener installation, and off-track repairs. Many of these businesses emphasize their local ownership, family-operated status, licensed, and insured status, and commitment to providing quick, reliable, and trustworthy service to the Manalapan and surrounding Palm Beach County areas.",
+    "summary": "A collection of search results listing multiple local providers for comprehensive garage door services (repair, installation, maintenance) in Manalapan, FL. The results emphasize local expertise, reliability, and specialized repairs, with multiple businesses serving the Manalapan and wider Palm Beach County areas.",
+    "word_count": 150
+  }
+}

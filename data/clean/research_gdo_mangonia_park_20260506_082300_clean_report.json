@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_mangonia_park_20260506_082300.json",
+  "processed_at_utc": "2026-05-06T08:23:45.112472+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Results: Garage Door Services in Mangonia Park, FL\n\n1. Door Gators™ | Mangonia Park Garage Door Repair & Installation\n(URL: https://doorgators.com/fl/garage-doors-mangonia-park)\nSnippet: A full-service garage door company providing repair and installation services in Mangonia Park. Get the most out of your garage with our experts today.\n\n2. Best Garage Door Panel Repair near Mangonia Park, FL - Yelp\n(URL: https://www.yelp.com/search?find_desc=Garage+Door+Panel+Repair&find_loc=Mangonia+Park%2C+FL)\nSnippet: Search results listing various services, including Marko Door Products and Mo Better Garage, for garage door panel repair near Mangonia Park, FL.\n\n3. Your Reliable Local Garage Door Experts In Mangonia Park, FL\n(URL: https://arielgaragedoors.com/locations/mangonia-park-fl/)\nSnippet: Experienced garage door team in Mangonia Park, offering trusted repairs, preventive maintenance, and professional service for all residential garage doors.\n\n4. Garage Door Mangonia Park | Broken Springs, Opener Repair\n(URL: https://www.megagaragedoorrepair.com/mangonia-park)\nSnippet: Mega Garage Doors & Gates handles garage door, gate, and fence repairs. Contact: 561-660-4036.\n\n5. Mangonia Park FL Garage Door Repair > (786) 581-8505\n(URL: https://in-mangonia-park.garagedoorrepairs-miamifl.com/)\nSnippet: Comprehensive garage door repair services in Mangonia Park, Florida, including services for openers, broken springs, cables, and remotes.\n\n6. Garage Door Repair Mangonia Park\n(URL: https://localgaragedoorsfl.net/garage-door-repair-mangonia-park/)\nSnippet: Service provided to Mangonia Park FL residents and businesses. Offers same-day solutions for a wide range of garage door services at competitive prices.\n\n7. Mangonia Park, FL - Rise Garage Door\n(URL: https://risegaragedoors.com/mangonia-park/)\nSnippet: Provides comprehensive garage door and gate solutions, from emergency repairs and maintenance to new installations, including specialized hurricane-rated options.\n\n8. Best Garage Door Installation near Mangonia Park, FL - Yelp\n(URL: https://www.m.yelp.com/search?find_desc=Garage+Door+Installation&find_loc=Mangonia+Park%2C+FL/)\nSnippet: Locally owned garage door service run by Florida natives with years of experience in repairs, replacements, and installations.\n",
+    "summary": "This compilation analyzes eight search results for garage door repair and installation services in Mangonia Park, FL. The listings cover various providers (e.g., Door Gators™, Ariel Garage Doors, Rise Garage Door) and platforms (Yelp). Key services highlighted include full-service repairs, maintenance, opener/spring/cable repairs, and new installations, emphasizing local expertise and same-day solutions.",
+    "word_count": 322
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lantana_20260505_212659.json",
+  "processed_at_utc": "2026-05-05T21:27:51.479368+00:00",
+  "result": {
+    "cleaned_text": "Top SEO research results for Garage Door Services in Lantana, FL. \n\n1. THE BEST 10 GARAGE DOOR SERVICES near LANTANA, FL - Yelp\nURL: https://m.yelp.com/search?cflt=garage_door_services&find_loc=Lantana%2C+FL\nSnippet: The Best 10 Garage Door Services near Lantana, FL. Find top local providers, including Pine Air Fences & Doors (West Palm Beach, FL 33401).\n\n2. Garage Door Repair Lantana\nURL: https://mrfixitdoors.com/lantana/\nSnippet: Fast, Affordable and Reliable Garage Door Service & Repair in Lantana, FL. Call (561) 461-3866 for immediate service.\n\n3. Door Gators™ | Lantana Garage Door Repair & Installation\nURL: https://doorgators.com/fl/garage-doors-lantana\nSnippet: Full-service garage door company providing repair and installation services in Lantana. Get the most out of your garage with our experts today.\n\n4. Lantana Garage Door Repair | Quality Service FL\nURL: https://www.qualitygaragedoorwestpalm.com/city-lantana.html\nSnippet: Get same-day garage door service in Lantana. Experts in affordable garage door repair near you. Family-owned service.\n\n5. Lantana Garage Door Repair FL\nURL: https://www.megagaragedoorrepair.com/lantana\nSnippet: Mega Garage Doors & Gates handles garage door, gate, and fence services. Call Now 561-660-4036.\n\n6. Top 10 Best Garage door pros in Lantana, FL | Angi\nURL: https://www.angi.com/companylist/us/fl/lantana/garage-doors.htm\nSnippet: Read real reviews and see ratings for Lantana, FL garage door professionals. A list to help you pick the right expert.\n\n7. Lift Kings Garage Doors | #1 Garage Door Supplier of Palm Beach ...\nURL: https://www.liftkings.com/\nSnippet: Offers Garage Door repair and replacement services throughout Palm Beach County. Services include track servicing and new motor installation.\n\n8. LIFT KINGS GARAGE DOORS - Updated May 2026 - 19 Photos - Yelp\nURL: https://www.yelp.com/biz/lift-kings-garage-doors-lantana-2\nSnippet: Located at 407 S 3rd St. Unit 3, Lantana, FL 33462. Provides service and can be reached at (561) 710-5464.",
+    "summary": "This data provides a curated list of high-quality links and local businesses offering garage door repair, installation, and services specifically in the Lantana, FL area. Key search results include local directory listings (Yelp, Angi) and specialized company websites (Mr Fix It Doors, Door Gators, Mega Garage Doors) providing contact information, service descriptions, and location details for immediate SEO research.",
+    "word_count": 268
+  }
+}

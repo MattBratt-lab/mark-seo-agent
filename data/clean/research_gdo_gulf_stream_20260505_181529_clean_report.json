@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_gulf_stream_20260505_181529.json",
+  "processed_at_utc": "2026-05-05T18:16:01.923558+00:00",
+  "result": {
+    "cleaned_text": "Best Garage Door Repair near Gulf Stream, FL - Yelp. Serves the Gulf Stream community with same-day garage door repair for residential and commercial doors. Custom Garage Door Services Gulf Stream: Trusted for all garage door repair, maintenance, and new installations. Garage Door Repair Gulf Stream: Local business handling doors, gates, and fences. Garage Door Opener Repair in Gulf Stream: Services including automatic, sliding, and custom door repair. Garage Door Repair Gulf Stream: Delivers same-day solutions for residential and commercial needs. Gulf Stream FL Garage Door Repair: Comprehensive services including openers, broken spring repair, cables, and remotes. Gulf Stream, FL - Rise Garage Door: Provides comprehensive solutions from emergency repairs and maintenance to new installations, including hurricane-rated options.",
+    "summary": "This compilation of local search results provides comprehensive information on garage door repair and related services in the Gulf Stream, FL area. Featured services include same-day repairs for residential and commercial needs, opener and hardware repairs (springs, cables, remotes), custom installations, and emergency services, with several providers emphasizing local expertise and reliable solutions.",
+    "word_count": 156
+  }
+}

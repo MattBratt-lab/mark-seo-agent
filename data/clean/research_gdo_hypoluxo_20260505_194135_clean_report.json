@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_hypoluxo_20260505_194135.json",
+  "processed_at_utc": "2026-05-05T19:42:30.595482+00:00",
+  "result": {
+    "cleaned_text": "Best Garage Door Services near Hypoluxo, FL - Yelp\nURL: https://m.yelp.com/search?find_desc=Garage+Door+Services&find_loc=Hypoluxo%2C+FL\nDescription: Best Garage Door Services near Hypoluxo, FL. Includes listings for Pine Air Fences & Doors (11.2 mi) and B&M Garage Doors Repair (10.4 mi).\n\nGarage Door Repair Hypoluxo - mrfixit\nURL: https://mrfixitdoors.com/hypoluxo/\nDescription: Offers fast, affordable, and reliable garage door repair service in Hypoluxo, FL, guaranteeing the best price. Family owned & operated.\n\nGarage Door Repair Hypoluxo | Broken Springs, Opener Repair\nURL: https://www.megagaragedoorrepair.com/hypoluxo\nDescription: Mega Garage Doors & Gates provides local garage door services, including repairs for broken springs and openers. Call Now: 561-660-4036.\n\nCustom Garage Door Services Hypoluxo\nURL: https://arielgaragedoors.com/locations/hypoluxo-fl/\nDescription: Trusted team for all garage door repair, maintenance, and installation of new garage doors in the Hypoluxo, FL area.\n\nHypoluxo Garage Doors / Sliding Doors Repair / Patio Doors / Glass ...\nURL: https://www.facebook.com/HypoluxoGarageDoors/\nDescription: Offers reliable garage door repair and installation services in Hypoluxo, including services for sliding doors, patio doors, and glass doors.\n\nHypoluxo FL Garage Door Repair > (786) 581-8505\nURL: https://in-hypoluxo.garagedoorrepairs-miamifl.com/\nDescription: Comprehensive garage door repair services in Hypoluxo, Florida, including services for off-track, openers, broken spring repair, cables, and remotes.\n\nHypoluxo Garage Door\nURL: https://www.enkgaragedoor.com/city/hypoluxo/\nDescription: Provides top quality garage door services at the lowest rates in the area. Contact them for any garage door needs in Hypoluxo at (561) 270-9679.\n\nGARAGE ENTRY SERVICES - Updated May 2026 - Phone Number\nURL: https://www.yelp.com/biz/garage-entry-services-hypoluxo\nDescription: Local garage entry services located at 7800 Coral St, Hypoluxo, FL 33462. Operating hours provided, including Mon-Wed 9:00 am - 4:30 pm.",
+    "summary": "This is a compilation of SEO research data for garage door services in the Hypoluxo, FL area. Multiple listings are provided, including Yelp search results, and direct service provider pages. The listings cover various services such as repair (openers, broken springs, off-track), installation, maintenance, and entry services. Contact information, including specific phone numbers and service areas, is prominent across the results.",
+    "word_count": 362
+  }
+}

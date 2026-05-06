@@ -24,16 +24,39 @@ from agents.notifier import notify_hub_draft, notify_human_review
 
 load_dotenv(_REPO_ROOT / ".env", override=False)
 
-# Eight Palm Beach County service cities (spokes). Paths: /locations/[city]/
+# Boca-to-Jupiter Palm Beach County service cities (spokes). Paths: /locations/[city]/
 SERVICE_CITIES: tuple[tuple[str, str], ...] = (
     ("Boca Raton", "boca-raton"),
-    ("West Palm Beach", "west-palm-beach"),
+    ("Highland Beach", "highland-beach"),
     ("Delray Beach", "delray-beach"),
+    ("Gulf Stream", "gulf-stream"),
+    ("Ocean Ridge", "ocean-ridge"),
+    ("Briny Breezes", "briny-breezes"),
     ("Boynton Beach", "boynton-beach"),
-    ("Wellington", "wellington"),
-    ("Jupiter", "jupiter"),
-    ("Palm Beach Gardens", "palm-beach-gardens"),
+    ("Hypoluxo", "hypoluxo"),
+    ("Manalapan", "manalapan"),
+    ("Lantana", "lantana"),
+    ("South Palm Beach", "south-palm-beach"),
+    ("Palm Beach", "palm-beach"),
     ("Lake Worth", "lake-worth"),
+    ("Lake Clarke Shores", "lake-clarke-shores"),
+    ("Palm Springs", "palm-springs"),
+    ("Greenacres", "greenacres"),
+    ("Atlantis", "atlantis"),
+    ("Wellington", "wellington"),
+    ("Royal Palm Beach", "royal-palm-beach"),
+    ("West Palm Beach", "west-palm-beach"),
+    ("Haverhill", "haverhill"),
+    ("Cloud Lake", "cloud-lake"),
+    ("Glen Ridge", "glen-ridge"),
+    ("Riviera Beach", "riviera-beach"),
+    ("Mangonia Park", "mangonia-park"),
+    ("Palm Beach Gardens", "palm-beach-gardens"),
+    ("North Palm Beach", "north-palm-beach"),
+    ("Lake Park", "lake-park"),
+    ("Juno Beach", "juno-beach"),
+    ("Jupiter", "jupiter"),
+    ("Tequesta", "tequesta"),
 )
 
 HUB_PROMPT_INSTRUCTION = """
@@ -41,7 +64,7 @@ You are now writing a 'Topical Authority Hub' page for D&B Garage Doors.
 - Tone: Expert, authoritative, and helpful.
 - Local Signal: Mention specific Palm Beach County building codes and climate issues.
 - Requirement: Must include License #CGC1519508 and Phone 561-305-5853.
-- Linking: Leave placeholders like [INTERNAL_LINK_CITY_PAGES] where the bot should insert links to the 8 city pages.
+- Linking: Leave placeholders like [INTERNAL_LINK_CITY_PAGES] where the bot should insert links to the city pages.
 """
 
 
@@ -54,7 +77,7 @@ def _slugify(value: str) -> str:
 
 
 def city_pages_internal_links_html() -> str:
-    """HTML block linking every hub to all eight city location pages (topical hub → spoke)."""
+    """HTML block linking every hub to all city location pages (topical hub to spoke)."""
     base = (os.getenv("CITY_PAGE_BASE_PATH") or "/locations").rstrip("/") + "/"
     lis = "".join(
         f'<li><a href="{base}{slug}/">{label}</a></li>' for label, slug in SERVICE_CITIES

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_boca_raton_20260506_102541.json",
+  "processed_at_utc": "2026-05-06T10:26:38.899342+00:00",
+  "result": {
+    "cleaned_text": "This search export contains a list of resources for garage door services in Boca Raton, FL. The listings include local businesses, service providers, and directories, offering information like titles, URLs, and descriptions.\n\n**Key services and providers listed include:**\n*   **The Doorman/Palm Beach Doors:** Offers garage door services, repairs, and high-quality products (Phone: (561) 612-0220).\n*   **Broten:** Provides 24-hour emergency repair services for garage doors in Boca Raton.\n*   **Precision Garage Door:** Offers expert garage door repair, openers, and new doors, highly rated (4.92 Stars).\n*   **Overhead Door Boca Raton:** Specializes in same-day overhead door service (Call: (561) 257-4250).\n*   **mrfixit:** Provides fast, affordable, and reliable garage door repair services in Boca Raton.\n*   **911 Garage Door Repair:** Offers reliable service solutions with contact details available (Phone: (786) 977-4204).\n*   **BBB Directory:** Provides a directory of accredited and reviewed garage door repair businesses in the Boca Raton area.\n\nThese resources are useful for SEO research, providing multiple local competitors and service angles (emergency, high-quality products, general repair, etc.).",
+    "summary": "The export provides a comprehensive list of local businesses and services for garage door repair, installation, and maintenance in Boca Raton, FL. Key findings include multiple competing local providers (The Doorman, Broten, Precision Garage Door, etc.), emergency service options, detailed contact information, and a general directory via the BBB, which are highly valuable for local SEO research.",
+    "word_count": 238
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_riviera_beach_20260506_072149.json",
+  "processed_at_utc": "2026-05-06T07:22:25.386127+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Snippets for Garage Door Services in Riviera Beach, FL\n\n*   **Mr Fix It Garage Doors:** Offers fast, affordable, and reliable garage door service and repair in Riviera Beach, FL. (561) 461-3866.\n*   **Yelp Search:** Lists the top 10 garage door services near Riviera Beach, FL, including options from Plantation, FL.\n*   **Mo Better Garage:** West Palm Beach's premier garage door experts offering top-quality installations and repairs. Call now!\n*   **FL Garage Door:** Provides professional service, handling follow-up repairs and additional parts installation in Riviera Beach.\n*   **Broten:** Offers exceptional garage door repair services and top-notch garage doors and openers in Riviera Beach. Schedule service today!\n*   **Angi (Angie's List):** Tool to find and match users with top-rated garage door pros in Riviera Beach, FL, trusted by local homeowners.\n*   **Ariel Garage Doors:** A trustworthy team providing all garage door repair, maintenance, and installation services in the local Riviera Beach area.\n*   **Door Gators™:** A full-service garage door company providing both repair and installation services in Riviera Beach. Get the most out of your garage today.",
+    "summary": "A compilation of high-value SEO leads and service providers for garage door repair, maintenance, and installation in Riviera Beach, FL. Listings include key service areas, contact information (Mr Fix It), and reputable company names (e.g., Mo Better Garage, Broten, Ariel Garage Doors).",
+    "word_count": 165
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_20260505_230054.json",
+  "processed_at_utc": "2026-05-05T23:01:26.903862+00:00",
+  "result": {
+    "cleaned_text": "When researching garage door services in the West Palm Beach area, multiple resources are available. These services include full installation, repair, and sales for both residential and commercial properties. Providers highlight long-standing experience (e.g., 40+ years or since 1955), emphasizing expertise and reliability. Top services are advertised across various locations, including Palm Beach, West Palm Beach, Palm Beach Gardens, Martin, and Broward Counties. Key services offered include same-day repairs, 24/7 answering service, and free quotes. Resources are available through specialized service providers, local directories (like Yelp and Thumbtack), and dedicated local businesses, ensuring consumers can find licensed and affordable options.",
+    "summary": "The search results provide a compilation of top-rated and local providers for comprehensive garage door services (repair, installation, sales) in the West Palm Beach, Florida region. Businesses offer expert service for both residential and commercial clients, boasting decades of experience and emphasizing convenience through same-day and 24/7 service options.",
+    "word_count": 137
+  }
+}

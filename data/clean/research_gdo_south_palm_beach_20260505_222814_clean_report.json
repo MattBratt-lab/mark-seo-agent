@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_south_palm_beach_20260505_222814.json",
+  "processed_at_utc": "2026-05-05T22:28:52.401417+00:00",
+  "result": {
+    "cleaned_text": "This compilation provides links and summaries for various garage door repair and service providers in the South Florida and Palm Beach County area. Key services offered include repairs, maintenance, new door installations, and opener services. The listings cover multiple providers, emphasizing 24/7 availability and service reliability.\n\n*   **Broten:** Offers comprehensive overhead door solutions, including repairs and maintenance in South Palm Beach.\n*   **FL Garage Door:** Provides new garage doors, openers, and same-day repairs, serving Palm Beach, Martin, and Broward Counties. They offer free quotes.\n*   **Yelp Search:** Lists top-rated garage door services and repairs near Palm Beach County, featuring local providers with addresses and phone numbers.\n*   **General Garage Door:** Services and installs new garage doors, openers, gate openers, rolling doors, and even industrial structures like airplane hangars. The company is family-owned.\n*   **TSGDR:** Provides top-rated garage door repair in South Florida, offering expert repairs, replacements, installations, maintenance, and 24/7 emergency services.\n*   **Mr Fix It:** Offers fast, affordable, and reliable garage door repair service in Palm Beach County, promising the best price guarantee and being family-owned.\n*   **Thumbtack:** Curates a list of the best garage door repair companies in West Palm Beach, FL, based on community ratings.\n*   **Precision Garage Door:** A South Florida service provider, with locations in West Palm Beach and serving areas including Boca Raton, Boynton Beach, Coconut Creek, and Coral Springs.",
+    "summary": "This collection of search results and business listings outlines numerous professional services for garage door repair, installation, and maintenance across South Florida and Palm Beach County. Featured services include 24/7 emergency repair, comprehensive overhead door solutions, and installation of various types of doors (including rolling and industrial units). The results provide multiple options for consumers to compare local providers, services, and geographic coverage.",
+    "word_count": 225
+  }
+}

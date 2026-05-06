@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_briny_breezes_20260505_183436.json",
+  "processed_at_utc": "2026-05-05T18:35:34.842417+00:00",
+  "result": {
+    "cleaned_text": "SEO Research Snippets for Garage Door Services in Briny Breezes, FL:\n\n- **Briny Breezes Garage Doors / Sliding Doors Repair / Patio Doors** (URL: https://www.facebook.com/BrinyBreezesGarageDoors/) - Services include garage door repair, opener & installation, automatic gate repair, and electric gate repair for Palm Beach County, Florida.\n- **Garage Door Repair Briny Breezes** (URL: https://www.megagaragedoorrepair.com/briny-breezes/) - Mega Garage Doors & Gates handles local services for garage doors, gates, and fences. Call Now 561-660-4036.\n- **Quality Garage Door Assistance Briny Breezes** (URL: https://arielgaragedoors.com/locations/briny-breezes-fl/) - Provides trusted garage door repair, maintenance, and new installation services in Briny Breezes, FL.\n- **Garage Door Repair & Installation Contractors Near Briny Breezes, FL** (URL: https://www.liftkings.com/service-areas/garage-door-repair-installation-near-briny-breezes-fl/) - Specializes in garage door repair and installation near Briny Breezes, FL, ensuring quality results.\n- **Briny Breezes, FL - Rise Garage Door** (URL: https://risegaragedoors.com/briny-breezes/) - Offers comprehensive solutions including emergency repairs, maintenance, and new installations, including specialized hurricane-rated doors.\n- **Briny Breezes FL Garage Door Repair > (786) 581-8505** (URL: https://in-briny-breezes.garagedoorrepairs-miamifl.com/) - Full range of services including off-track, openers, broken spring repair, cables, remotes, and more, available in Briny Breezes, Florida.\n- **Garage Door Repair Briny Breezes** (URL: https://localgaragedoorsfl.net/garage-door-repair-briny-breezes/) - Provides quick and reliable garage door services, including repairs, installations, and maintenance for various issues.\n- **Garage Door Installation in Briny Breezes - Gate Repair** (URL: https://www.gaterepairpro.com/briny-breezes/garage-door-installation-briny-breezes-fl/) - Offers professional garage door installation experience in Briny Breezes for all types and models of garage doors.",
+    "summary": "This collection of search results provides comprehensive local service options for garage door repair, installation, and maintenance in the Briny Breezes, FL area. Services advertised include repairs for openers, springs, cables, gates, and patios, ranging from basic maintenance to specialized hurricane-rated installations. Several companies provide direct contact information and coverage details for this popular service area.",
+    "word_count": 254
+  }
+}

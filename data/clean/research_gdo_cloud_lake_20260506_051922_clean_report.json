@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_cloud_lake_20260506_051922.json",
+  "processed_at_utc": "2026-05-06T05:19:57.861052+00:00",
+  "result": {
+    "cleaned_text": "Here are several resources for garage door repair services in the Cloud Lake, FL area:\n\n*   **Garage Door Repair Cloud Lake:** Mega Garage Doors & Gates handles garage doors, gates, and fences locally. You can call them at 561-660-4036.\n*   **Residential Garage Door Services Cloud Lake:** This service team offers trusted repair, maintenance, and installation of new garage doors in the Cloud Lake, FL area.\n*   **Top 10 Best Garage Door Repair in Saint Cloud, FL - Yelp:** A directory listing nearby options, including Don Pedro & Sons Garage Doors and King Oaks Garage Door.\n*   **Garage Door Repair Cloud Lake, FL:** Services include repair of springs, openers, panels, and new doors. Call (424) 380-4891.\n*   **Expert Garage Door Services in Cloud, FL | Soho Stone:** Provides top-quality garage door installation and spring repair to ensure home security.\n*   **Cloud Lake, FL - Rise Garage Door:** Offers comprehensive garage door and gate solutions, ranging from emergency repairs and maintenance to new installations, including specialized hurricane-rated options.\n*   **Cloud Lake FL Garage Door Repair > (786) 581-8505:** Provides all garage door repair services, including off-track, opener, broken spring, and cable repairs.\n*   **Garage Doors near Cloud Lake, FL | Better Business Bureau:** A trusted BBB directory guide for finding rated and accredited garage door businesses in the area.",
+    "summary": "This collection of search results provides comprehensive listings for garage door repair and installation services in the Cloud Lake, FL and surrounding areas. Featured services include emergency repairs, maintenance, new door installations, and specialized solutions like hurricane-rated options. Multiple listings provide contact information and service details, allowing users to compare local options from trusted directories and businesses.",
+    "word_count": 228
+  }
+}

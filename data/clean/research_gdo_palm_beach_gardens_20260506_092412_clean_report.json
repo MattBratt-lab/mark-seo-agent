@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_beach_gardens_20260506_092412.json",
+  "processed_at_utc": "2026-05-06T09:25:05.830217+00:00",
+  "result": {
+    "cleaned_text": "Here are several listings for garage door services and repair in Palm Beach Gardens, Florida, compiled from various sources:\n\n1. **Broten:** Offers garage door sales and service in South Florida since 1955, boasting a 98.5% customer satisfaction rating. (Source: broten.com)\n2. **Yelp Search:** Lists top garage door services in the area, including mentions of Pine Air Fences & Doors. (Source: yelp.com)\n3. **Precision Door:** Provides expert garage door repair services in Palm Beach Gardens, using professionally trained technicians and premium parts. (Source: precisiondoor.net)\n4. **The Garage Door King:** Offers garage door repair and spring services. Contact available for free advice. (Source: thegaragedoorking.org)\n5. **Fl Garage Door:** A highly rated service (4.98 Stars from 274 reviews) providing garage door repair, openers, and new garage installations. (Source: flgaragedoor.com)\n6. **Meta Garage Doors:** Offers comprehensive services including repair, installation, opener service, spring repair, and gate repair. Scheduling is available at (561) 532-2990. (Source: metagaragedoors.com)\n7. **Mr. Fix It Doors:** A family-owned and operated company with 30 years of experience in the garage door repair industry. (Source: mrfixitdoors.com)\n8. **Angi:** Lists top garage door professionals in Palm Beach Gardens, allowing users to read real reviews and ratings. (Source: angi.com)",
+    "summary": "This compilation provides a directory of eight key providers and resources for garage door sales, repair, and installation in Palm Beach Gardens, Florida. Services listed include sales, opener service, spring repair, and general maintenance. Top providers highlighted are Broten, Precision Door, Meta Garage Doors, and Mr. Fix It Doors, along with aggregation sites like Yelp, Angi, and Fl Garage Door.",
+    "word_count": 218
+  }
+}

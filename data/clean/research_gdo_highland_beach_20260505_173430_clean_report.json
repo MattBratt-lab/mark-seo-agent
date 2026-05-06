@@ -1,0 +1,14 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_highland_beach_20260505_173430.json",
+  "processed_at_utc": "2026-05-05T17:35:26.557403+00:00",
+  "result": {
+    "cleaned_text": "Title: Best Garage Door Repair near Highland Beach, FL - Yelp\nSnippet: Best Garage Door Repair near Highland Beach, FL; IDN Garage Door Services · 2.5 mi · 1000 Clint Moore Rd, Ste 205 Boca Raton, FL 33487. Certified professionals. (URL: https://m.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=Highland+Beach%2C+FL)\n\nTitle: Door Gators™ | Highland Beach Garage Door Repair & Installation\nSnippet: A full-service garage door company providing repair and installation services in Highland Beach. Get the most out of your garage with our experts today. (URL: https://doorgators.com/fl/garage-doors-highland-beach)\n\nTitle: Garage Door Repair Highland Beach\nSnippet: Mega Garage Doors & Gates is a local business that handles garage doors, gates, and fences. Call Now 561-660-4036. (URL: https://www.megagaragedoorrepair.com/highland-beach)\n\nTitle: Reliable Garage Door Help Highland Beach\nSnippet: Reliable garage door help in Highland Beach, providing fast and professional repair services for malfunctioning, damaged, or off-track garage doors quickly. (URL: https://arielgaragedoors.com/locations/highland-beach-fl/)\n\nTitle: Delray Beach, FL - Precision Garage Door Service of South Florida\nSnippet: Kyle was great! He was able to replace the motor, key pads, opener and other items in less than 90 minutes. Very friendly and highly knowledgable. Highly ... (URL: https://flgaragedoor.com/reviews/city/delray-beach)\n\nTitle: Best Garage Door Services near Highland Beach, FL - Yelp\nSnippet: Best Garage Door Services near Highland Beach, FL; IDN Garage Door Services · 2.5 mi; Joes Doors Garage Door Services. 4.7 (58 reviews) · 35.1 mi; Door Doctor. (URL: https://m.yelp.com/search?find_desc=Garage+Door+Services&find_loc=Highland+Beach%2C+FL)\n\nTitle: (561) 342-7920 - Expert! - Garage Door Repair Highland Beach FL\nSnippet: Whether it's a broken garage door spring, off-track issues, or garage door opener repair, our expert technicians are equipped to handle any problem efficiently. (URL: https://www.garagedoorrepair-delraybeachfl.com/highland-beach-fl/)\n\nTitle: Affordable Garage Door Repair in Highland Beach\nSnippet: South Florida's fastest response garage door repair team — springs, cables, openers, and full installations. Free AssessmentCall (954) 416-3020. Serving the ... (URL: https://omegadoorsandwindows.com/affordable-garage-door-repair-highland-beach)"
+  }
+}

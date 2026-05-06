@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lake_clarke_shores_20260506_000318.json",
+  "processed_at_utc": "2026-05-06T00:04:07.047024+00:00",
+  "result": {
+    "cleaned_text": "Professional Garage Door Services in Lake Clarke Shores, FL\n\nKey Service Providers and Information:\n\n1. Mega Garage Doors & Gates:\n   - Focus: Garage door, gate, and fence repairs.\n   - Contact: Call Now 561-660-4036.\n   - Source: https://www.megagaragedoorrepair.com/lake-clarke-shores\n\n2. Ariel Garage Doors:\n   - Focus: Professional garage door work.\n   - Contact: Call directly at (561) 677-2840 for quotes and booking.\n   - Source: https://arielgaragedoors.com/locations/lake-clarke-shores-fl/\n\n3. Marko Door Products (Yelp):\n   - Focus: Garage door opener installation and repair.\n   - Expertise: Trusted local expert providing fast, reliable service for everything from emergency repairs.\n   - Source: https://www.yelp.com/search?find_desc=Garage+Door+Opener+Installation&find_loc=Lake+Clarke+Shores%2C+FL\n\n4. Enk Garage Door:\n   - Focus: Top quality, low-rate garage door services.\n   - Contact: Call us at (561) 270-9679 for any garage door services.\n   - Source: https://www.enkgaragedoor.com/city/lake-clarke-shores/\n\n5. Facebook Group/Page:\n   - Focus: Garage door and sliding doors repair, maintenance, and installation of garage door motors.\n   - Contact: Available via Facebook.\n   - Source: https://www.facebook.com/LakeClarkeShoresGarageDoors/\n\n6. Local Garage Doors FL:\n   - Focus: Wide range of garage door services for residents and businesses.\n   - Service Detail: Same-day solutions at competitive prices.\n   - Source: https://localgaragedoorsfl.net/garage-door-repair-lake-clarke-shores/\n\n7. Rise Garage Doors:\n   - Focus: Comprehensive solutions including emergency repairs, maintenance, and new installations (including specialized hurricane-rated options).\n   - Service Area: Lake Clarke Shores, FL.\n   - Source: https://risegaragedoors.com/lake-clarke-shores/\n\n8. In Lake Garage Doors:\n   - Focus: 24/7 garage door repair and services.\n   - Offer: 10% OFF available. \n   - Contact: Call (786) 581-8505.\n   - Source: https://in-lake-clarke-shores.garagedoorrepairs-miamifl.com/",
+    "summary": "This compilation lists eight local businesses in Lake Clarke Shores, FL, specializing in garage door services. The providers offer comprehensive services including installation, repairs (including emergency and hurricane-rated options), maintenance, and gate repair. Key companies include Mega Garage Doors & Gates, Ariel Garage Doors, Rise Garage Doors, and others offering 24/7 service. Multiple contacts are provided, including several local phone numbers.",
+    "word_count": 287
+  }
+}

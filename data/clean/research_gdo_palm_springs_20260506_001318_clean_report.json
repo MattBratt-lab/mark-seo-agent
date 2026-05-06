@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_palm_springs_20260506_001318.json",
+  "processed_at_utc": "2026-05-06T00:14:02.519479+00:00",
+  "result": {
+    "cleaned_text": "TOP 10 BEST Garage Door Repair in Palm Springs, FL\nhttps://www.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=Palm+Springs%2C+FL\nDescription: Top 10 Best Garage Door Repair Near Palm Springs, Florida. Services listed include Pine Air Fences & Doors (West Palm Beach, FL) and Parker Rise & Roll.\n\nHarry's Garage Door And Gates Repair\nhttps://amacksoft.com/\nDescription: Provides efficient and quick garage door repair services. Services available in Palm Springs, FL.\n\nPrecision Garage Door South Florida | Repair, Openers ...\nhttps://flgaragedoor.com/\nDescription: Offers new garage doors, openers & same day repair. Services available 24/7 and serve Palm Beach, Martin & Broward Counties.\n\nGarage door repair professionals near Palm Springs, FL\nhttps://www.thumbtack.com/fl/palm-springs/garage-door-repair\nDescription: A definitive list of Palm Springs's garage door repair companies, rated by the local community.\n\nTorsion & Extension Spring Repair - Door Repair Palm Springs\nhttps://doorrepairpalmsprings.com/garage-door-spring-repair/\nDescription: Specializes in Sears Garage Door Spring Replacement Services for residential and commercial garage doors across Palm Springs, Florida.\n\nPalm Beach County - mrfixit\nhttps://mrfixitdoors.com/palm-beach-county/\nDescription: Offers fast, affordable & reliable garage door repair service in Palm Beach County, FL, with a best price guarantee.\n\nPalm Springs North, FL\nhttps://precisiondoormiami.com/reviews/city/palm-springs-north\nDescription: Precision Garage Door, rated 5.00 Stars (9 Reviews), provides Garage Door Repair, Openers & New Garage Doors in Palm Springs North, FL.\n\nGarage Door Repair Palm Springs & ...\nhttps://www.facebook.com/GarageDoorsRepairPalmSprings/photos/\nDescription: Offers Garage Door Repair and Opener Installation services in Palm Springs. A Florida Garage Door Repair Service.",
+    "summary": "A compilation of local SEO leads for garage door repair services in and around Palm Springs, Florida. Listings include Yelp search results, dedicated service websites (e.g., flgaragedoor.com, doorrepairpalmsprings.com), and directory pages (Thumbtack, Yelp). Services offered range from spring replacement and opener installation to general repair, covering multiple surrounding counties like Palm Beach and Broward.",
+    "word_count": 236
+  }
+}

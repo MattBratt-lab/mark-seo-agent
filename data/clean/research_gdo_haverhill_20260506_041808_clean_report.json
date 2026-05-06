@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_haverhill_20260506_041808.json",
+  "processed_at_utc": "2026-05-06T04:18:46.038627+00:00",
+  "result": {
+    "cleaned_text": "Best Garage Door Repair near Haverhill, FL 33409 - Yelp\nURL: https://m.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=West+Palm+Beach%2C+FL+33409\nDescription: We're locally owned garage door service proudly run by Florida natives with years of hands-on experience in the industry. From repairs and replacements to ...\n\nProfessional Garage Door Work Haverhill\nURL: https://arielgaragedoors.com/locations/haverhill-fl/\nDescription: We are the team you can trust with all your garage door repair and maintenance and installation of new garage doors in the local area of Haverhill, FL.\n\nGarage Door Repair near Haverhill, FL | Better Business Bureau\nURL: https://www.bbb.org/us/fl/haverhill/category/garage-door-repair\nDescription: General Garage Door Co., Inc. Garage Doors, Garage Door Repair, Garage Builders ... · (561) 844-6145 ; Precision Door Service of South Florida. Garage Doors, ...\n\nHaverhill - Mega Garage Door and Gates\nURL: https://www.megagaragedoorrepair.com/haverhill\nDescription: Garage Door Repairs. Mega Garage Doors & Gates is a local business that handles garage doors, gates, and fences. Call Now 561-660-4036.\n\nFacebook: Haverhill Garage Doors / Sliding Doors Repair / Patio Doors / Glass…\nURL: https://www.facebook.com/HaverhillGarageDoors/\nDescription: Looking for reliable garage door repair and installation services in Haverhill? Look no further! At Star Gate Garage, we offer top-notch services to keep your ...\n\nGarage Door Repair Haverhill FL\nURL: https://www.shieldlinedoors.com/garage-door-repair-haverhill-fl/\nDescription: Prompt service for broken garage doors in Haverhill, FL. Call us for quick fixes, from openers to track issues, and experience local, trusted care.\n\nAll Garage Door Repair Services in Haverhill Florida for Less - (786) 581-8505\nURL: https://in-haverhill.garagedoorrepairs-miamifl.com/\nDescription: All Garage Door Repair Services in Haverhill Florida for Less - (786) 581-8505 - Off Track, Openers, Broken Spring Repair, Cables, Remotes & More in ...\n\nHaverhill, FL - Rise Garage Door\nURL: https://risegaragedoors.com/haverhill/\nDescription: We provide comprehensive garage door and gate solutions, from emergency repairs and maintenance to new installations, including specialized hurricane-rated ...",
+    "summary": "This collection provides highly relevant search results for 'Garage Door Repair in Haverhill, FL'. The sources include local service providers (Yelp, Ariel Garage Doors, Mega Garage Doors), general business directories (BBB), and specialized repair services (Shield Line Doors, Rise Garage Doors). Key offerings covered include repairs, maintenance, installations, and handling issues like broken openers, tracks, and springs. Phone numbers and direct service descriptions are provided.",
+    "word_count": 321
+  }
+}

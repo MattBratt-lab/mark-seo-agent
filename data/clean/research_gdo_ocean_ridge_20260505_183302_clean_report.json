@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_ocean_ridge_20260505_183302.json",
+  "processed_at_utc": "2026-05-05T18:33:31.895216+00:00",
+  "result": {
+    "cleaned_text": "Best Garage Door Services near Ocean Ridge, FL - Yelp\n\nDoor Gators™ | Ocean Ridge Garage Door Repair & Installation\n\nFast Garage Door Repair Ocean Ridge\n\nOcean Ridge Garage Doors / Sliding Doors Repair / Patio Doors ...\n\nGarage Door Ocean Ridge | Broken Springs, Opener Repair\n\nOcean Ridge, FL - Rise Garage Door\n\nBest Garage Doors near Ocean Ridge, FL - Yelp\n\nGarage Door Repair Ocean Ridge",
+    "summary": "This is a compilation of top local search results and service providers for garage door repair, installation, and services in the Ocean Ridge, FL area. Listings include options from Yelp, Door Gators™, Ariel Garage Doors, and various specialized local businesses, offering services for everything from broken springs and openers to new installations and hurricane-rated doors.",
+    "word_count": 116
+  }
+}

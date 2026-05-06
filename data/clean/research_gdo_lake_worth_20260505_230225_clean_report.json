@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_lake_worth_20260505_230225.json",
+  "processed_at_utc": "2026-05-05T23:02:57.153567+00:00",
+  "result": {
+    "cleaned_text": "1. The Best 10 Garage Door Services near Lake Worth, FL 33467 - Yelp\nTop Service Garage Door Repair · 7.5 mi · Plantation , FL 33325. (561) 892-1679; At Your Service Garage Doors · 5.7 mi · 613 Industrial St, Lake Worth, FL 33461. (...)\n\n2. Garage Door Repairs, Sales & Installs in Lake Worth - Broten\nBroten offers exceptional garage door repair services and top-notch garage doors and openers in Lake Worth. Schedule service or get an estimate today!\n\n3. Lake Worth - mrfixit\nFast, Affordable and Reliable Garage Door Service & Repair in Lake Worth, FL. (561) 461-3866. Having Garage Door Trouble? Get In ...\n\n4. Lake Worth, FL - Precision Garage Door Service of South Florida\nWow! What an awesome company. They were on time, professional and respectful. My technician was so thorough and nice. I will be a repeat customer for sure.\n\n5. Affordable Garage Door Repair in Lake Worth, FL | Top Rated\nWe specialize in garage door repair in Lake Worth, offering affordable, efficient solutions for issues like broken springs, misaligned tracks, and ...\n\n6. At Your Service Garage Doors LLC - Lake Worth Beach, FL\nNeed garage door installation and repair services in Lake Worth Beach, Florida? Choose At Your Service LLC. Browse our selection & request a quote today!\n\n7. Garage Door Services Lake Worth, FL - Garage Door Installation ...\nWe repair and install all types of garage doors in Lake Worth, Florida including commercial and residential garage doors. We also repair and install garage door ...\n\n8. Garage Door Repair near Lake Worth, FL | Better Business Bureau\nBBB Directory of Garage Door Repair near Lake Worth, FL. Your guide to trusted BBB Ratings, customer reviews and BBB Accredited businesses.",
+    "summary": "This compilation provides a list of local businesses and resources for garage door services in the Lake Worth, FL area, including services for repair, installation, and sales. Listings include Yelp results, direct company pages, and the Better Business Bureau directory, offering contact details, service descriptions, and customer testimonials.",
+    "word_count": 230
+  }
+}

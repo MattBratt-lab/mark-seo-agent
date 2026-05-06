@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_atlantis_20260506_021524.json",
+  "processed_at_utc": "2026-05-06T02:16:04.617804+00:00",
+  "result": {
+    "cleaned_text": "Search results for garage door repair in Atlantis, FL.\n\n*   **Atlantis Garage Door Pro:** Offers top-quality garage door repairs, installations, and maintenance services in Atlantis, FL. (URL: https://atlantisgaragedoorpro.com/)\n*   **Mega Garage Doors & Gates:** Provides garage door repairs, handling doors, gates, and fences. Contact: 561-660-4036. (URL: https://www.megagaragedoorrepair.com/atlantis)\n*   **Atlantis Garage Doors (Facebook):** Offers free estimates for new installations, repairs, or maintenance needs. Contact: (754) 225- ... (URL: https://www.facebook.com/AtlantisGarageDoors/)\n*   **EDL / Gate Masters:** Services and repairs malfunctioning garage doors in Atlantis, FL. (URL: https://www.edl-gm.com/contact/florida-locations/atlantis/)\n*   **Ariel Garage Door Services:** Specializes in safe and efficient services, particularly garage door spring repairs, in Florida. (URL: https://arielgaragedoors.com/locations/atlantis-fl/)\n*   **Rise Garage Door:** Provides comprehensive solutions, including emergency repairs, maintenance, and specialized hurricane-rated installations. (URL: https://risegaragedoors.com/atlantis/)\n*   **All Garage Door Repair Services:** Offers comprehensive repair services in Atlantis, FL, covering issues like off-track issues, opener repairs, broken springs, cables, and remotes. Phone: (786) 581-8505. (URL: https://in-atlantis.garagedoorrepairs-miamifl.com/)\n*   **Quick Springs Garage:** Provides fast & affordable garage door repair, new installations, and emergency repairs in Atlantis, FL. (URL: https://quickspringsgarage.com/atlantis/)",
+    "summary": "This is a compilation of search results for professional garage door repair, maintenance, and installation services in Atlantis, FL. Several local companies are listed, offering specialized services such as spring repairs, new installations (including hurricane-rated options), and emergency repairs. Contact details and service specializations for multiple providers are provided.",
+    "word_count": 175
+  }
+}

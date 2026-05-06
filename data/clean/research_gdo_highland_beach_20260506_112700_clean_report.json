@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_highland_beach_20260506_112700.json",
+  "processed_at_utc": "2026-05-06T11:27:45.831371+00:00",
+  "result": {
+    "cleaned_text": "Search results for Garage Door Repair and Services in Highland Beach, FL:\n\n* **Best Garage Door Repair near Highland Beach, FL - Yelp** (https://m.yelp.com/search?find_desc=Garage+Door+Repair&find_loc=Highland+Beach%2C+FL): Highlights certified professionals and local services in the area.\n* **Door Gators™ | Highland Beach Garage Door Repair & Installation** (https://doorgators.com/fl/garage-doors-highland-beach): Offers full-service garage door repair and installation for Highland Beach residents.\n* **Garage Door Repair Highland Beach** (https://www.megagaragedoorrepair.com/highland-beach): A local business handling repairs for garage doors, gates, and fences, available for calls.\n* **Reliable Garage Door Help Highland Beach** (https://arielgaragedoors.com/locations/highland-beach-fl/): Provides fast and professional repair services for malfunctioning or damaged garage doors in Highland Beach.\n* **Delray Beach, FL - Precision Garage Door Service of South Florida** (https://flgaragedoor.com/reviews/city/delray-beach): Review mentioning motor, key pad, and opener replacement done quickly by an expert.\n* **Best Garage Door Services near Highland Beach, FL - Yelp** (https://m.yelp.com/search?find_desc=Garage+Door+Services&find_loc=Highland+Beach%2C+FL): Lists services including IDN Garage Door Services and Joes Doors Garage Door Services.\n* **(561) 342-7920 - Expert! - Garage Door Repair Highland Beach FL** (https://www.garagedoorrepair-delraybeachfl.com/highland-beach-fl/): Expert service for broken springs, off-track issues, and garage door opener repairs.\n* **Affordable Garage Door Repair in Highland Beach** (https://omegadoorsandwindows.com/affordable-garage-door-repair-highland-beach): Offers South Florida's fastest response for spring, cable, opener, and full installation services.\n\n(Note: One result focused on Delray Beach, FL, but is included as relevant service information.)",
+    "summary": "This compilation of search results provides various options for garage door repair and installation services in the Highland Beach, FL area. The listings include local businesses, Yelp search results, and specialized services, covering everything from basic repairs (springs, cables) to full installations and opener replacements. Multiple services emphasize speed, reliability, and expertise.",
+    "word_count": 202
+  }
+}

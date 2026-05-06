@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_delray_beach_20260505_175322.json",
+  "processed_at_utc": "2026-05-05T17:54:05.989191+00:00",
+  "result": {
+    "cleaned_text": "Top 10 Garage Door Services in Delray Beach, FL - Yelp\nhttps://www.yelp.com/search?cflt=garage_door_services&find_loc=Delray+Beach%2C+FL\nDescription: Top 10 Best Garage Door Services Near Delray Beach, Florida - With Real Reviews ; Eric's United Garage Doors · 5.6 mi · Boynton Beach, FL 33437. (305) 582-6771.\n\nGarage Door Repairs & Sales in Delray Beach | Broten\nhttps://www.broten.com/about/service-areas/delray-beach/\nDescription: Broten has been the go-to garage door repair and service provider in Delray Beach. We can assist you with any garage door issues and help you find the products ...\n\nDelray Beach, FL - Precision Garage Door Service of South Florida\nhttps://flgaragedoor.com/reviews/city/delray-beach\nDescription: Kyle was great! He was able to replace the motor, key pads, opener and other items in less than 90 minutes. Very friendly and highly knowledgable. Highly ...\n\nGarage Door Repair Delray Beach\nhttps://mrfixitdoors.com/delray-beach/\nDescription: Fast, Affordable and Reliable Garage Door Service & Repair in Delray Beach, FL. (561) 461-3866. Having Garage Door Trouble?, Get In Touch Now!\n\nTrusted Garage Door Service & Repair in Delray Beach, FL\nhttps://www.generalgaragedoor.com/garage-door-service-delray-beach-fl.php\nDescription: We are the garage door repair experts in Delray Beach FL! Whether it's a jammed door, a broken garage door spring, or anything in between, you can count on the ...\n\nGarage Door Repair Delray Beach, Florida\nhttps://www.precisiondoor.net/locations/florida/south-florida/delray-beach\nDescription: Precision Garage Door is a leading garage door company specializing in repair of garage doors and garage door openers in Delray Beach, FL, ...\n\nGarage door repair professionals near Delray Beach, FL\nhttps://www.thumbtack.com/fl/delray-beach/garage-door-repair\nDescription: Here is the definitive list of Delray Beach's garage door repair companies as rated by the Delray Beach, FL community. Want to see who made the cut?\n\nGarage Door Company in Delray Beach FL | Repairs and ...\nhttps://firstchoicegaragedoordelrayfl.com/\nDescription: Looking for a reliable garage door company in Delray Beach FL? Contact us at 754-258-0433 for the best repairs and installations services.",
+    "summary": "This is a collection of SEO research data for garage door services in Delray Beach, FL, listing multiple local providers, service pages, and directories. Titles and descriptions focus on repair, sales, and installation, providing multiple calls to action (phone numbers) and establishing local expertise.",
+    "word_count": 376
+  }
+}

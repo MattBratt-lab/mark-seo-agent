@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_glen_ridge_20260506_062019.json",
+  "processed_at_utc": "2026-05-06T06:21:02.361892+00:00",
+  "result": {
+    "cleaned_text": "Key findings for garage door services in the Glen Ridge, Palm Beach County area:\n\n- **Rise Garage Door (risegaragedoors.com):** Offers comprehensive garage door and gate solutions, covering emergency repairs, maintenance, and new installations, including hurricane-rated options.\n- **Local Garage Doors FL (localgaragedoorsfl.net):** Provides quick and reliable garage door services, handling repairs, installations, and maintenance for broken doors.\n- **Mega Garage Doors & Gates (megagaragedoorrepair.com):** A local service handling garage doors, gates, and fences in Glen Ridge, with a direct contact number provided.\n- **Mr Fix It Garage Doors (mrfixitdoors.com):** Offers fast, affordable, and reliable garage door service and repair throughout Palm Beach County, covering multiple locations including Glen Ridge.\n- **Yelp Search Results (yelp.com):** Lists top-rated garage door services near Palm Beach, FL 33480, including B&M Garage Doors Repair, offering local insights and contacts.\n- **Glen Ridge Garage Door Repair (glenridgegaragedoorrepair.us):** Experts available 24/7 for all garage door issues, handling maintenance, installations, and repairs for dents and damages.\n- **Garage Door Service Guys (garagedoorserviceguys.com):** Provides professional garage door repair, installation, and replacement services in Glen Ridge, specializing in emergency repairs.\n- **Precision Garage Door South Florida (flgaragedoor.com):** Specializes in repairing and replacing common garage door parts, such as springs, openers, cables, rollers, panels, and more.",
+    "summary": "This compilation summarizes several highly relevant local services for garage door repair, installation, and maintenance in the Glen Ridge and wider Palm Beach County, FL area. Multiple companies offer 24/7 service, emergency repairs, and comprehensive services for various parts (springs, openers, cables). Key competitors include Rise Garage Door, Local Garage Doors FL, Mega Garage Doors, Mr Fix It, and dedicated local service providers.",
+    "word_count": 228
+  }
+}

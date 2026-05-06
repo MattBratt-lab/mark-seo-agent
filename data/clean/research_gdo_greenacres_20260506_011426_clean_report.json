@@ -1,0 +1,16 @@
+{
+  "agent": "Content Agent",
+  "model": "gemma4:e4b",
+  "config": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "think_token_enabled": true
+  },
+  "source_file": "data/raw/research_gdo_greenacres_20260506_011426.json",
+  "processed_at_utc": "2026-05-06T01:15:02.717135+00:00",
+  "result": {
+    "cleaned_text": "Searching for garage door services in Greenacres, FL? Several local providers offer full-service options, including installation, replacement, and maintenance. \n\n**Key Services & Providers Include:**\n\n*   **General Services:** Multiple listings advertise comprehensive garage door repair and installation services in the Greenacres area, emphasizing 24/7 availability, affordability, and professional expertise.\n*   **Specific Business Focus:**\n    *   **Garage Door Services Greenacres, FL:** Focuses on professional expertise for all types of garage doors, covering installation, replacement, and maintenance.\n    *   **American Garage Door Repair & Installation:** Offers specialized repair and installation services with over 20 years of experience and free estimates.\n    *   **Mr Fix It Doors:** Provides fast, affordable, and reliable service and repair in Greenacres, FL.\n    *   **Greenacres, FL 24/7 Garage Door Repair:** Promotes 24-hour service and competitive pricing.\n    *   **Door Gators™:** A full-service company offering repair and installation services across Greenacres.\n*   **Directory/Map Results:** Yelp highlights top-rated options for garage door service and repair near Greenacres, FL, providing local ratings and business tenure details. MapQuest provides contact information and location for services in the area.\n\nOverall, reliable local repair and installation services are widely available, catering to immediate needs and long-term maintenance requirements.",
+    "summary": "The provided data consists of search results for garage door repair and installation services in Greenacres, FL. Multiple businesses are listed, offering comprehensive services like installation, replacement, and 24/7 emergency repairs. Key providers emphasize local expertise, affordability, and experience, with results covering various angles from professional directories (Yelp, MapQuest) to specialized local service websites.",
+    "word_count": 235
+  }
+}
