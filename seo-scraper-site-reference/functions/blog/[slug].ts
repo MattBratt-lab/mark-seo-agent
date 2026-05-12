@@ -45,7 +45,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     row = await db
       .prepare(
         `SELECT slug, city, title, excerpt, content, created_at
-         FROM blog_posts WHERE slug = ? AND COALESCE(published, 1) = 1`
+         FROM blog_posts WHERE slug = ?`
       )
       .bind(slug)
       .first<Row>();

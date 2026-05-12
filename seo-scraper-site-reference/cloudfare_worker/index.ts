@@ -14,7 +14,6 @@ type Row = {
   excerpt: string | null;
   content: string | null;
   created_at: string | null;
-  published: number | null;
 };
 
 function normalizePath(pathname: string): string {
@@ -37,9 +36,8 @@ export default {
 
     try {
       const { results } = await env.DB.prepare(
-        `SELECT slug, city, title, excerpt, content, created_at, published
+        `SELECT slug, city, title, excerpt, content, created_at
          FROM blog_posts
-         WHERE COALESCE(published, 1) = 1
          ORDER BY datetime(created_at) DESC
          LIMIT 100`
       ).all<Row>();
@@ -51,7 +49,7 @@ export default {
         excerpt: String(row.excerpt ?? "").trim(),
         content: String(row.content ?? "").trim(),
         created_at: row.created_at ?? "",
-        published: row.published == null ? 1 : Number(row.published),
+        published: 1,
       }));
 
       const citySet = new Set<string>();
@@ -60,13 +58,13 @@ export default {
       }
       const cities = Array.from(citySet).sort((a, b) => a.localeCompare(b));
 
-      return Response.json({ ok: true, cities, posts }, { headers });
+      return Response.json({ ok: true, success: true, cities, posts }, { headers });
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
       if (msg.includes("no such table")) {
-        return Response.json({ ok: true, cities: [], posts: [] }, { headers });
+        return Response.json({ ok: true, success: true, cities: [], posts: [] }, { headers });
       }
-      return Response.json({ ok: false, error: msg }, { status: 500, headers });
+      return Response.json({ ok: false, success: false, posts: [], cities: [], error: msg }, { status: 500, headers });
     }
   },
 };

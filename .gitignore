@@ -1,5 +1,11 @@
 .env
 .venv/
+venv/
 __pycache__/
 *.pyc
+*.pyc
 data/checkpoints.sqlite
+data/checkpoints.sqlite-shm
+data/checkpoints.sqlite-wal
+node_modules/
+package-lock.json
